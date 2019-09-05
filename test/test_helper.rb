@@ -7,15 +7,10 @@ require 'byebug'
 
 class ActiveSupport::TestCase
 
-    private
+  private
 
-      def user_agent_samples
-        @user_agent_samples ||=
-                   YAML.load_file('test/data/sample_user_agents.yml')
-      end
-
-      def podcast_agents
-        PodcastAgent.database
-      end
-
+    def user_agent_samples
+      @user_agent_samples ||=
+                 YAML.load_file('test/data/sample_user_agents.yml')
+    end
 end

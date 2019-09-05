@@ -2,10 +2,10 @@ require 'YAML'
 require 'user_agent'
 
 class PodcastAgent
-  attr_reader :app, :type, :browser, :platform
+  attr_reader :name, :type, :browser, :platform
 
-  def initialize(app:, type:, user_agent:)
-    @app  = app
+  def initialize(name:, type:, user_agent:)
+    @name  = name
     @type = type
     @user_agent = user_agent
     @browser    = user_agent.browser
@@ -16,7 +16,7 @@ class PodcastAgent
     entry = database.find do |attrs|
       user_agent_string =~ Regexp.new(attrs['regex'])
     end
-    new(app: entry['name'], type: entry['type'], user_agent: UserAgent.parse(user_agent_string)) if entry
+    new(name: entry['name'], type: entry['type'], user_agent: UserAgent.parse(user_agent_string)) if entry
   end
 
   def self.database

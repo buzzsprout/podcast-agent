@@ -2,8 +2,8 @@ require 'test_helper'
 
 class IntegrityTest < ActiveSupport::TestCase
 
-  test 'no multiple matches for app samples' do
-    user_agent_samples.each do |app, samples|
+  test 'no multiple matches for name samples' do
+    user_agent_samples.each do |name, samples|
       samples.each do |sample|
         matches = PodcastAgent.database.select do |attrs|
           sample =~ Regexp.new(attrs['regex'])
@@ -13,7 +13,7 @@ class IntegrityTest < ActiveSupport::TestCase
     end
   end
 
-  test 'no duplicate app entries' do
+  test 'no duplicate name entries' do
     assert_equal PodcastAgent.database.map(&:first).length, PodcastAgent.database.map(&:first).uniq.length
   end
 
