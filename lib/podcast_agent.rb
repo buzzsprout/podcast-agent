@@ -1,4 +1,4 @@
-require 'YAML'
+require 'yaml'
 require 'user_agent'
 
 class PodcastAgent
