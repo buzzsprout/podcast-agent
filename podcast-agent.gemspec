@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'podcast-agent'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2019-08-21'
   s.summary     = "A GEM to identify podcast agent information"
   s.description = "A GEM to identify podcast agent information"
