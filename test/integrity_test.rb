@@ -5,7 +5,7 @@ class IntegrityTest < ActiveSupport::TestCase
   test 'no multiple matches for app samples' do
     user_agent_samples.each do |app, samples|
       samples.each do |sample|
-        matches = user_agents.select do |attrs|
+        matches = PodcastAgent.database.select do |attrs|
           sample =~ Regexp.new(attrs['regex'])
         end
         assert_equal 1, matches.length, "'#{sample}' has multiple matches"
@@ -14,7 +14,7 @@ class IntegrityTest < ActiveSupport::TestCase
   end
 
   test 'no duplicate app entries' do
-    assert_equal user_agents.map(&:first).length, user_agents.map(&:first).uniq.length
+    assert_equal PodcastAgent.database.map(&:first).length, PodcastAgent.database.map(&:first).uniq.length
   end
 
 end

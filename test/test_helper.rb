@@ -3,6 +3,7 @@ require 'active_support'
 require 'active_support/testing/autorun'
 
 require 'podcast_agent'
+require 'byebug'
 
 class ActiveSupport::TestCase
 
@@ -10,12 +11,11 @@ class ActiveSupport::TestCase
 
       def user_agent_samples
         @user_agent_samples ||=
-                   YAML.load_file('test/sample_user_agents.yml')
+                   YAML.load_file('test/data/sample_user_agents.yml')
       end
 
-      def user_agents
-        @user_agents ||=
-                   YAML.load_file('lib/user_agents.yml')
+      def podcast_agents
+        PodcastAgent.database
       end
 
 end

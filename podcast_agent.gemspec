@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "A GEM to identify podcast agent information"
   s.authors     = ["Tom Rossi"]
   s.email       = 'tom@higherpixels.com'
-  s.homepage    = 'https://github.com/higher-pixels/podcast-agent'
+  s.homepage    = 'https://github.com/buzzsprout/podcast-agent'
   s.license     = 'MIT'
 
   s.required_ruby_version = '>= 2.4.0'

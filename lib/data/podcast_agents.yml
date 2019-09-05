@@ -126,6 +126,10 @@
   regex: ^Dalvik
   type: app
 
+- name: 'Deezer'
+  regex: ^Deezer\/
+  type: app
+
 - name: 'DoggCatcher'
   regex: DoggCatcher
   type: app
@@ -235,6 +239,10 @@
   regex: MJ12bot\/
   type: bot
 
+- name: Majelan
+  regex: MajelanApp
+  type: app
+
 - name: Mechanize
   regex: Mechanize\/
   type: bot
@@ -302,6 +310,10 @@
 - name: Podtrapper
   regex: ^PodTrapper
   type: app
+
+- name: 'podCloud'
+  regex: ^MediaAnalyzer[\/| ]podCloud[\/| ]
+  type: bot
 
 - name: Pocket Casts
   regex: Pocket Casts|PocketCasts
