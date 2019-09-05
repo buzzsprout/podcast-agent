@@ -4,7 +4,7 @@
 
 - name: 'AhaRadio'
   regex: ^AhaRadio2\/
-  type: bot
+  type: app
 
 - name: 'Acast'
   regex: ^Acast
@@ -458,3 +458,4 @@
 - name: Go
   regex: ^Go-http-client
   type: bot
+  
