@@ -1,461 +1,346 @@
-- name: 'Ahrefs'
-  regex: AhrefsBot
-  type: bot
-
-- name: 'AhaRadio'
-  regex: ^AhaRadio2\/
+---
+- name: Acast
+  regex: "^Acast"
   type: app
-
-- name: 'Acast'
-  regex: ^Acast
+- name: AhaRadio
+  regex: "^AhaRadio2\\/"
   type: app
-
-- name: 'Alexa Enabled Device'
-  regex: ^AlexaMediaPlayer\/\d.*ExoPlayerLib
+- name: Alexa Enabled Device
+  regex: "^AlexaMediaPlayer\\/\\d.*ExoPlayerLib"
   type: app
-
-- name: 'All You Can Books'
+- name: All You Can Books
   regex: AllYouCanBooks
   type: app
-
-- name: 'Amazon Alexa Flash Briefing'
-  regex: ^AmazonNewsContentService
+- name: Amazon Alexa Flash Briefing
+  regex: "^AmazonNewsContentService"
   type: app
-
-- name: 'Amazon Echo'
-  regex: ^Echo
+- name: Amazon Echo
+  regex: "^Echo"
   type: app
-
-- name: 'Android Download Manager'
-  regex: ^AndroidDownloadManager
+- name: Android Download Manager
+  regex: "^AndroidDownloadManager"
   type: app
-
-- name: 'Antenna Pod'
-  regex: ^AntennaPod|antennapod|antenna\/.*CFNetwork
+- name: Antenna Pod
+  regex: "^AntennaPod|antennapod|antenna\\/.*CFNetwork"
   type: app
-
-- name: 'Apache HTTP Client'
-  regex: ^Apache-HttpClient\/
-  type: bot
-
-- name: 'APK downloader'
-  regex: ^APKXDL
-  type: bot
-
-- name: 'Apple Watch'
-  regex: ^AppleCoreMedia\/.*Apple Watch
+- name: Apple HomePod
+  regex: "^AppleCoreMedia\\/.*HomePod"
   type: app
-
-- name: 'Apple HomePod'
-  regex: ^AppleCoreMedia\/.*HomePod
+- name: Apple iTunes
+  regex: "^iTunes\\/"
   type: app
-
-- name: 'Apple TV'
-  regex: ^AppleCoreMedia\/.*Apple TV
+- name: Apple Music
+  regex: "^AppleCoreMedia\\/.*Macintosh"
   type: app
-
-- name: 'Apple Podcasts'
-  regex: ^Podcasts\/|^AppleCoreMedia\/.*(iPad|iPhone|iPod)
-  type: app
-
-- name: 'Apple Music'
-  regex: ^AppleCoreMedia\/.*Macintosh
-  type: app
-
-- name: 'Apple News'
+- name: Apple News
   regex: AppleNews\/
   type: app
-
-- name: 'Apple iTMS'
-  regex: ^iTMS
-  type: bot
-
-- name: 'Apple iTunes'
-  regex: ^iTunes\/
+- name: Apple Podcasts
+  regex: "^Podcasts\\/|^AppleCoreMedia\\/.*(iPad|iPhone|iPod)"
   type: app
-
-- name: 'Apple iTunes Store'
-  regex: ^itunesstored
-  type: bot
-
-- name: 'BeyondPod'
-  regex: ^Mozilla.*BeyondPod
+- name: Apple TV
+  regex: "^AppleCoreMedia\\/.*Apple TV"
   type: app
-
-- name: 'Breaker'
-  regex: ^Breaker\/
+- name: Apple Watch
+  regex: "^AppleCoreMedia\\/.*Apple Watch"
   type: app
-
-- name: 'Bose'
-  regex: ^Bose\/
+- name: BeyondPod
+  regex: "^Mozilla.*BeyondPod"
   type: app
-
-- name: 'Bullhorn'
-  regex: ^Bullhorn
+- name: Bose
+  regex: "^Bose\\/"
   type: app
-
-- name: 'Castaway'
-  regex: ^Castaway\/
+- name: Breaker
+  regex: "^Breaker\\/"
   type: app
-
-- name: 'Castro'
-  regex: ^Castro[\/|\s]
+- name: Bullhorn
+  regex: "^Bullhorn"
   type: app
-
-- name: 'CastBox'
-  regex: ^Cast[B|b]ox
+- name: Castaway
+  regex: "^Castaway\\/"
   type: app
-
-- name: 'Chromecast'
-  regex: ^Mozilla.*CrKey
+- name: CastBox
+  regex: "^Cast[B|b]ox"
   type: app
-
-- name: 'Clementine'
-  regex: ^Clementine
+- name: Castro
+  regex: "^Castro[\\/|\\s]"
   type: app
-
-- name: 'CloudPlayer'
-  regex: ^doubleTwist CloudPlayer
+- name: Chromecast
+  regex: "^Mozilla.*CrKey"
   type: app
-
-- name: 'Curl'
+- name: Clementine
+  regex: "^Clementine"
+  type: app
+- name: CloudPlayer
+  regex: "^doubleTwist CloudPlayer"
+  type: app
+- name: Curl
   regex: curl|cURL
   type: app
-
-- name: 'Dalvik'
-  regex: ^Dalvik
+- name: Dalvik
+  regex: "^Dalvik"
   type: app
-
-- name: 'Deezer'
-  regex: ^Deezer\/
+- name: Deezer
+  regex: "^Deezer\\/"
   type: app
-
-- name: 'DoggCatcher'
+- name: DoggCatcher
   regex: DoggCatcher
   type: app
-
-- name: 'DotBot'
-  regex: DotBot\/
-  type: bot
-
-- name: 'Downcast'
+- name: Downcast
   regex: Downcast[\/|\s]
   type: app
-
-- name: FacebookBot
-  regex: facebookexternalhit|Facebot
-  type: bot
-
 - name: Facebook
-  regex: \[FBAN
+  regex: "\\[FBAN"
   type: app
-
-
 - name: Fire OS
-  regex: ^Fire OS.+stagefright
+  regex: "^Fire OS.+stagefright"
   type: app
-
-- name: GNOME
-  regex: ^gvfs
-  type: bot
-
 - name: GoldenPod
-  regex: ^GoldenPod\/
+  regex: "^GoldenPod\\/"
   type: app
-
-- name: Google Ads Bot
-  regex: AdsBot-Google
-  type: bot
-
-- name: Google Bot
-  regex: Googlebot
-  type: bot
-
 - name: Google Home
-  regex: ^Google-Speech-Action|GoogleChirp\/
+  regex: "^Google-Speech-Action|GoogleChirp\\/"
   type: app
-
-- name: Google Podcasts Bot
-  regex: Google-Podcast\)
-  type: bot
-
 - name: Google Search Appliance
   regex: GSA\/
   type: app
-
 - name: gPodder
-  regex: ^gPodder\/|gpodder
+  regex: "^gPodder\\/|gpodder"
   type: app
-
 - name: GStreamer
   regex: GStreamer
   type: app
-
+- name: HardCast
+  regex: "^HardCast"
+  type: app
+- name: HermesPod
+  regex: "^\\+hermespod\\.com"
+  type: app
 - name: Himalaya
   regex: Himalaya(\/|_test)
   type: app
-
-- name: HardCast
-  regex: ^HardCast
-  type: app
-
-- name: HermesPod
-  regex: ^\+hermespod\.com
-  type: app
-
 - name: iCatcher
   regex: i[c|C]atcher[\!|\/]
   type: app
-
 - name: iHeartRadio
-  regex: ^iHeartRadio\/
+  regex: "^iHeartRadio\\/"
   type: app
-
 - name: Juice Receiver
-  regex: ^Juice\/
+  regex: "^Juice\\/"
   type: app
-
-- name: 'Laughable'
-  regex: ^Laughable
+- name: Laughable
+  regex: "^Laughable"
   type: app
-
-- name: 'LG Player'
-  regex: ^(LG-|LM-|Player).+LG Player.+Android.*\(stagefright alternative\)($|.Dynamo.*)
+- name: LG Player
+  regex: "^(LG-|LM-|Player).+LG Player.+Android.*\\(stagefright alternative\\)($|.Dynamo.*)"
   type: app
-
 - name: Listen5
-  regex: ^Listen5
+  regex: "^Listen5"
   type: app
-
-- name: Livelap Bot
-  regex: LivelapBot
-  type: bot
-
 - name: Luminary
-  regex: ^Luminary\/
+  regex: "^Luminary\\/"
   type: app
-
-- name: Majestic-12 Bot
-  regex: MJ12bot\/
-  type: bot
-
 - name: Majelan
   regex: MajelanApp
   type: app
-
-- name: Mechanize
-  regex: Mechanize\/
-  type: bot
-
 - name: MediaMonkey
-  regex: ^MediaMonkey
+  regex: "^MediaMonkey"
   type: app
-
 - name: MyTuner
-  regex: ^my[T|t]uner
+  regex: "^my[T|t]uner"
   type: app
-
 - name: OkDownload
   regex: OkDownload\/
   type: app
-
 - name: OkHTTP
   regex: okhttp\/
   type: app
-
 - name: Overcast
   regex: Overcast\/
   type: app
-
 - name: Pandora
   regex: Pandora\/
   type: app
-
-- name: Pandora RSS Crawler
-  regex: PandoraRSSCrawler\/
-  type: bot
-
-- name: Perl Script
-  regex: libwww-perl
-  type: bot
-
 - name: Player FM
-  regex: ^Player FM|Player FM$
+  regex: "^Player FM|Player FM$"
   type: app
-
-- name: Podbean
-  regex: ^Podbean
-  type: app
-
-- name: Podcoin
-  regex: ^Podcoin
-  type: app
-
-- name: Podkicker
-  regex: ^Podkicker( Pro)?\/
-  type: app
-
-- name: PodCruncher
-  regex: PodCruncher
-  type: app
-
-- name: Podcast Addict
-  regex: Podcast Addict|PodcastAddict
-  type: app
-
-- name: Podcast Republic
-  regex: PodcastRepublic
-  type: app
-
-- name: Podtrapper
-  regex: ^PodTrapper
-  type: app
-
-- name: 'podCloud'
-  regex: ^MediaAnalyzer[\/| ]podCloud[\/| ]
-  type: bot
-
 - name: Pocket Casts
   regex: Pocket Casts|PocketCasts
   type: app
-
+- name: Podbean
+  regex: "^Podbean"
+  type: app
+- name: Podcast Addict
+  regex: Podcast Addict|PodcastAddict
+  type: app
+- name: Podcast Republic
+  regex: PodcastRepublic
+  type: app
+- name: Podcoin
+  regex: "^Podcoin"
+  type: app
+- name: PodCruncher
+  regex: PodCruncher
+  type: app
+- name: Podkicker
+  regex: "^Podkicker( Pro)?\\/"
+  type: app
+- name: Podtrapper
+  regex: "^PodTrapper"
+  type: app
 - name: ProCast
-  regex: ^Pro[C|c]ast
+  regex: "^Pro[C|c]ast"
   type: app
-
-- name: Python Requests
-  regex: ^python-requests
-  type: bot
-
 - name: RadioPublic
-  regex: ^RadioPublic(Draper)?
+  regex: "^RadioPublic(Draper)?"
   type: app
-
 - name: Request.js
   regex: request.js
   type: app
-
 - name: Roku
-  regex: ^Roku\/DVP
+  regex: "^Roku\\/DVP"
   type: app
-
 - name: RSSRadio
-  regex: ^RSSRadio
+  regex: "^RSSRadio"
   type: app
-
-- name: Ruby
-  regex: ^Ruby
-  type: bot
-
 - name: ServeStream
-  regex: ^ServeStream
+  regex: "^ServeStream"
   type: app
-
 - name: Sodes
-  regex: ^Sodes
+  regex: "^Sodes"
   type: app
-
 - name: Sonos
-  regex: ^Sonos|Linux.*Sonos\/
+  regex: "^Sonos|Linux.*Sonos\\/"
   type: app
-
 - name: Spotify
-  regex: ^Spotify\/
+  regex: "^Spotify\\/"
   type: app
-
 - name: Spreaker
-  regex: ^Spreaker|Spreaker\/\d*.\d*$
+  regex: "^Spreaker|Spreaker\\/\\d*.\\d*$"
   type: app
-
 - name: Stitcher
-  regex: ^Stitcher\/|\/Stitcher
+  regex: "^Stitcher\\/|\\/Stitcher"
   type: app
-
-- name: StitcherBot
-  regex: ^StitcherBot
-  type: bot
-
-- name: Subcast
-  regex: ^Subcast
-  type: app
-
-- name: Swoot
-  regex: ^Swoot(\/| A)
-  type: app
-
 - name: Storiyoh
-  regex: ^Storiyoh\/
+  regex: "^Storiyoh\\/"
   type: app
-
+- name: Subcast
+  regex: "^Subcast"
+  type: app
+- name: Swoot
+  regex: "^Swoot(\\/| A)"
+  type: app
 - name: TED
-  regex: ^TED
+  regex: "^TED"
   type: app
-
-- name: Trackable
-  regex: ^Trackable\/
-  type: bot
-
 - name: TuneIn Radio
-  regex: ^TuneIn|TuneIn\/\d
+  regex: "^TuneIn|TuneIn\\/\\d"
   type: app
-
 - name: Twitter
   regex: Twitter(\/|Android| for)
   type: app
-
-- name: Twitter Bot
-  regex: ^Twitterbot
-  type: bot
-
-- name: Typhoeus
-  regex: ^Typhoeus
-  type: bot
-
 - name: uTorrent
-  regex: ^uTorrent|BTWebClient
+  regex: "^uTorrent|BTWebClient"
   type: app
-
 - name: Victor Reader Stream
-  regex: ^VictorReader
+  regex: "^VictorReader"
   type: app
-
-- name: Wget
-  regex: ^Wget
-  type: bot
-
-- name: Winamp
-  regex: Winamp
-  type: bot
-
 - name: Windows Media Player
-  regex: ^(Windows\-Media\-Player\/|NSPlayer|WMPlayer)
+  regex: "^(Windows\\-Media\\-Player\\/|NSPlayer|WMPlayer)"
   type: app
-
-- name: Zune
-  regex: ^Zune
-  type: app
-
-- name: WordPress
-  regex: WordPress
-  type: bot
-
 - name: Yapa
-  regex: ^yapa\/
+  regex: "^yapa\\/"
   type: app
-
-- name: Yandex Bot
-  regex: YandexBot
+- name: Zune
+  regex: "^Zune"
+  type: app
+- name: Ahrefs
+  regex: AhrefsBot
   type: bot
-
+- name: Apache HTTP Client
+  regex: "^Apache-HttpClient\\/"
+  type: bot
+- name: APK downloader
+  regex: "^APKXDL"
+  type: bot
+- name: Apple iTMS
+  regex: "^iTMS"
+  type: bot
+- name: Apple iTunes Store
+  regex: "^itunesstored"
+  type: bot
 - name: Datagnion Bot
   regex: datagnionbot
   type: bot
-
+- name: DotBot
+  regex: DotBot\/
+  type: bot
+- name: FacebookBot
+  regex: facebookexternalhit|Facebot
+  type: bot
+- name: GNOME
+  regex: "^gvfs"
+  type: bot
+- name: Go
+  regex: "^Go-http-client"
+  type: bot
+- name: Google Ads Bot
+  regex: AdsBot-Google
+  type: bot
+- name: Google Bot
+  regex: Googlebot
+  type: bot
+- name: Google Podcasts Bot
+  regex: Google-Podcast\)
+  type: bot
+- name: Livelap Bot
+  regex: LivelapBot
+  type: bot
+- name: Majestic-12 Bot
+  regex: MJ12bot\/
+  type: bot
+- name: Mechanize
+  regex: Mechanize\/
+  type: bot
+- name: Pandora RSS Crawler
+  regex: PandoraRSSCrawler\/
+  type: bot
+- name: Perl Script
+  regex: libwww-perl
+  type: bot
+- name: podCloud
+  regex: "^MediaAnalyzer[\\/| ]podCloud[\\/| ]"
+  type: bot
+- name: Python Requests
+  regex: "^python-requests"
+  type: bot
+- name: Ruby
+  regex: "^Ruby"
+  type: bot
 - name: SEMrush Bot
   regex: SemrushBot
   type: bot
-
-- name: Go
-  regex: ^Go-http-client
+- name: StitcherBot
+  regex: "^StitcherBot"
   type: bot
-  
+- name: Trackable
+  regex: "^Trackable\\/"
+  type: bot
+- name: Twitter Bot
+  regex: "^Twitterbot"
+  type: bot
+- name: Typhoeus
+  regex: "^Typhoeus"
+  type: bot
+- name: Wget
+  regex: "^Wget"
+  type: bot
+- name: Winamp
+  regex: Winamp
+  type: bot
+- name: WordPress
+  regex: WordPress
+  type: bot
+- name: Yandex Bot
+  regex: YandexBot
+  type: bot
