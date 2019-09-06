@@ -185,6 +185,11 @@
     "type": "app"
   },
   {
+    "name": "Guardian",
+    "regex": "^Guardian",
+    "type": "app"
+  },
+  {
     "name": "HardCast",
     "regex": "^HardCast",
     "type": "app"
@@ -207,6 +212,11 @@
   {
     "name": "iHeartRadio",
     "regex": "^iHeartRadio\\/",
+    "type": "app"
+  },
+  {
+    "name": "Instagram",
+    "regex": "Instagram",
     "type": "app"
   },
   {

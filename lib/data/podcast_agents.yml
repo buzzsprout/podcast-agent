@@ -110,6 +110,9 @@
 - name: GStreamer
   regex: GStreamer
   type: app
+- name: Guardian
+  regex: "^Guardian"
+  type: app
 - name: HardCast
   regex: "^HardCast"
   type: app
@@ -124,6 +127,9 @@
   type: app
 - name: iHeartRadio
   regex: "^iHeartRadio\\/"
+  type: app
+- name: Instagram
+  regex: Instagram
   type: app
 - name: Juice Receiver
   regex: "^Juice\\/"
