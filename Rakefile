@@ -11,8 +11,8 @@ task :cleanup do
   File.open('lib/data/podcast_agents.yml', "w") { |file| file.write(database.to_yaml) }
   File.open('lib/data/podcast_agents.json', "w") { |file| file.write(JSON.pretty_generate(database)) }
 
-  samples ||= YAML.load_file('test/data/sample_user_agents.yml')
-  samples.sort_by {|name, arr| name.downcase }
+  samples = YAML.load_file('test/data/sample_user_agents.yml')
+  samples = Hash[ samples.sort_by {|name, arr| name.downcase } ]
   File.open('test/data/sample_user_agents.yml', "w") { |file| file.write(samples.to_yaml) }
   File.open('test/data/sample_user_agents.json', "w") { |file| file.write(JSON.pretty_generate(samples)) }
 end
