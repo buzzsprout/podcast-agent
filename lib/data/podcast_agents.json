@@ -233,7 +233,8 @@
   },
   {
     "name": "Pocket Casts",
-    "user_agent_match": "Pocket Casts|PocketCasts"
+    "user_agent_match": "Pocket Casts|PocketCasts",
+    "referrer_match": "^https://play.pocketcasts.com/"
   },
   {
     "name": "Podbean",

@@ -117,6 +117,7 @@
   user_agent_match: "^Player FM|Player FM$"
 - name: Pocket Casts
   user_agent_match: Pocket Casts|PocketCasts
+  referrer_match: "^https://play.pocketcasts.com/"
 - name: Podbean
   user_agent_match: "^Podbean"
 - name: Podcast Addict

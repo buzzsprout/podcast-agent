@@ -527,6 +527,11 @@
       "Player/LG Player 1.0 for Android 4.4.2 (stagefright alternative), Pocket Casts",
       "Pocket Casts AppEngine-Google; (+http://code.google.com/appengine; appid: s~i8964-200-03)",
       "Shifty Jelly Pocket Casts, Android v4.2.5"
+    ],
+    "referrers": [
+      "https://play.pocketcasts.com/",
+      "https://play.pocketcasts.com/web/podcasts/8d728390-249c-0131-73be-723c91aeae46",
+      "https://play.pocketcasts.com/web/new-releases"
     ]
   },
   "Podbean": {
