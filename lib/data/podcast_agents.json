@@ -1,587 +1,501 @@
 [
   {
     "name": "Acast",
-    "regex": "^Acast",
-    "type": "app"
+    "user_agent_match": "^Acast"
   },
   {
     "name": "AhaRadio",
-    "regex": "^AhaRadio2\\/",
-    "type": "app"
+    "user_agent_match": "^AhaRadio2\\/"
   },
   {
     "name": "Alexa Enabled Device",
-    "regex": "^AlexaMediaPlayer\\/\\d.*ExoPlayerLib",
-    "type": "app"
+    "user_agent_match": "^AlexaMediaPlayer\\/\\d.*ExoPlayerLib"
   },
   {
     "name": "All You Can Books",
-    "regex": "AllYouCanBooks",
-    "type": "app"
+    "user_agent_match": "AllYouCanBooks"
   },
   {
     "name": "Amazon Alexa Flash Briefing",
-    "regex": "^AmazonNewsContentService",
-    "type": "app"
+    "user_agent_match": "^AmazonNewsContentService"
   },
   {
     "name": "Amazon Echo",
-    "regex": "^Echo",
-    "type": "app"
+    "user_agent_match": "^Echo"
   },
   {
     "name": "Android Download Manager",
-    "regex": "^AndroidDownloadManager",
-    "type": "app"
+    "user_agent_match": "^AndroidDownloadManager"
   },
   {
     "name": "Antenna Pod",
-    "regex": "^AntennaPod|antennapod|antenna\\/.*CFNetwork",
-    "type": "app"
+    "user_agent_match": "^AntennaPod|antennapod|antenna\\/.*CFNetwork"
   },
   {
     "name": "Apple HomePod",
-    "regex": "^AppleCoreMedia\\/.*HomePod",
-    "type": "app"
+    "user_agent_match": "^AppleCoreMedia\\/.*HomePod"
   },
   {
     "name": "Apple iTunes",
-    "regex": "^iTunes\\/",
-    "type": "app"
+    "user_agent_match": "^iTunes\\/"
   },
   {
     "name": "Apple Music",
-    "regex": "^AppleCoreMedia\\/.*Macintosh",
-    "type": "app"
+    "user_agent_match": "^AppleCoreMedia\\/.*Macintosh"
   },
   {
     "name": "Apple News",
-    "regex": "AppleNews\\/",
-    "type": "app"
+    "user_agent_match": "AppleNews\\/"
   },
   {
     "name": "Apple Podcasts",
-    "regex": "^Podcasts\\/|^AppleCoreMedia\\/.*(iPad|iPhone|iPod)",
-    "type": "app"
+    "user_agent_match": "^Podcasts\\/|^AppleCoreMedia\\/.*(iPad|iPhone|iPod)"
   },
   {
     "name": "Apple TV",
-    "regex": "^AppleCoreMedia\\/.*Apple TV",
-    "type": "app"
+    "user_agent_match": "^AppleCoreMedia\\/.*Apple TV"
   },
   {
     "name": "Apple Watch",
-    "regex": "^AppleCoreMedia\\/.*Apple Watch",
-    "type": "app"
+    "user_agent_match": "^AppleCoreMedia\\/.*Apple Watch"
   },
   {
     "name": "BeyondPod",
-    "regex": "^Mozilla.*BeyondPod",
-    "type": "app"
+    "user_agent_match": "^Mozilla.*BeyondPod"
   },
   {
     "name": "Bose",
-    "regex": "^Bose\\/",
-    "type": "app"
+    "user_agent_match": "^Bose\\/"
   },
   {
     "name": "Breaker",
-    "regex": "^Breaker\\/",
-    "type": "app"
+    "user_agent_match": "^Breaker\\/"
   },
   {
     "name": "Bullhorn",
-    "regex": "^Bullhorn",
-    "type": "app"
+    "user_agent_match": "^Bullhorn"
   },
   {
     "name": "Castaway",
-    "regex": "^Castaway\\/",
-    "type": "app"
+    "user_agent_match": "^Castaway\\/"
   },
   {
     "name": "CastBox",
-    "regex": "^Cast[B|b]ox",
-    "type": "app"
+    "user_agent_match": "^Cast[B|b]ox"
   },
   {
     "name": "Castro",
-    "regex": "^Castro[\\/|\\s]",
-    "type": "app"
+    "user_agent_match": "^Castro[\\/|\\s]"
   },
   {
     "name": "Chromecast",
-    "regex": "^Mozilla.*CrKey",
-    "type": "app"
+    "user_agent_match": "^Mozilla.*CrKey"
   },
   {
     "name": "Clementine",
-    "regex": "^Clementine",
-    "type": "app"
+    "user_agent_match": "^Clementine"
   },
   {
     "name": "CloudPlayer",
-    "regex": "^doubleTwist CloudPlayer",
-    "type": "app"
+    "user_agent_match": "^doubleTwist CloudPlayer"
   },
   {
     "name": "Curl",
-    "regex": "curl|cURL",
-    "type": "app"
+    "user_agent_match": "curl|cURL"
   },
   {
     "name": "Dalvik",
-    "regex": "^Dalvik",
-    "type": "app"
+    "user_agent_match": "^Dalvik"
   },
   {
     "name": "Deezer",
-    "regex": "^Deezer\\/",
-    "type": "app"
+    "user_agent_match": "^Deezer\\/"
   },
   {
     "name": "DoggCatcher",
-    "regex": "DoggCatcher",
-    "type": "app"
+    "user_agent_match": "DoggCatcher"
   },
   {
     "name": "Downcast",
-    "regex": "Downcast[\\/|\\s]",
-    "type": "app"
+    "user_agent_match": "Downcast[\\/|\\s]"
   },
   {
     "name": "Facebook",
-    "regex": "\\[FBAN",
-    "type": "app"
+    "user_agent_match": "\\[FBAN"
   },
   {
     "name": "Fire OS",
-    "regex": "^Fire OS.+stagefright",
-    "type": "app"
+    "user_agent_match": "^Fire OS.+stagefright"
   },
   {
     "name": "GoldenPod",
-    "regex": "^GoldenPod\\/",
-    "type": "app"
+    "user_agent_match": "^GoldenPod\\/"
   },
   {
     "name": "Google Home",
-    "regex": "^Google-Speech-Action|GoogleChirp\\/",
-    "type": "app"
+    "user_agent_match": "^Google-Speech-Action|GoogleChirp\\/"
   },
   {
     "name": "Google Search Appliance",
-    "regex": "GSA\\/",
-    "type": "app"
+    "user_agent_match": "GSA\\/"
   },
   {
     "name": "gPodder",
-    "regex": "^gPodder\\/|gpodder",
-    "type": "app"
+    "user_agent_match": "^gPodder\\/|gpodder"
   },
   {
     "name": "GStreamer",
-    "regex": "GStreamer",
-    "type": "app"
+    "user_agent_match": "GStreamer"
   },
   {
     "name": "Guardian",
-    "regex": "^Guardian",
-    "type": "app"
+    "user_agent_match": "^Guardian"
   },
   {
     "name": "HardCast",
-    "regex": "^HardCast",
-    "type": "app"
+    "user_agent_match": "^HardCast"
   },
   {
     "name": "HermesPod",
-    "regex": "^\\+hermespod\\.com",
-    "type": "app"
+    "user_agent_match": "^\\+hermespod\\.com"
   },
   {
     "name": "Himalaya",
-    "regex": "Himalaya(\\/|_test)",
-    "type": "app"
+    "user_agent_match": "Himalaya(\\/|_test)"
   },
   {
     "name": "iCatcher",
-    "regex": "i[c|C]atcher[\\!|\\/]",
-    "type": "app"
+    "user_agent_match": "i[c|C]atcher[\\!|\\/]"
   },
   {
     "name": "iHeartRadio",
-    "regex": "^iHeartRadio\\/",
-    "type": "app"
+    "user_agent_match": "^iHeartRadio\\/"
   },
   {
     "name": "Instagram",
-    "regex": "Instagram",
-    "type": "app"
+    "user_agent_match": "Instagram"
   },
   {
     "name": "Juice Receiver",
-    "regex": "^Juice\\/",
-    "type": "app"
+    "user_agent_match": "^Juice\\/"
   },
   {
     "name": "Laughable",
-    "regex": "^Laughable",
-    "type": "app"
+    "user_agent_match": "^Laughable"
   },
   {
     "name": "LG Player",
-    "regex": "^(LG-|LM-|Player).+LG Player.+Android.*\\(stagefright alternative\\)($|.Dynamo.*)",
-    "type": "app"
+    "user_agent_match": "^(LG-|LM-|Player).+LG Player.+Android.*\\(stagefright alternative\\)($|.Dynamo.*)"
   },
   {
     "name": "Listen5",
-    "regex": "^Listen5",
-    "type": "app"
+    "user_agent_match": "^Listen5"
   },
   {
     "name": "Luminary",
-    "regex": "^Luminary\\/",
-    "type": "app"
+    "user_agent_match": "^Luminary\\/"
   },
   {
     "name": "Majelan",
-    "regex": "MajelanApp",
-    "type": "app"
+    "user_agent_match": "MajelanApp"
   },
   {
     "name": "MediaMonkey",
-    "regex": "^MediaMonkey",
-    "type": "app"
+    "user_agent_match": "^MediaMonkey"
   },
   {
     "name": "MyTuner",
-    "regex": "^my[T|t]uner",
-    "type": "app"
+    "user_agent_match": "^my[T|t]uner"
   },
   {
     "name": "OkDownload",
-    "regex": "OkDownload\\/",
-    "type": "app"
+    "user_agent_match": "OkDownload\\/"
   },
   {
     "name": "OkHTTP",
-    "regex": "okhttp\\/",
-    "type": "app"
+    "user_agent_match": "okhttp\\/"
   },
   {
     "name": "Overcast",
-    "regex": "Overcast\\/",
-    "type": "app"
+    "user_agent_match": "Overcast\\/"
   },
   {
     "name": "Pandora",
-    "regex": "Pandora\\/",
-    "type": "app"
+    "user_agent_match": "Pandora\\/"
   },
   {
     "name": "Player FM",
-    "regex": "^Player FM|Player FM$",
-    "type": "app"
+    "user_agent_match": "^Player FM|Player FM$"
   },
   {
     "name": "Pocket Casts",
-    "regex": "Pocket Casts|PocketCasts",
-    "type": "app"
+    "user_agent_match": "Pocket Casts|PocketCasts"
   },
   {
     "name": "Podbean",
-    "regex": "^Podbean",
-    "type": "app"
+    "user_agent_match": "^Podbean"
   },
   {
     "name": "Podcast Addict",
-    "regex": "Podcast Addict|PodcastAddict",
-    "type": "app"
+    "user_agent_match": "Podcast Addict|PodcastAddict"
   },
   {
     "name": "Podcast Republic",
-    "regex": "PodcastRepublic",
-    "type": "app"
+    "user_agent_match": "PodcastRepublic"
   },
   {
     "name": "Podcoin",
-    "regex": "^Podcoin",
-    "type": "app"
+    "user_agent_match": "^Podcoin"
   },
   {
     "name": "PodCruncher",
-    "regex": "PodCruncher",
-    "type": "app"
+    "user_agent_match": "PodCruncher"
   },
   {
     "name": "Podkicker",
-    "regex": "^Podkicker( Pro)?\\/",
-    "type": "app"
+    "user_agent_match": "^Podkicker( Pro)?\\/"
   },
   {
     "name": "Podtrapper",
-    "regex": "^PodTrapper",
-    "type": "app"
+    "user_agent_match": "^PodTrapper"
   },
   {
     "name": "ProCast",
-    "regex": "^Pro[C|c]ast",
-    "type": "app"
+    "user_agent_match": "^Pro[C|c]ast"
   },
   {
     "name": "RadioPublic",
-    "regex": "^RadioPublic(Draper)?",
-    "type": "app"
+    "user_agent_match": "^RadioPublic(Draper)?"
   },
   {
     "name": "Request.js",
-    "regex": "request.js",
-    "type": "app"
+    "user_agent_match": "request.js"
   },
   {
     "name": "Roku",
-    "regex": "^Roku\\/DVP",
-    "type": "app"
+    "user_agent_match": "^Roku\\/DVP"
   },
   {
     "name": "RSSRadio",
-    "regex": "^RSSRadio",
-    "type": "app"
+    "user_agent_match": "^RSSRadio"
   },
   {
     "name": "ServeStream",
-    "regex": "^ServeStream",
-    "type": "app"
+    "user_agent_match": "^ServeStream"
   },
   {
     "name": "Sodes",
-    "regex": "^Sodes",
-    "type": "app"
+    "user_agent_match": "^Sodes"
   },
   {
     "name": "Sonos",
-    "regex": "^Sonos|Linux.*Sonos\\/",
-    "type": "app"
+    "user_agent_match": "^Sonos|Linux.*Sonos\\/"
   },
   {
     "name": "Spotify",
-    "regex": "^Spotify\\/",
-    "type": "app"
+    "user_agent_match": "^Spotify\\/"
   },
   {
     "name": "Spreaker",
-    "regex": "^Spreaker|Spreaker\\/\\d*.\\d*$",
-    "type": "app"
+    "user_agent_match": "^Spreaker|Spreaker\\/\\d*.\\d*$"
   },
   {
     "name": "Stitcher",
-    "regex": "^Stitcher\\/|\\/Stitcher",
-    "type": "app"
+    "user_agent_match": "^Stitcher\\/|\\/Stitcher",
+    "referrer_match": "^https://www.stitcher.com/"
   },
   {
     "name": "Storiyoh",
-    "regex": "^Storiyoh\\/",
-    "type": "app"
+    "user_agent_match": "^Storiyoh\\/"
   },
   {
     "name": "Subcast",
-    "regex": "^Subcast",
-    "type": "app"
+    "user_agent_match": "^Subcast"
   },
   {
     "name": "Swoot",
-    "regex": "^Swoot(\\/| A)",
-    "type": "app"
+    "user_agent_match": "^Swoot(\\/| A)"
   },
   {
     "name": "TED",
-    "regex": "^TED",
-    "type": "app"
+    "user_agent_match": "^TED"
   },
   {
     "name": "TuneIn Radio",
-    "regex": "^TuneIn|TuneIn\\/\\d",
-    "type": "app"
+    "user_agent_match": "^TuneIn|TuneIn\\/\\d"
   },
   {
     "name": "Twitter",
-    "regex": "Twitter(\\/|Android| for)",
-    "type": "app"
+    "user_agent_match": "Twitter(\\/|Android| for)"
   },
   {
     "name": "uTorrent",
-    "regex": "^uTorrent|BTWebClient",
-    "type": "app"
+    "user_agent_match": "^uTorrent|BTWebClient"
   },
   {
     "name": "Victor Reader Stream",
-    "regex": "^VictorReader",
-    "type": "app"
+    "user_agent_match": "^VictorReader"
   },
   {
     "name": "Windows Media Player",
-    "regex": "^(Windows\\-Media\\-Player\\/|NSPlayer|WMPlayer)",
-    "type": "app"
+    "user_agent_match": "^(Windows\\-Media\\-Player\\/|NSPlayer|WMPlayer)"
   },
   {
     "name": "Yapa",
-    "regex": "^yapa\\/",
-    "type": "app"
+    "user_agent_match": "^yapa\\/"
   },
   {
     "name": "Zune",
-    "regex": "^Zune",
-    "type": "app"
+    "user_agent_match": "^Zune"
   },
   {
     "name": "Ahrefs",
-    "regex": "AhrefsBot",
-    "type": "bot"
+    "user_agent_match": "AhrefsBot",
+    "bot": true
   },
   {
     "name": "Apache HTTP Client",
-    "regex": "^Apache-HttpClient\\/",
-    "type": "bot"
+    "user_agent_match": "^Apache-HttpClient\\/",
+    "bot": true
   },
   {
     "name": "APK downloader",
-    "regex": "^APKXDL",
-    "type": "bot"
+    "user_agent_match": "^APKXDL",
+    "bot": true
   },
   {
     "name": "Apple iTMS",
-    "regex": "^iTMS",
-    "type": "bot"
+    "user_agent_match": "^iTMS",
+    "bot": true
   },
   {
     "name": "Apple iTunes Store",
-    "regex": "^itunesstored",
-    "type": "bot"
+    "user_agent_match": "^itunesstored",
+    "bot": true
   },
   {
     "name": "Datagnion Bot",
-    "regex": "datagnionbot",
-    "type": "bot"
+    "user_agent_match": "datagnionbot",
+    "bot": true
   },
   {
     "name": "DotBot",
-    "regex": "DotBot\\/",
-    "type": "bot"
+    "user_agent_match": "DotBot\\/",
+    "bot": true
   },
   {
     "name": "FacebookBot",
-    "regex": "facebookexternalhit|Facebot",
-    "type": "bot"
+    "user_agent_match": "facebookexternalhit|Facebot",
+    "bot": true
   },
   {
     "name": "GNOME",
-    "regex": "^gvfs",
-    "type": "bot"
+    "user_agent_match": "^gvfs",
+    "bot": true
   },
   {
     "name": "Go",
-    "regex": "^Go-http-client",
-    "type": "bot"
+    "user_agent_match": "^Go-http-client",
+    "bot": true
   },
   {
     "name": "Google Ads Bot",
-    "regex": "AdsBot-Google",
-    "type": "bot"
+    "user_agent_match": "AdsBot-Google",
+    "bot": true
   },
   {
     "name": "Google Bot",
-    "regex": "Googlebot",
-    "type": "bot"
+    "user_agent_match": "Googlebot",
+    "bot": true
   },
   {
     "name": "Google Podcasts Bot",
-    "regex": "Google-Podcast\\)",
-    "type": "bot"
+    "user_agent_match": "Google-Podcast\\)",
+    "bot": true
   },
   {
     "name": "Livelap Bot",
-    "regex": "LivelapBot",
-    "type": "bot"
+    "user_agent_match": "LivelapBot",
+    "bot": true
   },
   {
     "name": "Majestic-12 Bot",
-    "regex": "MJ12bot\\/",
-    "type": "bot"
+    "user_agent_match": "MJ12bot\\/",
+    "bot": true
   },
   {
     "name": "Mechanize",
-    "regex": "Mechanize\\/",
-    "type": "bot"
+    "user_agent_match": "Mechanize\\/",
+    "bot": true
   },
   {
     "name": "Pandora RSS Crawler",
-    "regex": "PandoraRSSCrawler\\/",
-    "type": "bot"
+    "user_agent_match": "PandoraRSSCrawler\\/",
+    "bot": true
   },
   {
     "name": "Perl Script",
-    "regex": "libwww-perl",
-    "type": "bot"
+    "user_agent_match": "libwww-perl",
+    "bot": true
   },
   {
     "name": "podCloud",
-    "regex": "^MediaAnalyzer[\\/| ]podCloud[\\/| ]",
-    "type": "bot"
+    "user_agent_match": "^MediaAnalyzer[\\/| ]podCloud[\\/| ]",
+    "bot": true
   },
   {
     "name": "Python Requests",
-    "regex": "^python-requests",
-    "type": "bot"
+    "user_agent_match": "^python-requests",
+    "bot": true
   },
   {
     "name": "Ruby",
-    "regex": "^Ruby",
-    "type": "bot"
+    "user_agent_match": "^Ruby",
+    "bot": true
   },
   {
     "name": "SEMrush Bot",
-    "regex": "SemrushBot",
-    "type": "bot"
+    "user_agent_match": "SemrushBot",
+    "bot": true
   },
   {
     "name": "StitcherBot",
-    "regex": "^StitcherBot",
-    "type": "bot"
+    "user_agent_match": "^StitcherBot",
+    "bot": true
   },
   {
     "name": "Trackable",
-    "regex": "^Trackable\\/",
-    "type": "bot"
+    "user_agent_match": "^Trackable\\/",
+    "bot": true
   },
   {
     "name": "Twitter Bot",
-    "regex": "^Twitterbot",
-    "type": "bot"
+    "user_agent_match": "^Twitterbot",
+    "bot": true
   },
   {
     "name": "Typhoeus",
-    "regex": "^Typhoeus",
-    "type": "bot"
+    "user_agent_match": "^Typhoeus",
+    "bot": true
   },
   {
     "name": "Wget",
-    "regex": "^Wget",
-    "type": "bot"
+    "user_agent_match": "^Wget",
+    "bot": true
   },
   {
     "name": "Winamp",
-    "regex": "Winamp",
-    "type": "bot"
+    "user_agent_match": "Winamp",
+    "bot": true
   },
   {
     "name": "WordPress",
-    "regex": "WordPress",
-    "type": "bot"
+    "user_agent_match": "WordPress",
+    "bot": true
   },
   {
     "name": "Yandex Bot",
-    "regex": "YandexBot",
-    "type": "bot"
+    "user_agent_match": "YandexBot",
+    "bot": true
   }
 ]

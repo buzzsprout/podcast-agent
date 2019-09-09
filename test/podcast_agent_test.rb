@@ -5,9 +5,13 @@ class PocastAgentTest < ActiveSupport::TestCase
   test 'should match all sample user_agents' do
     user_agent_samples.each do |name, samples|
       samples.each do |sample|
-        agent = PodcastAgent.find_by(user_agent_string: sample)
-        assert agent, "'#{sample}' could not be parsed as #{name}'"
-        assert_equal name, agent.name, sample
+        if samples['user_agents']
+          samples['user_agents'].each do |user_agent_string|
+            agent = PodcastAgent.find_by(user_agent_string: user_agent_string)
+            assert agent, "'#{sample}' could not be parsed as #{name}'"
+            assert_equal name, agent.name, sample
+          end
+        end
       end
     end
   end

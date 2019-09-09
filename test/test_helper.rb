@@ -11,6 +11,6 @@ class ActiveSupport::TestCase
 
     def user_agent_samples
       @user_agent_samples ||=
-                 YAML.load_file('test/data/sample_user_agents.yml')
+                 YAML.load_file('test/data/samples.yml')
     end
 end
