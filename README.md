@@ -1,5 +1,6 @@
 
 
+
 Podcast Agents
 =========
 
@@ -7,7 +8,7 @@ This is library is for identifying entities that download or stream podcast epis
 
 ## Identification
 
-In order to identify a Podcast Agent, we will be just the **user-agent**. I intend to add the referring URL in the future to better improve the detection. This information will be compared to a database of Podcast Agents and will result in one and only one match.
+In order to identify a Podcast Agent, we will be using the **user-agent** and/or **referrer**.  The code will attempt to match the podcast agent by comparing the user-agent before attempting to match the referrer. This information will be compared to a database of Podcast Agents and will result in one and only one match.
 
 **Name**:  Name of the Podcast Agent that matches the database
 
@@ -20,6 +21,20 @@ In order to identify a Podcast Agent, we will be just the **user-agent**. I inte
     gem install podcast-agent
 
 ### Examples
+#### Stitcher on Safari
+
+```ruby
+user_agent_string = 'Mozilla/5.0 (iPad; CPU OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/1908.1'
+referrer = 'https://app.stitcher.com/'
+podcast_agent = PodcastAgent.find_by(user_agent_string: user_agent_string,
+                                     referrer: referrer)
+podcast_agent.name
+# => 'Stitcher'
+podcast_agent.browser
+# => 'Safari'
+podcast_agent.platform
+# => 'iPad'
+```
 
 #### Pandora on Safari
 

@@ -9,8 +9,8 @@ class ActiveSupport::TestCase
 
   private
 
-    def user_agent_samples
-      @user_agent_samples ||=
+    def agent_samples
+      @agent_samples ||=
                  YAML.load_file('test/data/samples.yml')
     end
 end

@@ -449,6 +449,9 @@ Podkicker:
   - Podkicker Pro/3.0.5
   - Podkicker Pro/1.9.4
   - Podkicker/1.1.0 Android/2.3.7
+Podtail:
+  referrers:
+  - https://podtail.com/
 Podtrapper:
   user_agents:
   - PodTrapper
@@ -532,6 +535,9 @@ Stitcher:
   - Stitcher/13874 CFNetwork/485.13.9 Darwin/11.0.0
   - Stitcher/Android
   - Stitcher/iOS
+  referrers:
+  - https://app.stitcher.com/
+  - https://www.stitcher.com/podcast/mile-marker-181/e/57173832?autoplay=true
 StitcherBot:
   user_agents:
   - StitcherBot (MP3 Search Bot for Stitcher Personalized Radio Service) Dynamo/1.0

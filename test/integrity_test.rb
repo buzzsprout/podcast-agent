@@ -2,14 +2,23 @@ require 'test_helper'
 
 class IntegrityTest < ActiveSupport::TestCase
 
-  test 'no multiple matches for name samples' do
-    user_agent_samples.each do |name, samples|
+  test 'no multiple matches for user_agent samples' do
+    agent_samples.each do |name, samples|
       if samples['user_agents']
         samples['user_agents'].each do |sample|
-          matches = PodcastAgent.database.select do |attrs|
-            sample =~ Regexp.new(attrs['user_agent_match'])
-          end
-          assert_equal 1, matches.length, "'#{sample}' has multiple matches"
+          sample_matches = matches('user_agent_match', sample)
+          assert_equal 1, sample_matches.length, "#{sample} has a matching issue"
+        end
+      end
+    end
+  end
+
+  test 'no multiple matches for referrer samples' do
+    agent_samples.each do |name, samples|
+      if samples['referrers']
+        samples['referrers'].each do |sample|
+          sample_matches = matches('referrer_match', sample)
+          assert_equal 1, sample_matches.length, "#{sample} has a matching issue"
         end
       end
     end
@@ -19,5 +28,13 @@ class IntegrityTest < ActiveSupport::TestCase
     agent_names = PodcastAgent.database.map {|agent| agent['name']}
     assert_equal agent_names.length, agent_names.uniq.length
   end
+
+  private
+
+    def matches(attr, string)
+      matches = PodcastAgent.database.select do |attrs|
+        string =~ Regexp.new(attrs[attr]) if attrs[attr]
+      end
+    end
 
 end

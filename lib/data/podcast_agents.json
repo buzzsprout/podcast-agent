@@ -188,6 +188,10 @@
     "user_agent_match": "^(LG-|LM-|Player).+LG Player.+Android.*\\(stagefright alternative\\)($|.Dynamo.*)"
   },
   {
+    "name": "Listen Notes",
+    "referrer_match": "^https://www.listennotes.com/"
+  },
+  {
     "name": "Listen5",
     "user_agent_match": "^Listen5"
   },
@@ -256,6 +260,10 @@
     "user_agent_match": "^Podkicker( Pro)?\\/"
   },
   {
+    "name": "Podtail",
+    "referrer_match": "^https://podtail.com/"
+  },
+  {
     "name": "Podtrapper",
     "user_agent_match": "^PodTrapper"
   },
@@ -302,7 +310,7 @@
   {
     "name": "Stitcher",
     "user_agent_match": "^Stitcher\\/|\\/Stitcher",
-    "referrer_match": "^https://www.stitcher.com/"
+    "referrer_match": "^https://(www|app).stitcher.com/"
   },
   {
     "name": "Storiyoh",
