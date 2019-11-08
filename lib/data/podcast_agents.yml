@@ -12,23 +12,34 @@
 - name: Amazon Echo
   user_agent_match: "^Echo"
 - name: Android Download Manager
-  user_agent_match: "^AndroidDownloadManager"
+  user_agent_match: "^AndroidDownloadManager|^Android.LVLDM"
+- name: Android Media Player
+  user_agent_match: "^Samsung(?=.*stagefright\\/)(?=.*\\(Linux;Android)|^yourApplicationName\\/(?=.*Linux;Android)|(^stagefright\\/\\d*.\\d*
+    \\(Linux;Android \\d*\\.\\d*\\.\\d*\\))|(^stagefright\\/\\d*.\\d* \\(Linux;Android
+    \\d*\\))|(^stagefright\\/\\d*.\\d* \\(Linux;Android \\d*\\.\\d*\\))|^HTC Streaming
+    Player"
 - name: Antenna Pod
   user_agent_match: "^AntennaPod|antennapod|antenna\\/.*CFNetwork"
 - name: Apple HomePod
   user_agent_match: "^AppleCoreMedia\\/.*HomePod"
+- name: Apple iMessages
+  user_agent_match: "^MessagesViewService\\/"
 - name: Apple iTunes
   user_agent_match: "^iTunes\\/"
+- name: Apple Mail
+  user_agent_match: "^Mail\\/"
 - name: Apple Music
   user_agent_match: "^AppleCoreMedia\\/.*Macintosh"
 - name: Apple News
   user_agent_match: AppleNews\/
 - name: Apple Podcasts
-  user_agent_match: "^Podcasts\\/|^AppleCoreMedia\\/.*(iPad|iPhone|iPod)"
+  user_agent_match: "^Podcastok\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B\\/|^podcast\\/|^%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA\\/|^%E6%92%AD%E5%AE%A2\\/|Podcast\\/|Podcast%E2%80%99ler\\/|Podkaster\\/|팟캐스트\\/|播客\\/|פודקאסטים\\/Подкасты\\/Подкасти\\/|Podcaster\\/|Podcast’ler\\/|Podcasturi\\/|Podcastit\\/|Podcasty\\/|Podcasti\\/|Balados\\/|atc\\/|Podcasts\\/|^AppleCoreMedia\\/.*(iPad|iPhone|iPod|watchOS)"
 - name: Apple TV
   user_agent_match: "^AppleCoreMedia\\/.*Apple TV"
 - name: Apple Watch
-  user_agent_match: "^AppleCoreMedia\\/.*Apple Watch"
+  user_agent_match: "^AppleCoreMedia\\/.*Apple Watch|^\\(null\\)\\/\\(null\\) watchOS\\/"
+- name: BashPodder
+  user_agent_match: "^BashPodder"
 - name: BeyondPod
   user_agent_match: "^Mozilla.*BeyondPod"
 - name: Bose
@@ -59,10 +70,18 @@
   user_agent_match: DoggCatcher
 - name: Downcast
   user_agent_match: Downcast[\/|\s]
+- name: Evolve Player
+  user_agent_match: "^com.evolve.podcast"
 - name: Facebook
-  user_agent_match: "\\[FBAN"
+  user_agent_match: "\\[FBAN|^facebook-mobile|^Facebook/"
+- name: FaithPlay
+  user_agent_match: "^FaithPlay"
+- name: FFMPEG
+  user_agent_match: "^Lavf\\/"
 - name: Fire OS
   user_agent_match: "^Fire OS.+stagefright"
+- name: folkebladet
+  user_agent_match: "^folkebladet.no\\/"
 - name: GoldenPod
   user_agent_match: "^GoldenPod\\/"
 - name: Google Home
@@ -77,34 +96,56 @@
   user_agent_match: "^Guardian"
 - name: HardCast
   user_agent_match: "^HardCast"
+- name: Headliner
+  user_agent_match: "^Headliner\\/"
 - name: HermesPod
   user_agent_match: "^\\+hermespod\\.com"
 - name: Himalaya
   user_agent_match: Himalaya(\/|_test)
+- name: Horse Radio Network
+  user_agent_match: "^HRN\\/"
+- name: Hubhopper
+  user_agent_match: "^Hubhopper"
 - name: iCatcher
   user_agent_match: i[c|C]atcher[\!|\/]
 - name: iHeartRadio
   user_agent_match: "^iHeartRadio\\/"
+- name: Instacast
+  user_agent_match: "^Instacast"
 - name: Instagram
   user_agent_match: Instagram
+- name: iVoox
+  user_agent_match: "^i[v|V]oox"
 - name: Juice Receiver
   user_agent_match: "^Juice\\/"
 - name: Laughable
   user_agent_match: "^Laughable"
 - name: LG Player
   user_agent_match: "^(LG-|LM-|Player).+LG Player.+Android.*\\(stagefright alternative\\)($|.Dynamo.*)"
+- name: LinkedIn
+  user_agent_match: "^LinkedIn\\/"
 - name: Listen Notes
   referrer_match: "^https://www.listennotes.com/"
 - name: Listen5
   user_agent_match: "^Listen5"
 - name: Luminary
-  user_agent_match: "^Luminary\\/"
+  user_agent_match: "^Luminary\\/|^luminary.next"
 - name: Majelan
   user_agent_match: MajelanApp
 - name: MediaMonkey
   user_agent_match: "^MediaMonkey"
+- name: Mixcloud
+  user_agent_match: "^Mixcloud\\/"
+- name: MobileSMS
+  user_agent_match: "^MobileSMS\\/"
+- name: MoonFM
+  user_agent_match: "^MoonFM\\/"
+- name: Music Download App
+  user_agent_match: "^Music%20Download\\/|^Music Download\\/"
+- name: MusicBee
+  user_agent_match: "^MusicBee"
 - name: MyTuner
-  user_agent_match: "^my[T|t]uner"
+  user_agent_match: "^[M|m]y[T|t]uner"
 - name: OkDownload
   user_agent_match: OkDownload\/
 - name: OkHTTP
@@ -113,8 +154,10 @@
   user_agent_match: Overcast\/
 - name: Pandora
   user_agent_match: Pandora\/
+- name: Playapod
+  user_agent_match: "^Playapod\\/"
 - name: Player FM
-  user_agent_match: "^Player FM|Player FM$"
+  user_agent_match: "^PlayerFM/|^Player%20FM\\/|^Player FM|Player FM$"
 - name: Pocket Casts
   user_agent_match: Pocket Casts|PocketCasts
   referrer_match: "^https://play.pocketcasts.com/"
@@ -128,14 +171,20 @@
   user_agent_match: "^Podcoin"
 - name: PodCruncher
   user_agent_match: PodCruncher
+- name: Podimo
+  user_agent_match: "^Podimo\\/"
 - name: Podkicker
   user_agent_match: "^Podkicker( Pro)?\\/"
+- name: PodNL
+  user_agent_match: "^PodNL\\/"
 - name: Podtail
   referrer_match: "^https://podtail.com/"
 - name: Podtrapper
   user_agent_match: "^PodTrapper"
 - name: ProCast
   user_agent_match: "^Pro[C|c]ast"
+- name: QuickTime
+  user_agent_match: "^QuickTime"
 - name: RadioPublic
   user_agent_match: "^RadioPublic(Draper)?"
 - name: Request.js
@@ -146,17 +195,25 @@
   user_agent_match: "^RSSRadio"
 - name: ServeStream
   user_agent_match: "^ServeStream"
+- name: Slack
+  user_agent_match: "^Slack\\/"
+- name: Snapchat
+  user_agent_match: snapchat-proxy
 - name: Sodes
   user_agent_match: "^Sodes"
 - name: Sonos
   user_agent_match: "^Sonos|Linux.*Sonos\\/"
 - name: Spotify
-  user_agent_match: "^Spotify\\/"
+  user_agent_match: "^Spotify\\/(?!1.0)|^spotify_"
+- name: Spotify-Lite
+  user_agent_match: "^Spotify-Lite\\/"
 - name: Spreaker
   user_agent_match: "^Spreaker|Spreaker\\/\\d*.\\d*$"
 - name: Stitcher
   user_agent_match: "^Stitcher\\/|\\/Stitcher"
   referrer_match: "^https://(www|app).stitcher.com/"
+- name: Stoler Report
+  user_agent_match: "^Stoler Report|^Stoler%20Report"
 - name: Storiyoh
   user_agent_match: "^Storiyoh\\/"
 - name: Subcast
@@ -165,6 +222,8 @@
   user_agent_match: "^Swoot(\\/| A)"
 - name: TED
   user_agent_match: "^TED"
+- name: Treble
+  user_agent_match: "^TREBLE"
 - name: TuneIn Radio
   user_agent_match: "^TuneIn|TuneIn\\/\\d"
 - name: Twitter
@@ -173,14 +232,25 @@
   user_agent_match: "^uTorrent|BTWebClient"
 - name: Victor Reader Stream
   user_agent_match: "^VictorReader"
+- name: WeCast
+  user_agent_match: "^WeCast"
+- name: WeChat
+  user_agent_match: "(MQQBrowser\\/)*(MicroMessenger\\/)"
+- name: WhatsApp
+  user_agent_match: "^WhatsApp\\/"
 - name: Windows Media Player
-  user_agent_match: "^(Windows\\-Media\\-Player\\/|NSPlayer|WMPlayer)"
+  user_agent_match: WMPlayer|^(Windows\-Media\-Player\/|NSPlayer|WMPlayer)
+- name: Yandex
+  user_agent_match: "^Yandex.Music"
 - name: Yapa
   user_agent_match: "^yapa\\/"
 - name: Zune
   user_agent_match: "^Zune"
 - name: Ahrefs
   user_agent_match: AhrefsBot
+  bot: true
+- name: AnchorImport
+  user_agent_match: "^AnchorImport\\/"
   bot: true
 - name: Apache HTTP Client
   user_agent_match: "^Apache-HttpClient\\/"
@@ -194,14 +264,26 @@
 - name: Apple iTunes Store
   user_agent_match: "^itunesstored"
   bot: true
+- name: CastFeedValidator
+  user_agent_match: "^CastFeedValidator\\/"
+  bot: true
 - name: Datagnion Bot
   user_agent_match: datagnionbot
+  bot: true
+- name: Digg
+  user_agent_match: "^Digg"
   bot: true
 - name: DotBot
   user_agent_match: DotBot\/
   bot: true
 - name: FacebookBot
   user_agent_match: facebookexternalhit|Facebot
+  bot: true
+- name: Feedly
+  user_agent_match: "^Feedly\\/"
+  bot: true
+- name: Flipboard Proxy
+  user_agent_match: FlipboardProxy
   bot: true
 - name: GNOME
   user_agent_match: "^gvfs"
@@ -213,10 +295,13 @@
   user_agent_match: AdsBot-Google
   bot: true
 - name: Google Bot
-  user_agent_match: Googlebot
+  user_agent_match: Googlebot|Feedfetcher-Google
   bot: true
 - name: Google Podcasts Bot
   user_agent_match: Google-Podcast\)
+  bot: true
+- name: Jaunt
+  user_agent_match: "^Jaunt\\/"
   bot: true
 - name: Livelap Bot
   user_agent_match: LivelapBot
@@ -226,6 +311,15 @@
   bot: true
 - name: Mechanize
   user_agent_match: Mechanize\/
+  bot: true
+- name: Mixcloud Podcast Importer
+  user_agent_match: "^MixcloudPodcastImporter\\/"
+  bot: true
+- name: node-fetch
+  user_agent_match: "^node-fetch"
+  bot: true
+- name: OgScrper
+  user_agent_match: OgScrper
   bot: true
 - name: Pandora RSS Crawler
   user_agent_match: PandoraRSSCrawler\/
@@ -239,11 +333,17 @@
 - name: Python Requests
   user_agent_match: "^python-requests"
   bot: true
+- name: Riddler
+  user_agent_match: riddler.io
+  bot: true
 - name: Ruby
   user_agent_match: "^Ruby"
   bot: true
 - name: SEMrush Bot
   user_agent_match: SemrushBot
+  bot: true
+- name: Spotify Bot
+  user_agent_match: "^Spotify/1.0"
   bot: true
 - name: StitcherBot
   user_agent_match: "^StitcherBot"
@@ -257,14 +357,26 @@
 - name: Typhoeus
   user_agent_match: "^Typhoeus"
   bot: true
+- name: Ucast
+  user_agent_match: www.ucastapp.com
+  bot: true
+- name: weborama-fetcher
+  user_agent_match: "^weborama-fetcher"
+  bot: true
 - name: Wget
   user_agent_match: "^Wget"
   bot: true
 - name: Winamp
   user_agent_match: Winamp
   bot: true
+- name: Windows Crawler
+  user_agent_match: "^ZDM\\/"
+  bot: true
 - name: WordPress
   user_agent_match: WordPress
+  bot: true
+- name: Yahoo! Crawler
+  user_agent_match: http://help.yahoo.com/help/us/ysearch/slurp
   bot: true
 - name: Yandex Bot
   user_agent_match: YandexBot

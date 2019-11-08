@@ -19,6 +19,8 @@ class PodcastAgent
   def self.find_by(user_agent_string: nil, referrer: nil)
     entry = match('user_agent_match', user_agent_string)
     entry ||= match('referrer_match', referrer)
+    entry ||= find_browser(user_agent_string)
+
     new(name: entry['name'], bot: entry['bot'], user_agent: UserAgent.parse(user_agent_string)) if entry
   end
 
@@ -27,6 +29,13 @@ class PodcastAgent
   end
 
   private
+
+    def self.find_browser(user_agent_string)
+      user_agent = UserAgent.parse(user_agent_string)
+      if ["Edge", "Chrome", "Firefox", "Opera", "Explorer", "Internet Explorer", "Safari"].include? user_agent.browser
+        return {name: user_agent.browser, bot: false}
+      end
+    end
 
     def self.match(attr, string)
       if string
@@ -39,4 +48,3 @@ class PodcastAgent
 
 
 end
-
