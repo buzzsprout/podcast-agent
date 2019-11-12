@@ -1,5 +1,4 @@
 require 'test_helper'
-
 class PocastAgentTest < ActiveSupport::TestCase
 
   test 'should match all sample user_agents' do

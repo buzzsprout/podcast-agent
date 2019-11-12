@@ -20,7 +20,8 @@
     "user_agents": [
       "AlexaMediaPlayer/5.5.5-9010 (Linux;Android 5.1.1) ExoPlayerLib/1.5.0",
       "AlexaMediaPlayer/1.0.2253.0_1665410 (Linux;Android 5.1.1) ExoPlayerLib/1.5.9",
-      "AlexaMediaPlayer/2.1.1878.0 (Linux;Android 5.1.1) ExoPlayerLib/1.5.9"
+      "AlexaMediaPlayer/2.1.1878.0 (Linux;Android 5.1.1) ExoPlayerLib/1.5.9",
+      "AlexaService/2.2.303087.0 (Linux;Android 9) ExoPlayerLib/2.8.4"
     ]
   },
   "All You Can Books": {
@@ -45,6 +46,11 @@
   "AnchorImport": {
     "user_agents": [
       "AnchorImport/1.0"
+    ]
+  },
+  "Android Browser": {
+    "user_agents": [
+      "Mozilla/5.0 (Linux; Android 9; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36"
     ]
   },
   "Android Download Manager": {
@@ -105,7 +111,10 @@
     "user_agents": [
       "iTunes/12.9.5 (Windows; Microsoft Windows 8 x64 (Build 9200); x64) AppleWebKit/7607.2006.2001.1",
       "iTunes/4.7.1 (Linux; N; Debian; armv7l-linux; FR; utf8) SqueezeCenter, Squeezebox Server, Logitech Media Server/7.9.1/1512734075",
-      "iTunes/10.4 (Macintosh; Intel Mac OS X 10.6.8) AppleWebKit/534.58.2"
+      "iTunes/10.4 (Macintosh; Intel Mac OS X 10.6.8) AppleWebKit/534.58.2",
+      "iTunes-iPhone",
+      "iTunes-iPod",
+      "iTunes-iPad/4.3.5 (2; 16GB)"
     ]
   },
   "Apple iTunes Store": {
@@ -147,7 +156,9 @@
       "podcast/ CFNetwork/1107 Darwin/19.0.0",
       "%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
       "%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
-      "Podcastok/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0"
+      "Podcastok/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
+      "%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
+      "%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0"
     ]
   },
   "Apple TV": {
@@ -180,6 +191,11 @@
       "Bose/7.22.0 Dynamo/1.0"
     ]
   },
+  "bPod": {
+    "user_agents": [
+      "bPod"
+    ]
+  },
   "Breaker": {
     "user_agents": [
       "Breaker/840 CFNetwork/948.2.1 Darwin/18.0.0",
@@ -194,6 +210,11 @@
       "Bullhorn/4 CFNetwork/978.0.7 Darwin/18.6.0",
       "Bullhorn/1.0 (+http://bullhorn.fm/) Dynamo/1.0",
       "Bullhorn (https://bullhorn.fm)"
+    ]
+  },
+  "Castamatic": {
+    "user_agents": [
+      "Castamatic/5.1.4 (com.gunpmedia.Castamatic; build:3136; iOS 13.1.3) Alamofire/4.9.0"
     ]
   },
   "Castaway": {
@@ -233,6 +254,11 @@
       "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.0 Safari/537.36 CrKey"
     ]
   },
+  "ChurchLink": {
+    "user_agents": [
+      "ChurchLink/110519 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
   "Clementine": {
     "user_agents": [
       "Clementine 1.3.1-702-g3b76fa627 Clementine 1.3.1-702-g3b76fa627 Clementine 1.3.1-702-g3b76fa627",
@@ -268,6 +294,11 @@
       "datagnionbot (+http://www.datagnion.com/bot.html)"
     ]
   },
+  "Daum": {
+    "user_agents": [
+      "Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)"
+    ]
+  },
   "Deezer": {
     "user_agents": [
       "Deezer/5.7.0.7 CFNetwork/758.1.6 Darwin/15.0.0",
@@ -297,6 +328,11 @@
   "Downcast": {
     "user_agents": [
       "Downcast/2.9.12 (Mac OS X Version 10.12.6 (Build 16G1036))"
+    ]
+  },
+  "Dynamo": {
+    "user_agents": [
+      "Dynamo/1.0"
     ]
   },
   "Evolve Player": {
@@ -365,6 +401,11 @@
       "Go-http-client/2.0",
       "Go-http-client/1.1 Dynamo/1.0",
       "Go-http-client/1.1"
+    ]
+  },
+  "Godster": {
+    "user_agents": [
+      "Godster/2.0.6 (Linux;Android 9) ExoPlayerLib/2.8.3"
     ]
   },
   "GoldenPod": {
@@ -473,6 +514,11 @@
       "iTunes (iCatcher!/3.0.6)"
     ]
   },
+  "Iframely": {
+    "user_agents": [
+      "Iframely/1.3.1 (+https://iframely.com/docs/about)"
+    ]
+  },
   "iHeartRadio": {
     "user_agents": [
       "iHeartRadio/7.3.3 (Android Sdk 21)",
@@ -493,6 +539,11 @@
       "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 100.0.0.11.125 (iPhone9,3; iOS 12_4_1; en_CA; en-CA; scale=2.00; 750x1334; 160950677)"
     ]
   },
+  "IOSAudiobooks": {
+    "user_agents": [
+      "IOSAudiobooks/7.4.1.1 CFNetwork/978.0.7 Darwin/18.7.0"
+    ]
+  },
   "iVoox": {
     "user_agents": [
       "ivooxNew/01 CFNetwork/1107.1 Darwin/19.0.0",
@@ -510,6 +561,12 @@
       "Juice/2.2 (Windows) +http://juicereceiver.sf.net/"
     ]
   },
+  "Kids Listen": {
+    "user_agents": [
+      "Kids%20Listen/55 CFNetwork/1107.1 Darwin/19.0.0",
+      "Kids Listen/55 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
   "Laughable": {
     "user_agents": [
       "Laughable/2.1.6.1 CFNetwork/808.1.4 Darwin/16.1.0",
@@ -523,6 +580,12 @@
       "LG-H930/V30b Player/LG Player 1.0 for Android 9 (stagefright alternative)",
       "LM-X410.F/V10o Player/LG Player 1.0 for Android 7.1.2 (stagefright alternative)",
       "Player/LG Player 1.0 for Android 6.0.1 (stagefright alternative) Dynamo/1.0"
+    ]
+  },
+  "Libsyn": {
+    "user_agents": [
+      "Libsyn4-Download",
+      "Libsyn4Peek"
     ]
   },
   "LinkedIn": {
@@ -595,6 +658,11 @@
       "MixcloudPodcastImporter/2.0"
     ]
   },
+  "MobileSafari": {
+    "user_agents": [
+      "MobileSafari/604.1 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
   "MobileSMS": {
     "user_agents": [
       "MobileSMS/1.0 CFNetwork/1107.1 Darwin/19.0.0"
@@ -603,6 +671,13 @@
   "MoonFM": {
     "user_agents": [
       "MoonFM/128 CFNetwork/978.0.7 Darwin/18.7.0"
+    ]
+  },
+  "Mozilla Bot": {
+    "user_agents": [
+      "Mozilla/5.0",
+      "Mozilla",
+      "Mozilla/5.0..."
     ]
   },
   "Music Download App": {
@@ -721,6 +796,11 @@
       "PodcastRepublic/18.0 (Linux; U; Android 9;HWVTR/HUAWEIVTR-L29)"
     ]
   },
+  "Podclipper": {
+    "user_agents": [
+      "Podclipper/4.2 (miguelDSP.Podclipper; build:4; iOS 13.1.3) Alamofire/4.7.3"
+    ]
+  },
   "podCloud": {
     "user_agents": [
       "MediaAnalyzer podCloud/3.9.0-f575fbd4 (Podcast app like iTunes/12.0; Reason: media-5d65d68fa9b49765a47065a6)",
@@ -791,6 +871,12 @@
     "user_agent": [
       "QuickTime/7.7.1 (qtver=7.7.1;cpu=IA32;os=Mac 10.7.5)",
       "QuickTime/7.7.5 (qtver=7.7.5;os=Windows NT 6.1Service Pack 1)"
+    ]
+  },
+  "Radioline": {
+    "user_agents": [
+      "VLC/2.2.0-git LibVLC/2.2.0-git (Radioline)",
+      "Radioline%202/5.8.4 CFNetwork/1107.1 Darwin/19.0.0"
     ]
   },
   "RadioPublic": {
@@ -984,6 +1070,11 @@
     "user_agents": [
       "Typhoeus - https://github.com/typhoeus/typhoeus, Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
       "Typhoeus - https://github.com/typhoeus/typhoeus"
+    ]
+  },
+  "Ubook Player": {
+    "user_agents": [
+      "Ubook Player"
     ]
   },
   "Ucast": {

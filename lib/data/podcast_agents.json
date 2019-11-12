@@ -9,7 +9,7 @@
   },
   {
     "name": "Alexa Enabled Device",
-    "user_agent_match": "^AlexaMediaPlayer\\/\\d.*ExoPlayerLib"
+    "user_agent_match": "^AlexaMediaPlayer\\/\\d.*ExoPlayerLib|AlexaService"
   },
   {
     "name": "All You Can Books",
@@ -22,6 +22,10 @@
   {
     "name": "Amazon Echo",
     "user_agent_match": "^Echo"
+  },
+  {
+    "name": "Android Browser",
+    "user_agent_match": "(Linux; Android \\d*; MHA-AL00 Build/HUAWEIMHA-AL00)"
   },
   {
     "name": "Android Download Manager",
@@ -45,7 +49,7 @@
   },
   {
     "name": "Apple iTunes",
-    "user_agent_match": "^iTunes\\/"
+    "user_agent_match": "^iTunes\\/|^iTunes-"
   },
   {
     "name": "Apple Mail",
@@ -61,7 +65,7 @@
   },
   {
     "name": "Apple Podcasts",
-    "user_agent_match": "^Podcastok\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B\\/|^podcast\\/|^%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA\\/|^%E6%92%AD%E5%AE%A2\\/|Podcast\\/|Podcast%E2%80%99ler\\/|Podkaster\\/|팟캐스트\\/|播客\\/|פודקאסטים\\/Подкасты\\/Подкасти\\/|Podcaster\\/|Podcast’ler\\/|Podcasturi\\/|Podcastit\\/|Podcasty\\/|Podcasti\\/|Balados\\/|atc\\/|Podcasts\\/|^AppleCoreMedia\\/.*(iPad|iPhone|iPod|watchOS)"
+    "user_agent_match": "^%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/|^%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/|^Podcastok\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B\\/|^podcast\\/|^%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA\\/|^%E6%92%AD%E5%AE%A2\\/|Podcast\\/|Podcast%E2%80%99ler\\/|Podkaster\\/|팟캐스트\\/|播客\\/|פודקאסטים\\/Подкасты\\/Подкасти\\/|Podcaster\\/|Podcast’ler\\/|Podcasturi\\/|Podcastit\\/|Podcasty\\/|Podcasti\\/|Balados\\/|atc\\/|Podcasts\\/|^AppleCoreMedia\\/.*(iPad|iPhone|iPod|watchOS)"
   },
   {
     "name": "Apple TV",
@@ -84,12 +88,20 @@
     "user_agent_match": "^Bose\\/"
   },
   {
+    "name": "bPod",
+    "user_agent_match": "bPod"
+  },
+  {
     "name": "Breaker",
     "user_agent_match": "^Breaker\\/"
   },
   {
     "name": "Bullhorn",
     "user_agent_match": "^Bullhorn"
+  },
+  {
+    "name": "Castamatic",
+    "user_agent_match": "^Castamatic\\/"
   },
   {
     "name": "Castaway",
@@ -106,6 +118,10 @@
   {
     "name": "Chromecast",
     "user_agent_match": "^Mozilla.*CrKey"
+  },
+  {
+    "name": "ChurchLink",
+    "user_agent_match": "^ChurchLink\\/"
   },
   {
     "name": "Clementine",
@@ -136,6 +152,10 @@
     "user_agent_match": "Downcast[\\/|\\s]"
   },
   {
+    "name": "Dynamo",
+    "user_agent_match": "^Dynamo\\/"
+  },
+  {
     "name": "Evolve Player",
     "user_agent_match": "^com.evolve.podcast"
   },
@@ -158,6 +178,10 @@
   {
     "name": "folkebladet",
     "user_agent_match": "^folkebladet.no\\/"
+  },
+  {
+    "name": "Godster",
+    "user_agent_match": "^Godster\\/"
   },
   {
     "name": "GoldenPod",
@@ -224,6 +248,10 @@
     "user_agent_match": "Instagram"
   },
   {
+    "name": "IOSAudiobooks",
+    "user_agent_match": "^IOSAudiobooks\\/"
+  },
+  {
     "name": "iVoox",
     "user_agent_match": "^i[v|V]oox"
   },
@@ -232,12 +260,20 @@
     "user_agent_match": "^Juice\\/"
   },
   {
+    "name": "Kids Listen",
+    "user_agent_match": "^Kids%20Listen\\/|^Kids Listen"
+  },
+  {
     "name": "Laughable",
     "user_agent_match": "^Laughable"
   },
   {
     "name": "LG Player",
     "user_agent_match": "^(LG-|LM-|Player).+LG Player.+Android.*\\(stagefright alternative\\)($|.Dynamo.*)"
+  },
+  {
+    "name": "Libsyn",
+    "user_agent_match": "^Libsyn4"
   },
   {
     "name": "LinkedIn",
@@ -266,6 +302,10 @@
   {
     "name": "Mixcloud",
     "user_agent_match": "^Mixcloud\\/"
+  },
+  {
+    "name": "MobileSafari",
+    "user_agent_match": "^MobileSafari\\/"
   },
   {
     "name": "MobileSMS",
@@ -329,6 +369,10 @@
     "user_agent_match": "PodcastRepublic"
   },
   {
+    "name": "Podclipper",
+    "user_agent_match": "^Podclipper\\/"
+  },
+  {
     "name": "Podcoin",
     "user_agent_match": "^Podcoin"
   },
@@ -363,6 +407,10 @@
   {
     "name": "QuickTime",
     "user_agent_match": "^QuickTime"
+  },
+  {
+    "name": "Radioline",
+    "user_agent_match": "Radioline"
   },
   {
     "name": "RadioPublic",
@@ -450,6 +498,10 @@
     "user_agent_match": "Twitter(\\/|Android| for)"
   },
   {
+    "name": "Ubook Player",
+    "user_agent_match": "Ubook Player"
+  },
+  {
     "name": "uTorrent",
     "user_agent_match": "^uTorrent|BTWebClient"
   },
@@ -526,6 +578,11 @@
     "bot": true
   },
   {
+    "name": "Daum",
+    "user_agent_match": "http://cs.daum.net",
+    "bot": true
+  },
+  {
     "name": "Digg",
     "user_agent_match": "^Digg",
     "bot": true
@@ -576,6 +633,11 @@
     "bot": true
   },
   {
+    "name": "Iframely",
+    "user_agent_match": "^Iframely\\/",
+    "bot": true
+  },
+  {
     "name": "Jaunt",
     "user_agent_match": "^Jaunt\\/",
     "bot": true
@@ -598,6 +660,11 @@
   {
     "name": "Mixcloud Podcast Importer",
     "user_agent_match": "^MixcloudPodcastImporter\\/",
+    "bot": true
+  },
+  {
+    "name": "Mozilla Bot",
+    "user_agent_match": "^Mozilla$|^Mozilla/5.0$|^Mozilla/5.0...$",
     "bot": true
   },
   {
