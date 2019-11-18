@@ -1,8 +1,58 @@
 {
+  "Abandon": {
+    "user_agents": [
+      "Abandon/1.15.28.58.6 CFNetwork/711.3.18 Darwin/14.0.0"
+    ]
+  },
+  "AbonCloud": {
+    "user_agents": [
+      "AbonCloud/2 CFNetwork/808.0.2 Darwin/16.0.0"
+    ]
+  },
   "Acast": {
     "user_agents": [
       "Acast/2.0.1 (phone; android 9; samsung SM-G390F)",
-      "Acast/2.0.0 (Phone; iOS 12.4.1; iPhone10,4)"
+      "Acast/2.0.0 (Phone; iOS 12.4.1; iPhone10,4)",
+      "Acast/3989 CFNetwork/758.4.3 Darwin/15.5.0",
+      "Acast/2.4.0 (CarPlay; iOS 13.1.3; iPhone9,4)",
+      "Acast/2.4.0 (Phone; iOS 13.2; iPad5,1)",
+      "Acast%20%CE%B2/1721 CFNetwork/711.3.18 Darwin/14.0.0",
+      "Acast%20Beta/2481 CFNetwork/808.2.16 Darwin/16.3.0"
+    ]
+  },
+  "Accompany": {
+    "user_agents": [
+      "Accompany/462 CFNetwork/758.5.3 Darwin/15.6.0"
+    ]
+  },
+  "ActiasLuna": {
+    "user_agents": [
+      "ActiasLuna/1.1.3 CFNetwork/672.1.14 Darwin/14.0.0"
+    ]
+  },
+  "ActionExtension": {
+    "user_agents": [
+      "ActionExtension/154.2.2 CFNetwork/978.0.7 Darwin/18.7.0"
+    ]
+  },
+  "Adori": {
+    "user_agents": [
+      "Adori/1 CFNetwork/978.0.7 Darwin/18.7.0"
+    ]
+  },
+  "Adori-Listen": {
+    "user_agents": [
+      "Adori-Listen/1 CFNetwork/978.0.7 Darwin/18.6.0"
+    ]
+  },
+  "AdventureChurch": {
+    "user_agents": [
+      "AdventureChurch/18 CFNetwork/889.9 Darwin/17.2.0"
+    ]
+  },
+  "Agora": {
+    "user_agents": [
+      "Agora/37 CFNetwork/974.2.1 Darwin/18.0.0"
     ]
   },
   "AhaRadio": {
@@ -16,12 +66,28 @@
       "Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)"
     ]
   },
+  "Airr": {
+    "user_agents": [
+      "Airr%20Beta/672 CFNetwork/978.0.7 Darwin/18.5.0"
+    ]
+  },
   "Alexa Enabled Device": {
     "user_agents": [
       "AlexaMediaPlayer/5.5.5-9010 (Linux;Android 5.1.1) ExoPlayerLib/1.5.0",
       "AlexaMediaPlayer/1.0.2253.0_1665410 (Linux;Android 5.1.1) ExoPlayerLib/1.5.9",
       "AlexaMediaPlayer/2.1.1878.0 (Linux;Android 5.1.1) ExoPlayerLib/1.5.9",
-      "AlexaService/2.2.303087.0 (Linux;Android 9) ExoPlayerLib/2.8.4"
+      "AlexaService/2.2.303087.0 (Linux;Android 9) ExoPlayerLib/2.8.4",
+      "Alexa Mobile Voice/2.2.2768.0 (Linux;Android 7.0) ExoPlayerLib/2.2.0"
+    ]
+  },
+  "AlienBlue": {
+    "user_agents": [
+      "AlienBlue/2.9.7 CFNetwork/808.2.16 Darwin/16.3.0"
+    ]
+  },
+  "AlignaBot": {
+    "user_agents": [
+      "Alignabot 1.0 (https://www.alignable.com/)"
     ]
   },
   "All You Can Books": {
@@ -30,6 +96,16 @@
       "Mozilla/5.0 (Linux; Android 9; CLT-L29 Build/HUAWEICLT-L29; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.101 Mobile Safari/537.36 AllYouCanBooksAppAndroid",
       "Mozilla/5.0 (Linux; Android 9; SM-G950U Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.89 Mobile Safari/537.36 AllYouCanBooksAppAndroid",
       "Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 AllYouCanBooksApp"
+    ]
+  },
+  "AllHitMusicRadio": {
+    "user_agents": [
+      "AllHitMusicRadio/1.0 CFNetwork/978.0.7 Darwin/18.5.0"
+    ]
+  },
+  "Aloha": {
+    "user_agents": [
+      "Aloha/2 CFNetwork/978.0.7 Darwin/18.7.0"
     ]
   },
   "Amazon Alexa Flash Briefing": {
@@ -41,6 +117,22 @@
     "user_agents": [
       "Echo/1.0(MRM)",
       "Echo/1.0(APNG)"
+    ]
+  },
+  "AMPApp": {
+    "user_agents": [
+      "AMPApp/32.6.1 CFNetwork/978.0.7 Darwin/18.6.0"
+    ]
+  },
+  "Anchor": {
+    "user_agents": [
+      "Anchor/9 CFNetwork/901.1 Darwin/17.5.0",
+      "Anchor/6 CFNetwork/894 Darwin/17.4.0"
+    ]
+  },
+  "AnchorFM": {
+    "user_agents": [
+      "AnchorFM/3.0 (Linux;Android 6.0) ExoPlayerLib/2.5.4"
     ]
   },
   "AnchorImport": {
@@ -90,6 +182,11 @@
       "APKXDL (Linux; U; Android 4.4.4;en_au; C6903/14.4.A.0.108) Downloader"
     ]
   },
+  "Apollo": {
+    "user_agents": [
+      "Apollo/11.28 CFNetwork/1085.4 Darwin/19.0.0"
+    ]
+  },
   "Apple HomePod": {
     "user_agents": [
       "AppleCoreMedia/1.0.0.15C4092b (HomePod; U; CPU OS 11_2 like Mac OS X; de_de)",
@@ -114,7 +211,8 @@
       "iTunes/10.4 (Macintosh; Intel Mac OS X 10.6.8) AppleWebKit/534.58.2",
       "iTunes-iPhone",
       "iTunes-iPod",
-      "iTunes-iPad/4.3.5 (2; 16GB)"
+      "iTunes-iPad/4.3.5 (2; 16GB)",
+      "iTunesU/3.4 iOS/9.3.2 model/iPod7,1 hwp/t7000 build/13F69 (4; dt:123)"
     ]
   },
   "Apple iTunes Store": {
@@ -158,7 +256,8 @@
       "%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
       "Podcastok/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
       "%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
-      "%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0"
+      "%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
+      "%D8%A7%D9%95%D8%B3%D9%85%D8%B9%D9%84%D9%8A/1.0 CFNetwork/609.1.4 Darwin/13.0.0"
     ]
   },
   "Apple TV": {
@@ -171,7 +270,78 @@
     "user_agents": [
       "AppleCoreMedia/1.0.0.16U113 (Apple Watch; U; CPU OS 5_2_1 like Mac OS X; pl_pl)",
       "AppleCoreMedia/1.0.0.17R5556d (Apple Watch; U; CPU OS 6_0 like Mac OS X; de_at)",
-      "(null)/(null) watchOS/5.0.1 model/Watch3,3 hwp/t8004 build/16R381 (6; dt:155)"
+      "(null)/(null) watchOS/5.0.1 model/Watch3,3 hwp/t8004 build/16R381 (6; dt:155)",
+      "(null)/(null) watchOS/5.0 model/Watch4,4 hwp/t8006 build/16R339 (6; dt:193)"
+    ]
+  },
+  "atheerfm": {
+    "user_agents": [
+      "atheerfm/1 CFNetwork/758.3.15 Darwin/15.3.0"
+    ]
+  },
+  "Audio": {
+    "user_agents": [
+      "Audio/105 CFNetwork/548.1.4 Darwin/11.0.0"
+    ]
+  },
+  "Aural": {
+    "user_agents": [
+      "Aural/1.3 CFNetwork/609.1.4 Darwin/13.0.0"
+    ]
+  },
+  "Aurora": {
+    "user_agents": [
+      "Aurora/175 CFNetwork/758.4.3 Darwin/15.5.0"
+    ]
+  },
+  "Autopod": {
+    "user_agents": [
+      "Autopod/0 CFNetwork/609.1.4 Darwin/13.0.0"
+    ]
+  },
+  "avassetReader": {
+    "user_agents": [
+      "avassetReader/1 CFNetwork/887 Darwin/17.0.0"
+    ]
+  },
+  "avopodo": {
+    "user_agents": [
+      "avopodo/2 CFNetwork/975.0.3 Darwin/18.2.0"
+    ]
+  },
+  "AVPlay": {
+    "user_agents": [
+      "AVPlay/2 CFNetwork/811.5.4 Darwin/16.7.0"
+    ]
+  },
+  "AwarioSmartBot": {
+    "user_agents": [
+      "AwarioSmartBot/1.0 (+https://awario.com/bots.html; bots@awario.com)"
+    ]
+  },
+  "Azul": {
+    "user_agents": [
+      "Azul/5.8 CFNetwork/711.1.16 Darwin/14.0.0"
+    ]
+  },
+  "BaladoQuebec": {
+    "user_agents": [
+      "BaladoQuebec/1 CFNetwork/808.2.16 Darwin/16.3.0"
+    ]
+  },
+  "Banter": {
+    "user_agents": [
+      "Banter/1.20.7 CFNetwork/897.15 Darwin/17.5.0"
+    ]
+  },
+  "banter-beta": {
+    "user_agents": [
+      "banter-beta/1.14.2 CFNetwork/893.14.2 Darwin/17.3.0"
+    ]
+  },
+  "Barabbas Road Church": {
+    "user_agents": [
+      "Barabbas Road Church/4.9.5 CFNetwork/1098.7 Darwin/19.0.0"
     ]
   },
   "BashPodder": {
@@ -179,11 +349,69 @@
       "BashPodder"
     ]
   },
+  "bbot": {
+    "user_agents": [
+      "bbot/0.1"
+    ]
+  },
+  "Bear": {
+    "user_agents": [
+      "Bear/5702 CFNetwork/811.8 Darwin/16.7.0 (x86_64)"
+    ]
+  },
   "BeyondPod": {
     "user_agents": [
       "Mozilla/5.0 (Linux; U; en-us; BeyondPod)",
       "Mozilla/5.0 (Linux; U; en-us; BeyondPod) AppEngine-Google; (+http://code.google.com/appengine; appid: s~turbulencesywir24)",
       "Mozilla/5.0 (Linux; U; en-us; BeyondPod 4) Dynamo/1.0"
+    ]
+  },
+  "bgwnr": {
+    "user_agents": [
+      "bgwnr/3300 CFNetwork/975.0.3 Darwin/18.0.0"
+    ]
+  },
+  "Bible": {
+    "user_agents": [
+      "Bible/11 CFNetwork/978.0.7 Darwin/18.6.0"
+    ]
+  },
+  "Bitly": {
+    "user_agents": [
+      "Bitly/445 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "bitlybot": {
+    "user_agents": null
+  },
+  "BizCoachPal": {
+    "user_agents": [
+      "BizCoachPal/1.5.7.24.4 CFNetwork/711.0.6 Darwin/14.0.0"
+    ]
+  },
+  "BMR": {
+    "user_agents": [
+      "BMR/1 CFNetwork/902.2 Darwin/17.7.0"
+    ]
+  },
+  "Bolt": {
+    "user_agents": [
+      "Bolt/10 CFNetwork/1098.7 Darwin/19.0.0"
+    ]
+  },
+  "Bookmobile": {
+    "user_agents": [
+      "Bookmobile/1 CFNetwork/894 Darwin/17.4.0"
+    ]
+  },
+  "Bookself": {
+    "user_agents": [
+      "Bookself/1 CFNetwork/978.0.7 Darwin/18.7.0"
+    ]
+  },
+  "Boom": {
+    "user_agents": [
+      "Boom/1.3.110001 CFNetwork/976 Darwin/18.2.0"
     ]
   },
   "Bose": {
@@ -204,12 +432,57 @@
       "Breaker/iOS/0.8.1 (1076)"
     ]
   },
+  "BrewApp": {
+    "user_agents": [
+      "BrewApp/262 CFNetwork/975.0.3 Darwin/18.2.0"
+    ]
+  },
+  "Broadcast": {
+    "user_agents": [
+      "Broadcast/1.0 CFNetwork/893.14.2 Darwin/17.3.0"
+    ]
+  },
+  "Browser": {
+    "user_agents": [
+      "Browser/21060 CFNetwork/887 Darwin/17.0.0"
+    ]
+  },
+  "browser_ios": {
+    "user_agents": [
+      "browser_ios/19100.2.142 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "BrowserPlus": {
+    "user_agents": [
+      "BrowserPlus/21066 CFNetwork/978.0.7 Darwin/18.5.0"
+    ]
+  },
   "Bullhorn": {
     "user_agents": [
       "Bullhorn",
       "Bullhorn/4 CFNetwork/978.0.7 Darwin/18.6.0",
       "Bullhorn/1.0 (+http://bullhorn.fm/) Dynamo/1.0",
       "Bullhorn (https://bullhorn.fm)"
+    ]
+  },
+  "Canvas": {
+    "user_agents": [
+      "Canvas/7369 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "Capital": {
+    "user_agents": [
+      "Capital/1528207522 CFNetwork/976 Darwin/18.2.0"
+    ]
+  },
+  "capsule.fm": {
+    "user_agents": [
+      "capsule.fm/1 CFNetwork/976 Darwin/18.2.0"
+    ]
+  },
+  "Cast": {
+    "user_agents": [
+      "Cast/1031 CFNetwork/711.4.6 Darwin/14.0.0"
     ]
   },
   "Castamatic": {
@@ -234,6 +507,11 @@
       "Castbox/4.17 (fm.castbox.audiobook.radio.podcast; build:3; iOS 12.3.1) Alamofire/4.7.3"
     ]
   },
+  "Casterbate": {
+    "user_agents": [
+      "Casterbate/1 CFNetwork/744.5 Darwin/14.4.0"
+    ]
+  },
   "CastFeedValidator": {
     "user_agents": [
       "CastFeedValidator/3.0.5 (https://castfeedvalidator.com)"
@@ -244,6 +522,46 @@
       "Castro/1024 CFNetwork/955.1.2 Darwin/18.0.0",
       "Castro Episode Download (http://supertop.co/castro)",
       "Castro 2 Episode Download"
+    ]
+  },
+  "Casts": {
+    "user_agents": [
+      "Casts/652 CFNetwork/758.2.8 Darwin/15.0.0"
+    ]
+  },
+  "CCGF": {
+    "user_agents": [
+      "CCGF/4.4.1 CFNetwork/758.5.3 Darwin/15.6.0"
+    ]
+  },
+  "CEBrowser": {
+    "user_agents": [
+      "CEBrowser/2.5.2.4 CFNetwork/711.1.12 Darwin/14.0.0"
+    ]
+  },
+  "CFC": {
+    "user_agents": [
+      "CFC/1 CFNetwork/711.3.18 Darwin/14.0.0"
+    ]
+  },
+  "CHCLeaders": {
+    "user_agents": [
+      "CHCLeaders/11 CFNetwork/894 Darwin/17.4.0"
+    ]
+  },
+  "Childress": {
+    "user_agents": [
+      "Childress/1 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "chorus": {
+    "user_agents": [
+      "chorus/698 CFNetwork/811.5.4 Darwin/16.6.0"
+    ]
+  },
+  "Christian Life Austin": {
+    "user_agents": [
+      "Christian Life Austin/4.9.4 CFNetwork/893.14.2 Darwin/17.3.0"
     ]
   },
   "Chromecast": {
@@ -259,6 +577,16 @@
       "ChurchLink/110519 CFNetwork/1107.1 Darwin/19.0.0"
     ]
   },
+  "Clammr": {
+    "user_agents": [
+      "Clammr/5 CFNetwork/758.3.15 Darwin/15.4.0"
+    ]
+  },
+  "Classic FM": {
+    "user_agents": [
+      "Classic FM/1563188702 CFNetwork/978.0.7 Darwin/18.7.0"
+    ]
+  },
   "Clementine": {
     "user_agents": [
       "Clementine 1.3.1-702-g3b76fa627 Clementine 1.3.1-702-g3b76fa627 Clementine 1.3.1-702-g3b76fa627",
@@ -267,11 +595,62 @@
       "Clementine 1.2.1"
     ]
   },
+  "Client": {
+    "user_agents": [
+      "Client/16042 CFNetwork/1098.7 Darwin/19.0.0"
+    ]
+  },
   "CloudPlayer": {
     "user_agents": [
       "doubleTwist CloudPlayer Dynamo/1.0",
       "doubleTwist CloudPlayer BMID/E678F730EA",
       "doubleTwist CloudPlayer"
+    ]
+  },
+  "Club": {
+    "user_agents": [
+      "Club/126 CFNetwork/672.1.15 Darwin/14.0.0"
+    ]
+  },
+  "Commotion": {
+    "user_agents": [
+      "Commotion/3.0.79 CFNetwork/609 Darwin/13.0.0"
+    ]
+  },
+  "Copied": {
+    "user_agents": [
+      "Copied/142 CFNetwork/760.2.6 Darwin/15.2.0 (x86_64)"
+    ]
+  },
+  "CoreDataPlayerSample": {
+    "user_agents": [
+      "CoreDataPlayerSample/1 CFNetwork/975.0.3 Darwin/17.7.0"
+    ]
+  },
+  "Cosmicast": {
+    "user_agents": [
+      "Cosmicast/1 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "Crosspoint City Church": {
+    "user_agents": [
+      "Crosspoint City Church/4.12.5 CFNetwork/976 Darwin/18.2.0"
+    ]
+  },
+  "Crosspointe": {
+    "user_agents": [
+      "Crosspointe/1 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "CrossPreach": {
+    "user_agents": [
+      "CrossPreach/1.3 CFNetwork/711.1.16 Darwin/14.0.0"
+    ]
+  },
+  "CT_JOB_BOT": {
+    "user_Aegnts": [
+      ";__CT_JOB_ID__:9f210b4d-9c57-417f-b1a1-d9bdbafd332a;",
+      ";__CT_JOB_ID__:ab5931ad-7de4-4222-9ca0-9ae1f5afc9cd;"
     ]
   },
   "Curl": {
@@ -289,6 +668,11 @@
       "Dalvik/1.6.0 (Linux; U; Android 4.3; Galaxy Nexus Build/JWR66Y)"
     ]
   },
+  "DataDogApp": {
+    "user_agents": [
+      "DataDogApp/0.8.12 CFNetwork/811.5.4 Darwin/16.6.0"
+    ]
+  },
   "Datagnion Bot": {
     "user_agents": [
       "datagnionbot (+http://www.datagnion.com/bot.html)"
@@ -297,6 +681,11 @@
   "Daum": {
     "user_agents": [
       "Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)"
+    ]
+  },
+  "DaumWebtoon": {
+    "user_agents": [
+      "DaumWebtoon/1 CFNetwork/975.0.3 Darwin/18.2.0"
     ]
   },
   "Deezer": {
@@ -308,15 +697,42 @@
       "Deezer/6.1.8.54 (Android; 8.0.0; Mobile; br) motorola moto g(6)"
     ]
   },
+  "Delve": {
+    "user_agents": [
+      "Delve/41 CFNetwork/978.0.7 Darwin/18.7.0"
+    ]
+  },
+  "DevEnvironments": {
+    "user_agents": [
+      "Adori-Dev/7 CFNetwork/974.2.1 Darwin/18.0.0",
+      "LuminaryPreprod/27 CFNetwork/976 Darwin/18.2.0"
+    ]
+  },
   "Digg": {
     "user_agents": [
       "Digg Mozilla/5.0 (Digg/1.0; support@digg.com)"
+    ]
+  },
+  "DManager": {
+    "user_agents": [
+      "DManager/27 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "Documents": {
+    "user_agents": [
+      "Documents/6.9.8.634 CFNetwork/1107.1 Darwin/19.0.0"
     ]
   },
   "DoggCatcher": {
     "user_agents": [
       "Mozilla/5.0 (Linux; U; Windows NT 6.1; en-us; dream) DoggCatcher Dynamo/1.0",
       "Mozilla/5.0 (Linux; U; Windows NT 6.1; en-us; dream) DoggCatcher"
+    ]
+  },
+  "Dolphini": {
+    "user_agents": [
+      "DolphiniPad/9000144 CFNetwork/758.5.3 Darwin/15.6.0",
+      "DolphiniPhone/9000005 CFNetwork/758.0.2 Darwin/15.0.0"
     ]
   },
   "DotBot": {
@@ -330,14 +746,134 @@
       "Downcast/2.9.12 (Mac OS X Version 10.12.6 (Build 16G1036))"
     ]
   },
+  "Downie": {
+    "user_agents": [
+      "Downie/1108 CFNetwork/760.2.6 Darwin/15.2.0 (x86_64)"
+    ]
+  },
+  "Download Shuttle": {
+    "user_agents": [
+      "Download Shuttle/24 CFNetwork/1082.2 Darwin/19.0.0 (x86_64)"
+    ]
+  },
+  "DownloadAll": {
+    "user_agents": [
+      "DownloadAll/1.0.3 CFNetwork/672.1.13 Darwin/14.0.0"
+    ]
+  },
+  "Downloader": {
+    "user_agents": [
+      "Downloader/1.0.0 CFNetwork/711.3.18 Darwin/14.0.0"
+    ]
+  },
+  "DownloaderLite": {
+    "user_agents": [
+      "DownloaderLite/1.0 CFNetwork/672.1.14 Darwin/14.0.0"
+    ]
+  },
+  "DownloaderSound": {
+    "user_agents": [
+      "DownloaderSound/1.4 CFNetwork/609.1.4 Darwin/13.0.0"
+    ]
+  },
+  "DownloadPro": {
+    "user_agents": [
+      "DownloadPro/1.0.1 CFNetwork/672.0.8 Darwin/14.0.0"
+    ]
+  },
+  "Downloads": {
+    "user_agents": [
+      "Downloads/20375 CFNetwork/1098.7 Darwin/19.0.0"
+    ]
+  },
+  "DownMan": {
+    "user_agents": [
+      "DownMan/3.0.1 CFNetwork/609 Darwin/13.0.0"
+    ]
+  },
+  "DowntonAppy": {
+    "user_agents": [
+      "DowntonAppy/1382280772 CFNetwork/548.0.4 Darwin/11.0.0"
+    ]
+  },
+  "DriveCast": {
+    "user_agents": [
+      "DriveCast/2.9 CFNetwork/609.1.4 Darwin/13.0.0"
+    ]
+  },
+  "DroolRadio": {
+    "user_agents": [
+      "DroolRadio/38 CFNetwork/609.1.4 Darwin/13.0.0"
+    ]
+  },
+  "DuckDuckBot": {
+    "user_agents": [
+      "'Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)'"
+    ]
+  },
   "Dynamo": {
     "user_agents": [
       "Dynamo/1.0"
     ]
   },
+  "Earbud": {
+    "user_agents": [
+      "Earbud/0 CFNetwork/758.4.3 Darwin/15.5.0"
+    ]
+  },
+  "EasyGet": {
+    "user_agents": [
+      "EasyGet/1.0.70 CFNetwork/672.1.13 Darwin/14.0.0"
+    ]
+  },
+  "Elevation_Health": {
+    "user_agents": [
+      "Elevation_Health/2.9 CFNetwork/672.1.14 Darwin/14.0.0"
+    ]
+  },
+  "EMAudioPlayer": {
+    "user_agents": [
+      "EMAudioPlayer 2.9.7 (720) / Android 6.0.1 / MotoG3"
+    ]
+  },
+  "Encounter": {
+    "user_agents": [
+      "Encounter/1 CFNetwork/711.3.18 Darwin/14.0.0"
+    ]
+  },
+  "EpisodeFever": {
+    "user_agents": [
+      "EpisodeFever/21 CFNetwork/976 Darwin/18.2.0"
+    ]
+  },
+  "EQu": {
+    "user_agents": [
+      "EQu/14101 CFNetwork/711.1.12 Darwin/14.0.0"
+    ]
+  },
+  "EvanApp": {
+    "user_agents": [
+      "EvanApp/1 CFNetwork/897.15 Darwin/17.5.0"
+    ]
+  },
   "Evolve Player": {
     "user_agents": [
       "com.evolve.podcast/3.1.0 (iPhone; ) (build 832, iOS 13.1.2)"
+    ]
+  },
+  "Expo": {
+    "user_agents": [
+      "Expo/2.11.1.106175 CFNetwork/976 Darwin/18.2.0"
+    ]
+  },
+  "ExtDownloader": {
+    "user_agents": [
+      "ExtDownloader/5.0.2 CFNetwork/758.2.8 Darwin/15.0.0"
+    ]
+  },
+  "ExtraCloud": {
+    "user_agents": [
+      "ExtraCloud/1.3 CFNetwork/758.2.8 Darwin/15.0.0"
     ]
   },
   "Facebook": {
@@ -362,14 +898,69 @@
       "FaithPlay FaithPlay/1.1.5 CFNetwork/1107.1 Darwin/19.0.0"
     ]
   },
+  "Fallound": {
+    "user_agents": [
+      "Fallound/16 CFNetwork/975.0.3 Darwin/18.2.0"
+    ]
+  },
+  "FancyMusic": {
+    "user_agents": [
+      "FancyMusic/2 CFNetwork/758.1.6 Darwin/15.0.0"
+    ]
+  },
+  "Feeder": {
+    "user_agents": [
+      "Feeder/2785 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)"
+    ]
+  },
+  "feedly": {
+    "user_agents": [
+      "feedly/68.0.2 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
   "Feedly": {
     "user_agents": [
       "Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)"
     ]
   },
+  "Fellowship Bible Church Topeka": {
+    "user_agents": [
+      "Fellowship Bible Church Topeka/4.9.2 CFNetwork/811.5.4 Darwin/16.7.0"
+    ]
+  },
   "FFMPEG": {
     "user_agents": [
       "Lavf/57.25.100"
+    ]
+  },
+  "Filebox": {
+    "user_agents": [
+      "Filebox/2.7.3 CFNetwork/811.4.18 Darwin/16.5.0"
+    ]
+  },
+  "FileBrowser": {
+    "user_agents": [
+      "FileBrowser/3 CFNetwork/758.4.3 Darwin/15.5.0"
+    ]
+  },
+  "Filer": {
+    "user_agents": [
+      "Filer/351 CFNetwork/976 Darwin/18.2.0"
+    ]
+  },
+  "Files": {
+    "user_agents": [
+      "Files/1.0 CFNetwork/758.3.15 Darwin/15.4.0"
+    ]
+  },
+  "FilesPro": {
+    "user_agents": [
+      "FilesPro/646 CFNetwork/711.1.16 Darwin/14.0.0"
+    ]
+  },
+  "Fili": {
+    "user_agents": [
+      "Fili/3617 CFNetwork/609.1.4 Darwin/13.0.0"
     ]
   },
   "Fire OS": {
@@ -387,6 +978,36 @@
   "folkebladet": {
     "user_agents": [
       "folkebladet.no/252 CFNetwork/811.5.4 Darwin/16.7.0"
+    ]
+  },
+  "FreeMP3MusicDownload": {
+    "user_agents": [
+      "FreeMP3MusicDownload/1.5 CFNetwork/609.1.4 Darwin/13.0.0"
+    ]
+  },
+  "freemusic": {
+    "user_agents": [
+      "freemusic/2.3 CFNetwork/609 Darwin/13.0.0"
+    ]
+  },
+  "FreeMusicDownloadPro": {
+    "user_agents": [
+      "FreeMusicDownloadPro/1.8 CFNetwork/711.1.16 Darwin/14.0.0"
+    ]
+  },
+  "FreeMusicPlusFree": {
+    "user_agents": [
+      "FreeMusicPlusFree/2.5 CFNetwork/609.1.4 Darwin/13.0.0"
+    ]
+  },
+  "GBEngine": {
+    "user_agents": [
+      "GBEngine/1.2 CFNetwork/672.1.14 Darwin/14.0.0"
+    ]
+  },
+  "GMB Show": {
+    "user_agents": [
+      "GMB Show/1.2.0 (iPad; iOS 9.3.2; Scale/2.00)"
     ]
   },
   "GNOME": {
@@ -408,9 +1029,36 @@
       "Godster/2.0.6 (Linux;Android 9) ExoPlayerLib/2.8.3"
     ]
   },
+  "Gold": {
+    "user_agents": [
+      "Gold/1528207522 CFNetwork/902.2 Darwin/17.7.0"
+    ]
+  },
   "GoldenPod": {
     "user_agents": [
       "GoldenPod/0.8.4 (GNU/Linux; podcatcher; Using LWP) libwwwperl"
+    ]
+  },
+  "GoLoud": {
+    "user_agents": [
+      "GoLoud/1092 CFNetwork/978.0.7 Darwin/18.6.0"
+    ]
+  },
+  "goodpods": {
+    "user_agents": [
+      "goodpods/1 CFNetwork/1107.1 Darwin/18.7.0"
+    ]
+  },
+  "GoodReader": {
+    "user_agents": [
+      "GoodReader/3.17.1 CFNetwork/548.1.4 Darwin/11.0.0",
+      "GoodReader4/100 CFNetwork/711.3.18 Darwin/14.0.0",
+      "GoodReaderIPad/3.20.0 CFNetwork/711.3.18 Darwin/14.0.0"
+    ]
+  },
+  "Google": {
+    "user_agents": [
+      "Google/24.1.151204851 CFNetwork/1107.1 Darwin/19.0.0"
     ]
   },
   "Google Ads Bot": {
@@ -456,6 +1104,31 @@
       "gPodder/4.4.0 (+http://gpodder.org/)"
     ]
   },
+  "GrabRadioWorld": {
+    "user_agents": [
+      "GrabRadioWorld/3.9 CFNetwork/758.2.8 Darwin/15.0.0"
+    ]
+  },
+  "Grace Community Church": {
+    "user_agents": [
+      "Grace%20Community%20Church%20-%20Texas/4.4.0 CFNetwork/672.1.15 Darwin/14.0.0"
+    ]
+  },
+  "Grace Evangelical Covenant Church": {
+    "user_agents": [
+      "Grace%20Evangelical%20Covenant%20Church/4.9.2 CFNetwork/893.14.2 Darwin/17.3.0"
+    ]
+  },
+  "Gretale": {
+    "user_agents": [
+      "Gretale/207 CFNetwork/978.0.7 Darwin/18.7.0"
+    ]
+  },
+  "GroupMe": {
+    "user_agents": [
+      "GroupMe/5.33.1.1 CFNetwork/1098.7 Darwin/19.0.0"
+    ]
+  },
   "GStreamer": {
     "user_agents": [
       "GStreamer souphttpsrc libsoup/2.38.1",
@@ -464,9 +1137,24 @@
       "yarock/1.1.6 (Phonon/4.7.1; Phonon-GStreamer/4.7.2)"
     ]
   },
+  "Guacamole": {
+    "user_agents": [
+      "Guacamole/1528207522 CFNetwork/811.5.4 Darwin/16.7.0"
+    ]
+  },
   "Guardian": {
     "user_agents": [
       "Guardian Podcast-2018.10.14"
+    ]
+  },
+  "HalfTunes": {
+    "user_agents": [
+      "HalfTunes/7 CFNetwork/893.14 Darwin/16.7.0"
+    ]
+  },
+  "Hammel": {
+    "user_agents": [
+      "Hammel/1.5 CFNetwork/976 Darwin/18.2.0"
     ]
   },
   "HardCast": {
@@ -480,9 +1168,24 @@
       "Headliner/1.0.0 +https://headliner.app"
     ]
   },
+  "Heart": {
+    "user_agents": [
+      "Heart/1528207522 CFNetwork/897.15 Darwin/17.5.0"
+    ]
+  },
   "HermesPod": {
     "user_agents": [
       "+hermespod.com/v1.5.x"
+    ]
+  },
+  "HiCast": {
+    "user_agents": [
+      "HiCast/1 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "Highly": {
+    "user_agents": [
+      "Highly/914 CFNetwork/758.5.3 Darwin/15.6.0"
     ]
   },
   "Himalaya": {
@@ -492,6 +1195,11 @@
       "Himalaya/1460 CFNetwork/976 Darwin/18.2.0",
       "Himalaya/2.2.10 (iPhone; iOS 12.0; Scale/2.00; CFNetwork; iPhone7,2)",
       "Himalaya_test/55 CFNetwork/894 Darwin/17.4.0"
+    ]
+  },
+  "HopeChurchCleburne": {
+    "user_agents": [
+      "HopeChurchCleburne/3 CFNetwork/974.2.1 Darwin/18.0.0"
     ]
   },
   "Horse Radio Network": {
@@ -504,6 +1212,16 @@
       "Hubhopper"
     ]
   },
+  "Hyper": {
+    "user_agents": [
+      "Hyper/3 CFNetwork/893.14.2 Darwin/17.3.0"
+    ]
+  },
+  "iBuilder": {
+    "user_agents": [
+      "iBuilder/1 CFNetwork/548.1.4 Darwin/11.0.0"
+    ]
+  },
   "iCatcher": {
     "user_agents": [
       "icatcher/4506 CFNetwork/609.1.4 Darwin/13.0.0",
@@ -514,9 +1232,37 @@
       "iTunes (iCatcher!/3.0.6)"
     ]
   },
+  "iDL": {
+    "user_agents": [
+      "iDL/122 CFNetwork/811.5.4 Darwin/16.7.0"
+    ]
+  },
+  "iDownloader": {
+    "user_agents": [
+      "IDownloaderApps4StarsFree\" \"IDownloaderApps4StarsFree/1.0.107 CFNetwork/672.1.14 Darwin/14.0.0",
+      "IDownloaderFree_Apps4Stars/1.10.108 CFNetwork/672.1.15 Darwin/14.0.0",
+      "iDownloaderLite/1.3 CFNetwork/609.1.4 Darwin/13.0.0",
+      "iDownloaderPro/1.0.1 CFNetwork/672.0.2 Darwin/14.0.0"
+    ]
+  },
+  "iDownloadsAppPlus": {
+    "user_agents": [
+      "iDownloadsAppPlus/1.6.4 CFNetwork/672.0.8 Darwin/14.0.0"
+    ]
+  },
+  "iFeedTouch": {
+    "user_agents": [
+      "iFeedTouch/1.02 CFNetwork/811.5.4 Darwin/16.7.0"
+    ]
+  },
   "Iframely": {
     "user_agents": [
       "Iframely/1.3.1 (+https://iframely.com/docs/about)"
+    ]
+  },
+  "IFTTT": {
+    "user_agents": [
+      "IFTTT/550 CFNetwork/758.5.3 Darwin/15.6.0"
     ]
   },
   "iHeartRadio": {
@@ -525,6 +1271,16 @@
       "iHeartRadio/8.0.0 (Android 7.0; XT1650 Build/NCL25.86-11.5)",
       "iHeartRadio/8.7.0 (iPhone; iOS 11.0.3; iPhone6,1)",
       "iHeartRadio/8.9.1 (iPad; iOS 11.2.6; iPad6,7)"
+    ]
+  },
+  "iHorror": {
+    "user_agents": [
+      "iHorror/1.2.6 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "InCast": {
+    "user_agents": [
+      "InCast/3443 CFNetwork/711.0.6 Darwin/14.0.0"
     ]
   },
   "Instacast": {
@@ -539,20 +1295,56 @@
       "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 100.0.0.11.125 (iPhone9,3; iOS 12_4_1; en_CA; en-CA; scale=2.00; 750x1334; 160950677)"
     ]
   },
+  "iOnGreenville": {
+    "user_agents": [
+      "iOnGreenville/1 CFNetwork/978.0.7 Darwin/18.7.0"
+    ]
+  },
   "IOSAudiobooks": {
     "user_agents": [
       "IOSAudiobooks/7.4.1.1 CFNetwork/978.0.7 Darwin/18.7.0"
     ]
   },
+  "IPF": {
+    "user_agents": [
+      "IPF/1 CFNetwork/901.1 Darwin/17.6.0"
+    ]
+  },
+  "iPlay": {
+    "user_agents": [
+      "iPlay/1 CFNetwork/889.9 Darwin/17.2.0"
+    ]
+  },
+  "isitgood": {
+    "user_agents": [
+      "isitgood/246 CFNetwork/978.0.7 Darwin/18.6.0"
+    ]
+  },
   "iVoox": {
     "user_agents": [
       "ivooxNew/01 CFNetwork/1107.1 Darwin/19.0.0",
-      "iVooxApp/3.30_01 (iPhone; iOS; iOS 13.1.3; d:7274864; 30F9)"
+      "iVooxApp/3.30_01 (iPhone; iOS; iOS 13.1.3; d:7274864; 30F9)",
+      "Ivoox 2.3 (iPod touch; iPhone OS 6.1.5; es_MX)"
+    ]
+  },
+  "iWeb": {
+    "user_agents": [
+      "iWeb/1.3.0 CFNetwork/711.1.12 Darwin/14.0.0"
+    ]
+  },
+  "Jabbercast": {
+    "user_agents": [
+      "Jabbercast/16 CFNetwork/711.1.16 Darwin/14.0.0"
     ]
   },
   "Jaunt": {
     "user_agents": [
       "Jaunt/1.5"
+    ]
+  },
+  "Jimcast": {
+    "user_agents": [
+      "Jimcast/1.0 CFNetwork/672.1.15 Darwin/14.0.0"
     ]
   },
   "Juice Receiver": {
@@ -561,10 +1353,45 @@
       "Juice/2.2 (Windows) +http://juicereceiver.sf.net/"
     ]
   },
+  "KakaoTalk": {
+    "user_agents": [
+      "KakaoTalk/2019.10.30.1 CFNetwork/1120 Darwin/19.0.0"
+    ]
+  },
+  "KaoticRadio.com": {
+    "user_agents": [
+      "KaoticRadio.com/1.56.67.564 CFNetwork/672.1.15 Darwin/14.0.0"
+    ]
+  },
   "Kids Listen": {
     "user_agents": [
       "Kids%20Listen/55 CFNetwork/1107.1 Darwin/19.0.0",
       "Kids Listen/55 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "Kloudie": {
+    "user_agents": [
+      "Kloudie/1.0 CFNetwork/758.1.6 Darwin/15.0.0"
+    ]
+  },
+  "Knomad": {
+    "user_agents": [
+      "Knomad/1.1.9 CFNetwork/711.1.12 Darwin/14.0.0"
+    ]
+  },
+  "kodi": {
+    "user_agents": [
+      "Kodi/15.2 (Linux; Android 5.1; QM152E Build/LMY47D) Android/5.1.0 Sys_CPU/armv7l App_Bitness/32 Version/15.2-Git:2015-10-27-17fa8da"
+    ]
+  },
+  "KREAFUNK": {
+    "user_agents": [
+      "KREAFUNK/1.7 CFNetwork/711.3.18 Darwin/14.0.0"
+    ]
+  },
+  "labs": {
+    "user_agents": [
+      "labs/0.1.1.5 CFNetwork/711.2.23 Darwin/14.0.0"
     ]
   },
   "Laughable": {
@@ -573,6 +1400,16 @@
       "Laughable iOS/3.0.1 (com.bywayEndeavors.Laughable; build:3.0.1.0; iOS 12.1.3) Alamofire/4.7.3",
       "Laughable/2.1.6.1 CFNetwork/808.3 Darwin/16.3.0",
       "Laughable/2 CFNetwork/811.5.4 Darwin/16.6.0"
+    ]
+  },
+  "LBC": {
+    "user_agents": [
+      "LBC/1544724632 CFNetwork/811.5.4 Darwin/16.7.0"
+    ]
+  },
+  "Leaf": {
+    "user_agents": [
+      "Leaf/12 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)"
     ]
   },
   "LG Player": {
@@ -588,9 +1425,31 @@
       "Libsyn4Peek"
     ]
   },
+  "Life Essentials": {
+    "user_agents": [
+      "LifeEssentials/1.0 CFNetwork/758.0.2 Darwin/15.0.0",
+      "LifeEssentialsApp/2.1.0 CFNetwork/758.5.3 Darwin/15.6.0",
+      "Life%20Essentials/1.0 CFNetwork/672.1.15 Darwin/14.0.0"
+    ]
+  },
+  "lifegateburleson": {
+    "user_agents": [
+      "lifegateburleson/10 CFNetwork/672.1.15 Darwin/14.0.0"
+    ]
+  },
   "LinkedIn": {
     "user_agents": [
       "LinkedIn/9.14.4868 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "Lisny": {
+    "user_agents": [
+      "Lisny/1 CFNetwork/976 Darwin/18.2.0"
+    ]
+  },
+  "Listen": {
+    "user_agents": [
+      "Listen/1 CFNetwork/1107.1 Darwin/19.0.0"
     ]
   },
   "Listen Notes": {
@@ -609,6 +1468,11 @@
       "LivelapBot/0.2 (http://site.livelap.com/crawler)"
     ]
   },
+  "Livio Radio": {
+    "user_agents": [
+      "Livio Radio/2.6.2 CFNetwork/609.1.4 Darwin/13.0.0"
+    ]
+  },
   "Luminary": {
     "user_agents": [
       "Luminary/0.0.244 build 3915/iOS 13.0",
@@ -616,6 +1480,11 @@
       "Luminary/1.0.10 build 1436/Android SDK 28",
       "Luminary/1.0.10 build 66/Android SDK 28 Dynamo/1.0",
       "luminary.next/1.25 (Linux;Android 9) ExoPlayerLib/2.10.5"
+    ]
+  },
+  "MacJournal": {
+    "user_agents": [
+      "MacJournal/6.2.1 CFNetwork/811.5.4 Darwin/16.7.0 (x86_64)"
     ]
   },
   "Majelan": {
@@ -633,6 +1502,16 @@
       "Mozilla/5.0 (compatible; MJ12bot/v1.4.4; http://www.majestic12.co.uk/bot.php?+)"
     ]
   },
+  "MaxTubePro": {
+    "user_agents": [
+      "MaxTubePro/1.5 CFNetwork/711.1.16 Darwin/14.0.0"
+    ]
+  },
+  "Meadowbrook Church": {
+    "user_agents": [
+      "Meadowbrook Church/4.10.2 CFNetwork/978.0.7 Darwin/18.6.0"
+    ]
+  },
   "Mechanize": {
     "user_agents": [
       "Mechanize/2.7.6 Ruby/2.6.2p47 (http://github.com/sparklemotion/mechanize/) Dynamo/1.0",
@@ -648,6 +1527,46 @@
       "MediaMonkey5 5.0.0.2191"
     ]
   },
+  "Mediatap": {
+    "user_agents": [
+      "Mediatap/342 CFNetwork/672.1.13 Darwin/14.0.0"
+    ]
+  },
+  "Menucast": {
+    "user_agents": [
+      "Menucast/1.4 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)"
+    ]
+  },
+  "Message+": {
+    "user_agents": [
+      "Message+/2.4.7 CFNetwork/811.5.4 Darwin/16.7.0 (x86_64)"
+    ]
+  },
+  "Messages": {
+    "user_agents": [
+      "Messages/5500 CFNetwork/1098 Darwin/19.0.0 (x86_64)"
+    ]
+  },
+  "Messages Share Extension": {
+    "user_agents": [
+      "Messages Share Extension/5500 CFNetwork/1098 Darwin/19.0.0 (x86_64)"
+    ]
+  },
+  "MessagesNotificationExtension": {
+    "user_agents": [
+      "MessagesNotificationExtension/1 CFNetwork/1098.7 Darwin/19.0.0"
+    ]
+  },
+  "Messenger": {
+    "user_agents": [
+      "Messenger/168725151 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "Mimir": {
+    "user_agents": [
+      "Mimir/1 CFNetwork/1098 Darwin/19.0.0 (x86_64)"
+    ]
+  },
   "Mixcloud": {
     "user_agents": [
       "Mixcloud/22.2.5 (Linux;Android 6.0.1) ExoPlayerLib/2.10.4"
@@ -656,6 +1575,11 @@
   "Mixcloud Podcast Importer": {
     "user_agents": [
       "MixcloudPodcastImporter/2.0"
+    ]
+  },
+  "MobileApp": {
+    "user_agents": [
+      "MobileApp/0 CFNetwork/758.3.15 Darwin/17.4.0"
     ]
   },
   "MobileSafari": {
@@ -677,7 +1601,9 @@
     "user_agents": [
       "Mozilla/5.0",
       "Mozilla",
-      "Mozilla/5.0..."
+      "Mozilla/5.0...",
+      "'Mozilla/5.0",
+      "(Mozilla/5.0)"
     ]
   },
   "Music Download App": {
@@ -759,7 +1685,8 @@
       "Player/LG Player 1.0 for Android(stagefright alternative), Player FM",
       "stagefright/1.2 (Linux;Android NexPlayer LG-L39CV10a), Player FM",
       "Player%20FM/445 CFNetwork/1107.1 Darwin/19.0.0",
-      "PlayerFM/1.0 Podcast Sync (0 subscribers; url=https://player.fm/series/series-2567872)"
+      "PlayerFM/1.0 Podcast Sync (0 subscribers; url=https://player.fm/series/series-2567872)",
+      "Alpha%20PlayerFM/108 CFNetwork/808.0.2 Darwin/16.0.0"
     ]
   },
   "Pocket Casts": {
@@ -779,6 +1706,11 @@
     "user_agents": [
       "Podbean/Android App 7.0.3 (http://podbean.com),b1cd4156abce30aab18baddeac90724f",
       "Podbean/iOS (http://podbean.com) 5.0.3 - 153acb4cd1d12fba94416523f7c1f530"
+    ]
+  },
+  "Podbean Importer": {
+    "user_agents": [
+      "Podbean Importer"
     ]
   },
   "Podcast Addict": {
