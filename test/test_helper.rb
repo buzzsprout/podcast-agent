@@ -10,7 +10,10 @@ class ActiveSupport::TestCase
   private
 
     def agent_samples
-      @agent_samples ||=
-                 YAML.load_file('test/data/samples.yml')
+      @agent_samples ||= YAML.load_file('test/data/samples.yml')
+    end
+
+    def devices
+      @devices ||= YAML.load_file('test/data/devices.yml')
     end
 end

@@ -1,0 +1,91 @@
+---
+Acast/2.0.1 (phone; android 9; samsung SM-G390F):
+  - Android Phone
+  - Phone
+Podcasts/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0:
+  - Apple iPhone
+  - Phone
+spotify_iphone:
+  - Apple iPhone
+  - Phone
+spotify_android:
+  - Android Phone
+  - Phone
+AppleCoreMedia/1.0.0.17A878 (iPhone; U; CPU OS 13_1_3 like Mac OS X; en_us):
+  - Apple iPhone
+  - Phone
+iTunes/12.9.5 (Macintosh; OS X 10.14.5) AppleWebKit/607.2.6.1.1 (dt:1):
+  - Mac Desktop
+  - Desktop/Laptop
+Overcast/3.0 (+http://overcast.fm/; iOS podcast app):
+  - Apple iPhone
+  - Phone
+Lavf/57.83.100:
+  - Unknown Desktop
+  - Desktop/Laptop
+Stitcher/Android:
+  - Android Phone
+  - Phone
+spotify_desktop:
+  - Unknown Desktop
+  - Desktop/Laptop
+Pocket Casts:
+  - Unknown Unknown
+  - Unknown
+spotify_android-tablet:
+  - Android Tablet
+  - Tablet
+CastBox/8.2.6-191015245 (Linux;Android 9) ExoPlayerLib/2.10.4:
+  - Android Phone
+  - Phone
+Stitcher/iOS:
+  - Apple iPhone
+  - Phone
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36:
+  - Windows Desktop
+  - Desktop/Laptop
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148 Safari/604.1:
+  - Apple iPhone
+  - Phone
+spotify_ipad:
+  - Apple iPad
+  - Tablet
+spotify_partner-hw:
+  - Unknown Unknown
+  - Unknown
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36:
+  - Windows Desktop
+  - Desktop/Laptop
+Player FM:
+  - Unknown Unknown
+  - Unknown
+MyTuner-ExoPlayerAdapter:
+  - Android Phone
+  - Phone
+iHeartRadio/8.9.1 (iPad; iOS 11.2.6; iPad6,7):
+  - Apple iPad
+  - Tablet
+Roku/DVP-9.10 (499.10E04121A):
+  - Unknown Smart TV
+  - Smart TV
+Linux UPnP/1.0 Sonos/52.13-68180 (ZPS18):
+  - Unknown Smart Speaker
+  - Smart Speaker
+AppleCoreMedia/1.0.0.17K82 (Apple TV; U; CPU OS 13_2 like Mac OS X; pl_pl):
+  - Apple TV
+  - Smart TV
+Libassistant/1.0 GoogleChirp/1.0.1 (Linux; Android/5.0) GOOG/7 AppleWebKit/534.30:
+  - Google Home
+  - Smart Speaker
+Mozilla/5.0 (Linux; Android 4.4.2; GT-P5200 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Safari/537.36:
+  - Android Tablet
+  - Tablet
+atc/1.0 watchOS/6.1 model/Watch4,4 hwp/t8006 build/17S84 (6; dt:193):
+  - Apple Watch
+  - Watch
+Mozilla/5.0 (Linux; Android 5.0; Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.90 Safari/537.36 CrKey/1.15.38401:
+  - Unknown Smart TV
+  - Smart TV
+Mozilla/5.0 (X11; CrOS x86_64 7077.123.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36:
+  - Chrome Computer
+  - Desktop/Laptop

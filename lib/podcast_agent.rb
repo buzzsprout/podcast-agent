@@ -2,15 +2,14 @@ require 'yaml'
 require 'user_agent'
 
 class PodcastAgent
-  attr_reader :name,  :bot, :type, :browser, :platform, :device, :device_type
+  attr_reader :name,  :bot, :type, :browser, :platform, :device
   def initialize(name:, bot:, user_agent:)
     @name  = name
     @bot = bot
     @user_agent  = user_agent
     @browser     = user_agent.browser
     @platform    = user_agent.platform
-    @device      = @bot ? "bot" : device_name(user_agent.to_s)
-    @device_type = @bot ? "bot" : device_type_name(user_agent.to_s)
+    @device      = find_device
   end
 
   def to_s
@@ -46,46 +45,64 @@ class PodcastAgent
       end
     end
 
-    def device_name(user_agent_string)
-      case user_agent_string
-      when /^Castro|^RSSRadio\/|ipad|iphone|iOS|iPad|^Podkicker\/|iPhone|iPod|watchOS|iTunes|HomePod|CFNetwork|iTMS|AppleNews|^Podcasts\/|AppleWebKit|OSX/
-        "Apple Phone/Tablet/Watch/iPod/HomePod"
-      when /ServeStream|Android|android|HTC|ExoPlayer|AntennaPod|^Podkicker Pro/
-        "Android Phone/Tablet/Watch"
-      when /OS X/
-        "Mac Computer"
-      when /Windows|WMPlayer|Winamp|Win32|Win64|NSPlayer|MediaMonkey/
-        "Windows Computer"
-      when /Chromebook/
-        "Chrome Computer"
+    def find_device
+      @device_info = {name: "Bot", type: "Bot"} if @bot
+      @device_info ||= apple_device_info
+      @device_info ||= other_device_info
+      @device_info ||= unknown_device_info
+
+      return OpenStruct.new(@device_info)
+    end
+
+    def apple_device_info
+      case @user_agent.to_s
+      when /ipad|iPad|IPAD/
+        {name: "Apple iPad", type: "Tablet"}
+      when /Apple TV|AppleTV/
+        {name: "Apple TV", type: "Smart TV"}
+      when /iphone|iOS|iPhone|CFNetwork\// #CFnetwork is a device?
+        {name: "Apple iPhone", type: "Phone"}
+      when /watch|Watch OS/
+        {name: "Apple Watch", type: "Watch"}
+      when /iPod|IPOD/
+        {name: "Apple Device", type: "Unknown"}
+      when /OS X|OSX|Macintosh|Macbook/
+        {name: "Mac Desktop", type: "Desktop/Laptop"}
+      end
+    end
+
+    def other_device_info
+      case @user_agent.to_s
+      when /GoogleChirp|Google-Speech-Actions/
+        {name: "Google Home", type: "Smart Speaker"}
+      when /[a|A]ndroid.*[t|T]ablet|[t|T]ablet.*[a|A]ndroid|SM-T| GT-/
+        {name: "Android Tablet", type: "Tablet"}
+      when /^(?=.*(ServeStream|Android|android|HTC|ExoPlayer))(?!.*CrKey).*/
+        {name: "Android Phone", type: "Phone"}
+      when /Windows|windows|WMPlayer|Winamp|Win32|Win64|NSPlayer|MediaMonkey|NSPlayer|PC/
+        {name: "Windows Desktop", type: "Desktop/Laptop"}
+      when /Chromebook|CrOS/
+        {name: "Chrome Computer", type: "Desktop/Laptop"}
       when /Amazon|Alexa|^Echo\//
-        "Amazon Fire/Echo/Alexa"
-      when /GoogleChirp/
-        "Google Home/Nest"
-      when /SmartTV|Apple TV|Roku/
-        "Smart TV"
-      else
-        # puts "not identified #{user_agent_string}"
-        "Unknown"
+        {name: "Amazon Fire/Echo/Alexa", type: "Smart Speaker"} #need to check for other fire agents? IS this confusing with fire TV?
       end
     end
 
-    def device_type_name(user_agent_string)    
-      case user_agent_string
-      when /iCatcher!|[w|W]atch|^Subcast\/|^bPod$|^TREBLE\/|^OkDownload|^RSSRadio|ipad|iphone|iOS|iPad|iPhone|iPod|[A|a]ndroid|HTC|WhatsApp|Ubook Player|CFNetwork|[m|M]obile|^Zune|VictorReader|^Swoot|^ServeStream|^Podkicker|^Podcoin|^Pocket Casts|^Castro|^Bullhorn|^AntennaPod|^doubleTwist CloudPlayer|^okhttp|ExoPlayer|^Player FM$|^CastBox\//
-        "Phone/Tablet/MP3 Player/Watch"
-      when /^GStreamer|MusicBee|^iTunes\/|^Headliner\/|^VLC|^gPodder|^Opera\/|Macbook|OSX|OS X|Win32|Win64|Windows|windows|WMPlayer|Linux|linux|NSPlayer|^MediaMonkey|Clementine|^BashPodder|^Mozilla\/5.0|desktop|Desktop|PC|laptop|^Lavf\//
-        "Desktop/Laptop"
-      when /Alexa|Amazon|^Echo|HomePod|Sonos|GoogleChirp|^Bose\//
-        "Smart Speaker"
-      when /Apple TV|SmartTV|Roku|CrKey|AFTT Build||AFTM Build|BRAVIA 4K|Opera TV|SmartTv|TSBNetTV|SMART-TV|TV Safari|WebTV|InettvBrowser|GoogleTV|HbbTV|smart-tv|olleh tv/
-        "Smart TV"
+    def unknown_device_info
+      case @user_agent.to_s
+      when /SmartTV|Roku|CrKey|AFTT Build|AFTM Build|BRAVIA 4K|Opera TV|SmartTv|TSBNetTV|SMART-TV|TV Safari|WebTV|InettvBrowser|GoogleTV|HbbTV|smart-tv|olleh tv/
+        {name: "Unknown Smart TV", type: "Smart TV"}
+      when /sonos|Sonos|^Bose\/|^VictorReader/
+        {name: "Unknown Smart Speaker", type: "Smart Speaker"}
+      when /Lavf\/|desktop|Linux|linux|VLC/
+        {name: "Unknown Desktop", type: "Desktop/Laptop"}
+      when /tablet|Tablet/
+        {name: "Unknown Tablet", type: "Tablet"}
+      when /watch|Watch/
+        {name: "Unknown Watch", type: "Watch"}
       else
-        # puts "not identified #{user_agent_string}"
-        "Unknown"
+        {name: "Unknown Unknown", type: "Unknown"}
       end
     end
-
-
 
 end

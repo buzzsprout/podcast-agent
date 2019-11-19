@@ -45,4 +45,12 @@ class PocastAgentTest < ActiveSupport::TestCase
     assert_equal 'Google Bot', agent.name
   end
 
+  test 'devices match' do
+    devices.each do |user_agent, device_data|
+      agent = PodcastAgent.find_by(user_agent_string: user_agent)
+      assert_equal device_data[0], agent.device.name, "#{user_agent} device does not match"
+      assert_equal device_data[1], agent.device.type, "#{user_agent} device type does not match"
+    end
+  end
+
 end
