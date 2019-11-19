@@ -5,10 +5,10 @@ require "rake/testtask"
 desc "Clean up Podcast Agents Database"
 task :cleanup do
   puts 'Cleaning up database'
-  require 'podcast_agent'
+  require 'podcast_agent_parser'
   require 'json'
 
-  database = PodcastAgent.database.sort_by {|h| [h['bot'].to_s, h['name'].downcase] }
+  database = PodcastAgentParser.database.sort_by {|h| [h['bot'].to_s, h['name'].downcase] }
   File.open('lib/data/podcast_agents.yml', "w") { |file| file.write(database.to_yaml) }
   File.open('lib/data/podcast_agents.json', "w") { |file| file.write(JSON.pretty_generate(database)) }
 

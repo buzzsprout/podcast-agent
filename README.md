@@ -26,7 +26,7 @@ In order to identify a Podcast Agent, we will be using the **user-agent** and/or
 ```ruby
 user_agent_string = 'Mozilla/5.0 (iPad; CPU OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/1908.1'
 referrer = 'https://app.stitcher.com/'
-podcast_agent = PodcastAgent.find_by(user_agent_string: user_agent_string,
+podcast_agent = PodcastAgentParser.find_by(user_agent_string: user_agent_string,
                                      referrer: referrer)
 podcast_agent.name
 # => 'Stitcher'
@@ -40,7 +40,7 @@ podcast_agent.platform
 
 ```ruby
 user_agent_string = 'Mozilla/5.0 (iPad; CPU OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/1908.1'
-podcast_agent = PodcastAgent.find_by(user_agent_string: user_agent_string)
+podcast_agent = PodcastAgentParser.find_by(user_agent_string: user_agent_string)
 podcast_agent.name
 # => 'Pandora'
 podcast_agent.browser
@@ -52,7 +52,7 @@ podcast_agent.platform
 
 ```ruby
 user_agent_string = 'AppleCoreMedia/1.0.0.15C4092b (HomePod; U; CPU OS 11_2 like Mac OS X; de_de)'
-podcast_agent = PodcastAgent.find_by(user_agent_string: user_agent_string)
+podcast_agent = PodcastAgentParser.find_by(user_agent_string: user_agent_string)
 podcast_agent.name
 # => 'Apple HomePod'
 podcast_agent.browser

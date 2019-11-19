@@ -1,7 +1,7 @@
 require 'yaml'
 require 'user_agent'
 
-class PodcastAgent
+class PodcastAgentParser
   attr_reader :name,  :bot, :type, :browser, :platform, :device
   def initialize(name:, bot:, user_agent:)
     @name  = name

@@ -25,14 +25,14 @@ class IntegrityTest < ActiveSupport::TestCase
   end
 
   test 'no duplicate name entries' do
-    agent_names = PodcastAgent.database.map {|agent| agent['name']}
+    agent_names = PodcastAgentParser.database.map {|agent| agent['name']}
     assert_equal agent_names.length, agent_names.uniq.length
   end
 
   private
 
     def matches(attr, string)
-      matches = PodcastAgent.database.select do |attrs|
+      matches = PodcastAgentParser.database.select do |attrs|
         string =~ Regexp.new(attrs[attr]) if attrs[attr]
       end
     end

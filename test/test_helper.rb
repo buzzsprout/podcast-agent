@@ -2,7 +2,7 @@
 require 'active_support'
 require 'active_support/testing/autorun'
 
-require 'podcast_agent'
+require 'podcast_agent_parser'
 require 'byebug'
 
 class ActiveSupport::TestCase
