@@ -46,13 +46,6 @@
   user_agent_match: "^AnchorFM\\/"
 - name: Android Browser
   user_agent_match: "(Linux; Android \\d*; MHA-AL00 Build/HUAWEIMHA-AL00)"
-- name: Android Download Manager
-  user_agent_match: "^AndroidDownloadManager/|^Android.LVLDM"
-- name: Android Media Player
-  user_agent_match: "^Samsung(?=.*stagefright\\/)(?=.*\\(Linux;Android)|^yourApplicationName\\/(?=.*Linux;Android)|(^stagefright\\/\\d*.\\d*
-    \\(Linux;Android \\d*\\.\\d*\\.\\d*\\))|(^stagefright\\/\\d*.\\d* \\(Linux;Android
-    \\d*\\))|(^stagefright\\/\\d*.\\d* \\(Linux;Android \\d*\\.\\d*\\))|^HTC Streaming
-    Player"
 - name: Antenna Pod
   user_agent_match: "^AntennaPod|antennapod|antenna\\/.*CFNetwork"
 - name: Apollo
@@ -70,11 +63,9 @@
 - name: Apple News
   user_agent_match: AppleNews\/
 - name: Apple Podcasts
-  user_agent_match: "^%D8%A7%D9%95%D8%B3%D9%85%D8%B9%D9%84%D9%8A/|^%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/|^%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/|^Podcastok\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B\\/|^podcast\\/|%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA\\/|%E6%92%AD%E5%AE%A2\\/|Podcast\\/|Podcast%E2%80%99ler\\/|Podkaster\\/|팟캐스트\\/|播客\\/|פודקאסטים\\/Подкасты\\/Подкасти\\/|Podcaster\\/|Podcast’ler\\/|Podcasturi\\/|Podcastit\\/|Podcasty\\/|Podcasti\\/|Balados\\/|atc\\/|Podcasts\\/|^AppleCoreMedia\\/.*(iPad|iPhone|iPod|watchOS)"
-- name: Apple TV
-  user_agent_match: "^AppleCoreMedia\\/.*Apple TV"
-- name: Apple Watch
-  user_agent_match: "^AppleCoreMedia\\/.*Apple Watch|\\(null\\)\\/\\(null\\) watchOS\\/"
+  user_agent_match: "^AppleCoreMedia\\/.*Apple Watch|\\(null\\)\\/\\(null\\) watchOS\\/|^AppleCoreMedia\\/.*Apple
+    TV|^%D8%A7%D9%95%D8%B3%D9%85%D8%B9%D9%84%D9%8A/|^%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/|^%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/|^Podcastok\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B\\/|^podcast\\/|%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA\\/|%E6%92%AD%E5%AE%A2\\/|Podcast\\/|Podcast%E2%80%99ler\\/|Podkaster\\/|팟캐스트\\/|播客\\/|פודקאסטים\\/Подкасты\\/Подкасти\\/|Podcaster\\/|Podcast’ler\\/|Podcasturi\\/|Podcastit\\/|Podcasty\\/|Podcasti\\/|Balados\\/|atc\\/|Podcasts\\/|^AppleCoreMedia\\/.*(iPad|iPhone|iPod|watchOS)"
+  referrer_match: "^https://podcasts.apple.com"
 - name: atheerfm
   user_agent_match: "^atheerfm\\/"
 - name: Audio
@@ -159,10 +150,12 @@
   user_agent_match: "^Castaway\\/"
 - name: CastBox
   user_agent_match: Cast[B|b]ox
+  referrer_match: "^https://castbox.fm/"
 - name: Casterbate
   user_agent_match: "^Casterbate\\/"
 - name: Castro
   user_agent_match: "^Castro[\\/|\\s]"
+  referrer_match: "^https://castro.fm/"
 - name: Casts
   user_agent_match: "^Casts\\/"
 - name: CCGF
@@ -209,16 +202,12 @@
   user_agent_match: "^Crosspointe\\/"
 - name: CrossPreach
   user_agent_match: "^CrossPreach\\/"
-- name: Curl
-  user_agent_match: curl|cURL
-- name: Dalvik
-  user_agent_match: "^Dalvik"
 - name: DataDogApp
   user_agent_match: "^DataDogApp\\/"
 - name: DaumWebtoon
   user_agent_match: "^DaumWebtoon\\/"
 - name: Deezer
-  user_agent_match: "^Deezer\\/"
+  user_agent_match: "^Deezer( Podcasters)?\\/"
 - name: Delve
   user_agent_match: "^Delve\\/"
 - name: DevEnvironments
@@ -283,6 +272,7 @@
   user_agent_match: "^ExtraCloud\\/"
 - name: Facebook
   user_agent_match: "\\[FBAN|^facebook-mobile|^Facebook/"
+  referrer_match: "^http(s)?://(m|www).facebook.com/"
 - name: FaithPlay
   user_agent_match: "^FaithPlay"
 - name: Fallound
@@ -321,8 +311,6 @@
   user_agent_match: "^FreeMusicDownloadPro\\/"
 - name: FreeMusicPlusFree
   user_agent_match: "^FreeMusicPlusFree\\/"
-- name: FreshpingBot
-  user_agent_match: "^FreshpingBot\\/"
 - name: GBEngine
   user_agent_match: "^GBEngine\\/"
 - name: GMB Show
@@ -341,6 +329,7 @@
   user_agent_match: "^GoodReader\\/|^GoodReader4\\/|^GoodReaderIPad\\/"
 - name: Google
   user_agent_match: "^Google\\/"
+  referrer_match: "^https://podcasts.google.com/"
 - name: Google Home
   user_agent_match: "^Google-Speech-Action|GoogleChirp\\/"
 - name: Google Search Appliance
@@ -406,6 +395,7 @@
   user_agent_match: "^IFTTT\\/"
 - name: iHeartRadio
   user_agent_match: "^iHeartRadio\\/"
+  referrer_match: "^https://www.iheart.com/"
 - name: iHorror
   user_agent_match: "^iHorror\\/"
 - name: InCast
@@ -504,6 +494,7 @@
   user_agent_match: "^Mimir\\/"
 - name: Mixcloud
   user_agent_match: "^Mixcloud\\/"
+  referrer_match: "^https://www.mixcloud.com/"
 - name: MobileApp
   user_agent_match: "^MobileApp\\/"
 - name: MobileSafari
@@ -518,27 +509,31 @@
   user_agent_match: "^MusicBee"
 - name: MyTuner
   user_agent_match: "^[M|m]y[T|t]uner"
-- name: OkDownload
-  user_agent_match: OkDownload\/
-- name: OkHTTP
-  user_agent_match: okhttp\/
 - name: Overcast
   user_agent_match: Overcast\/
+  referrer_match: "^https://overcast.fm/"
 - name: Pandora
   user_agent_match: Pandora\/
+  referrer_match: "^https://www.pandora.com/"
 - name: Playapod
   user_agent_match: "^Playapod\\/"
 - name: Player FM
   user_agent_match: "^PlayerFM/|^Player%20FM\\/|^Player FM|Player FM$|Alpha%20PlayerFM"
+  referrer_match: "^https://(\\w*\\.)?player.fm/"
 - name: Pocket Casts
   user_agent_match: Pocket Casts|PocketCasts
   referrer_match: "^https://play.pocketcasts.com/"
+- name: Podbay
+  referrer_match: "^https://podbay.fm/"
 - name: Podbean
   user_agent_match: "^Podbean/"
+  referrer_match: "^https://www.podbean.com/"
 - name: Podcast Addict
   user_agent_match: Podcast Addict|PodcastAddict
 - name: Podcast Republic
   user_agent_match: PodcastRepublic
+- name: Podcast.app
+  referrer_match: "^https://podcast.app/"
 - name: Podclipper
   user_agent_match: "^Podclipper\\/"
 - name: Podcoin
@@ -581,6 +576,7 @@
   user_agent_match: "^Sonos|Linux.*Sonos\\/"
 - name: Spotify
   user_agent_match: "^Spotify\\/(?!1.0)|^spotify_"
+  referrer_match: https://(open|api-partner).spotify.com
 - name: Spotify-Lite
   user_agent_match: "^Spotify-Lite\\/"
 - name: Spreaker
@@ -602,10 +598,13 @@
   user_agent_match: "^TREBLE"
 - name: TuneIn Radio
   user_agent_match: "^TuneIn|TuneIn\\/\\d"
+  referrer_match: "^https://tunein.com/"
 - name: Twitter
   user_agent_match: Twitter(\/|Android| for)
 - name: Ubook Player
   user_agent_match: Ubook Player
+- name: Unknown Android App
+  user_agent_match: "^AndroidDownloadManager/|^Android.LVLDM|^Dalvik"
 - name: uTorrent
   user_agent_match: "^uTorrent|BTWebClient"
 - name: Victor Reader Stream
@@ -657,6 +656,9 @@
 - name: CT_JOB_BOT
   user_agent_match: __CT_JOB_ID__
   bot: true
+- name: Curl
+  user_agent_match: curl|cURL
+  bot: true
 - name: Datagnion Bot
   user_agent_match: datagnionbot
   bot: true
@@ -683,6 +685,9 @@
   bot: true
 - name: Flipboard Proxy
   user_agent_match: FlipboardProxy
+  bot: true
+- name: FreshpingBot
+  user_agent_match: "^FreshpingBot\\/"
   bot: true
 - name: GNOME
   user_agent_match: "^gvfs"
@@ -728,6 +733,9 @@
   bot: true
 - name: OgScrper
   user_agent_match: OgScrper
+  bot: true
+- name: OkDownload
+  user_agent_match: OkDownload\/
   bot: true
 - name: Pandora RSS Crawler
   user_agent_match: PandoraRSSCrawler\/
