@@ -1,91 +1,237 @@
 ---
 Acast/2.0.1 (phone; android 9; samsung SM-G390F):
+  - Acast
   - Android Phone
-  - Phone
+  - Mobile
 Podcasts/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0:
+  - Apple Podcasts
   - Apple iPhone
-  - Phone
+  - Mobile
 spotify_iphone:
+  - Spotify
   - Apple iPhone
-  - Phone
+  - Mobile
 spotify_android:
+  - Spotify
   - Android Phone
-  - Phone
+  - Mobile
 AppleCoreMedia/1.0.0.17A878 (iPhone; U; CPU OS 13_1_3 like Mac OS X; en_us):
+  - Unknown Apple Apps
   - Apple iPhone
-  - Phone
+  - Mobile
 iTunes/12.9.5 (Macintosh; OS X 10.14.5) AppleWebKit/607.2.6.1.1 (dt:1):
-  - Mac Desktop
-  - Desktop/Laptop
+  - Apple iTunes
+  - Apple Computer
+  - Computer
 Overcast/3.0 (+http://overcast.fm/; iOS podcast app):
+  - Overcast
   - Apple iPhone
-  - Phone
+  - Mobile
 Lavf/57.83.100:
-  - Unknown Desktop
-  - Desktop/Laptop
+  - FFMPEG
+  - Bot
+  - Bot
 Stitcher/Android:
+  - Stitcher
   - Android Phone
-  - Phone
+  - Mobile
 spotify_desktop:
-  - Unknown Desktop
-  - Desktop/Laptop
+  - Spotify
+  - Unknown Computer
+  - Computer
 Pocket Casts:
-  - Unknown Unknown
+  - Pocket Casts
+  - Unknown Device
   - Unknown
 spotify_android-tablet:
+  - Spotify
   - Android Tablet
-  - Tablet
+  - Mobile
 CastBox/8.2.6-191015245 (Linux;Android 9) ExoPlayerLib/2.10.4:
+  - CastBox
   - Android Phone
-  - Phone
+  - Mobile
 Stitcher/iOS:
+  - Stitcher
   - Apple iPhone
-  - Phone
+  - Mobile
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36:
-  - Windows Desktop
-  - Desktop/Laptop
+  - Web Browser
+  - Windows Computer
+  - Computer
 Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148 Safari/604.1:
+  - Web Browser
   - Apple iPhone
-  - Phone
+  - Mobile
 spotify_ipad:
+  - Spotify
   - Apple iPad
-  - Tablet
+  - Mobile
 spotify_partner-hw:
-  - Unknown Unknown
+  - Spotify
+  - Unknown Device
   - Unknown
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36:
-  - Windows Desktop
-  - Desktop/Laptop
+  - Web Browser
+  - Windows Computer
+  - Computer
 Player FM:
-  - Unknown Unknown
-  - Unknown
+  - Player FM
+  - Unknown Device
+  - Mobile
 MyTuner-ExoPlayerAdapter:
+  - MyTuner
   - Android Phone
-  - Phone
+  - Mobile
 iHeartRadio/8.9.1 (iPad; iOS 11.2.6; iPad6,7):
+  - iHeartRadio
   - Apple iPad
-  - Tablet
+  - Mobile
 Roku/DVP-9.10 (499.10E04121A):
+  - Roku
   - Unknown Smart TV
   - Smart TV
 Linux UPnP/1.0 Sonos/52.13-68180 (ZPS18):
+  - Sonos
   - Unknown Smart Speaker
   - Smart Speaker
 AppleCoreMedia/1.0.0.17K82 (Apple TV; U; CPU OS 13_2 like Mac OS X; pl_pl):
+  - Unknown Apple Apps
   - Apple TV
   - Smart TV
 Libassistant/1.0 GoogleChirp/1.0.1 (Linux; Android/5.0) GOOG/7 AppleWebKit/534.30:
   - Google Home
+  - Google Home
   - Smart Speaker
 Mozilla/5.0 (Linux; Android 4.4.2; GT-P5200 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Safari/537.36:
+  - Web Browser
   - Android Tablet
-  - Tablet
+  - Mobile
 atc/1.0 watchOS/6.1 model/Watch4,4 hwp/t8006 build/17S84 (6; dt:193):
+  - Apple Podcasts
   - Apple Watch
   - Watch
 Mozilla/5.0 (Linux; Android 5.0; Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.90 Safari/537.36 CrKey/1.15.38401:
+  - Chromecast
   - Unknown Smart TV
   - Smart TV
 Mozilla/5.0 (X11; CrOS x86_64 7077.123.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36:
-  - Chrome Computer
-  - Desktop/Laptop
+  - Web Browser
+  - Google Chromebook
+  - Computer
+Podkicker/3.0.5:
+  - Podkicker
+  - Unknown Device
+  - Mobile
+Shifty Jelly Pocket Casts, iOS v4.2:
+  - Pocket Casts
+  - Apple iPhone
+  - Mobile
+yourApplicationName/2.17.55 (Linux;Android 9) ExoPlayerLib/2.10.0:
+  - nil
+  - Android Phone
+  - Mobile
+okhttp/3.12.0:
+  - nil
+  - Unknown Computer
+  - Computer
+spotify_unknown:
+  - Spotify
+  - Unknown Device
+  - Mobile
+stagefright/1.2 (Linux;Android 9):
+  - Unknown Android Apps
+  - Android Phone
+  - Mobile
+PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 8.1.0; Moto G (5) Plus Build/OPSS28.85-17-6):
+  - Podcast Addict
+  - Android Phone
+  - Mobile
+PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 7.1.1; HP Chromebook 11 G5 / HP Chromebook 11-vxxx Build/R77-12371.89.0):
+  - Podcast Addict
+  - Google Chromebook
+  - Computer
+Breaker/iOS (https://breaker.audio):
+  - Breaker
+  - Apple iPhone
+  - Mobile
+NSPlayer/10.0.0.3702 WMFSDK/10.0:
+  - Windows Media Player
+  - Windows Computer
+  - Computer
+Castro 2019.13/1167:
+  - Castro
+  - Unknown Device
+  - Mobile
+Echo/1.0(APNG):
+  - Amazon Echo
+  - Amazon Smart Speaker
+  - Smart Speaker
+TuneIn Radio/23.1.2 (Linux;Android 9) ExoPlayerLib/2.10.4:
+  - TuneIn Radio
+  - Android Phone
+  - Mobile
+Pandora/1908.1 Android/9 ali (ExoPlayerLib1.5.14.1):
+  - Pandora
+  - Android Phone
+  - Mobile
+Mozilla/5.0 (compatible; Google-Podcast):
+  - Google Podcasts Bot
+  - Bot
+  - Bot
+iHeartRadio/7.3.3 (Android Sdk 21):
+  - iHeartRadio
+  - Android Phone
+  - Mobile
+iHeartRadio/8.9.1 (iPad; iOS 11.2.6; iPad6,7):
+  - iHeartRadio
+  - Apple iPad
+  - Mobile
+CastBox/0.2.0 python-requests/2.20.1:
+  - CastBox
+  - Unknown Computer
+  - Computer
+Overcast/792 CFNetwork/1098.7 Darwin/19.0.0:
+  - Overcast
+  - Apple iPhone
+  - Mobile
+Overcast/1.0 Podcast Sync (+http://overcast.fm/):
+  - Overcast Bot
+  - Bot
+  - Bot
+Swoot Agent 1.0:
+  - Swoot
+  - Unknown Device
+  - Mobile
+Acast/2.3.0 (phone; android 9; HUAWEI CLT-L29):
+  - Acast
+  - Android Phone
+  - Mobile
+Riddler (http://riddler.io/about):
+  - Riddler
+  - Bot
+  - Bot
+Amazon Music Podcast:
+  - Amazon Music Bot
+  - Bot
+  - Bot
+Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5:
+  - Skype Bot
+  - Bot
+  - Bot
+Spotify/1.0:
+  - Spotify Bot
+  - Bot
+  - Bot
+apple;apple_tv;33ddb95064d1479ab37179579af23b77;;tpapi;3.167.55:
+  - Apple Podcasts
+  - Apple TV
+  - Smart TV
+Deezer Podcasters/1.0:
+  - Deezer Bot
+  - Bot
+  - Bot
+Repod/2.9.0.363 CFNetwork/1240.0.4 Darwin/20.6.0 (iPhone/X iOS/14.7.1):
+  - Repod
+  - Apple iPhone
+  - Mobile

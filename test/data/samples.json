@@ -4,11 +4,6 @@
       "Abandon/1.15.28.58.6 CFNetwork/711.3.18 Darwin/14.0.0"
     ]
   },
-  "AbonCloud": {
-    "user_agents": [
-      "AbonCloud/2 CFNetwork/808.0.2 Darwin/16.0.0"
-    ]
-  },
   "Acast": {
     "user_agents": [
       "Acast/2.0.1 (phone; android 9; samsung SM-G390F)",
@@ -68,7 +63,8 @@
   },
   "Airr": {
     "user_agents": [
-      "Airr%20Beta/672 CFNetwork/978.0.7 Darwin/18.5.0"
+      "Airr%20Beta/672 CFNetwork/978.0.7 Darwin/18.5.0",
+      "Airr/2958 CFNetwork/1183 Darwin/20.0.0"
     ]
   },
   "Alexa Enabled Device": {
@@ -76,6 +72,7 @@
       "AlexaMediaPlayer/5.5.5-9010 (Linux;Android 5.1.1) ExoPlayerLib/1.5.0",
       "AlexaMediaPlayer/1.0.2253.0_1665410 (Linux;Android 5.1.1) ExoPlayerLib/1.5.9",
       "AlexaMediaPlayer/2.1.1878.0 (Linux;Android 5.1.1) ExoPlayerLib/1.5.9",
+      "AlexaMediaPlayer/vizzini.locked.38.0 (Linux;Android 5.1.1) ExoPlayerLib/1.5.9",
       "AlexaService/2.2.303087.0 (Linux;Android 9) ExoPlayerLib/2.8.4",
       "Alexa Mobile Voice/2.2.2768.0 (Linux;Android 7.0) ExoPlayerLib/2.2.0"
     ]
@@ -119,6 +116,36 @@
       "Echo/1.0(APNG)"
     ]
   },
+  "Amazon Fire": {
+    "user_agents": [
+      "Amazon;AFTT;756a522d9f1648b89e76e80be654456a;;tpapi",
+      "Amazon;AFTSO001;756a522d9f1648b89e76e80be654456a;;tpapi",
+      "Amazon;AFTEAMR311;756a522d9f1648b89e76e80be654456a;;tpapi",
+      "Amazon;AFTEU014;756a522d9f1648b89e76e80be654456a;;tpapi"
+    ]
+  },
+  "Amazon Music": {
+    "user_agents": [
+      "AmazonMusic/9.15.0 iPhone10,5 CFNetwork/1128.0.1 Darwin/19.6.0",
+      "AmazonMusic/16.17.1 Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-J7108 Build/LMY47X)",
+      "AmazonMusic Dynamo/1.0",
+      "AmazonMusic"
+    ],
+    "referrers": [
+      "https://music.amazon.com/",
+      "https://music.amazon.com.mx/",
+      "https://music.amazon.co.jp/podcasts/548537b2-c07d-4e28-8b90-ba5aeb2b3e49/-Picture-Books-English",
+      "https://music.amazon.de/podcasts/7803e6aa-3ef9-48e1-9e70-877d24ef3217/episodes/60a47a1b-fdb0-4a4a-9986-ee09de89ffe1/Kultur-der-Massen-und-Eliten-FEST-FLAUSCHIG-PUSSYTALK-HACK-ist-die-Elite-der-PODCASTER",
+      "https://music.amazon.co.uk/podcasts/search/guitar/episodes",
+      "https://music.amazon.co.uk/",
+      "https://music.amazon.co.jp/"
+    ]
+  },
+  "Amazon Music Bot": {
+    "user_agents": [
+      "Amazon Music Podcast"
+    ]
+  },
   "AMPApp": {
     "user_agents": [
       "AMPApp/32.6.1 CFNetwork/978.0.7 Darwin/18.6.0"
@@ -143,6 +170,12 @@
   "Android Browser": {
     "user_agents": [
       "Mozilla/5.0 (Linux; Android 9; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36"
+    ]
+  },
+  "Anghami": {
+    "user_agents": [
+      "Anghami/502044 CFNetwork/1206 Darwin/20.1.0",
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Anghami/2.0.11 Chrome/80.0.3987.134 Electron/8.0.3 Safari/537.36"
     ]
   },
   "Antenna Pod": {
@@ -228,12 +261,14 @@
       "Podcasts/1410.25 CFNetwork/1107 Darwin/19.0.0",
       "Podcasts/1400.227 CFNetwork/1098.7 Darwin/19.0.0 Dynamo/1.0",
       "Podcasts/1.0.0 iPhone/12.4 hw/iPhone11_2",
+      "البودكاست/1530.3 CFNetwork/1209 Darwin/20.2.0\t6",
+      "พ็อดคาสท์/1440.4 CFNetwork/1126 Darwin/19.5.0",
+      "פודקאסטים/1420.35 CFNetwork/1120 Darwin/19.0.0",
+      "Подкасти/1520.39 CFNetwork/1206 Darwin/20.1.0",
       "Podcasts/1.2.3",
-      "AppleCoreMedia/1.0.0.17A5821e (iPhone; U; CPU OS 13_1 like Mac OS X; tr_tr)",
-      "AppleCoreMedia/1.0.0.16G102 (iPad; U; CPU OS 12_4_1 like Mac OS X; sk_sk)",
-      "AppleCoreMedia/1.0.0.16G102 (iPod touch; U; CPU OS 12_4_1 like Mac OS X; en_ca)",
       "atc/1.0 watchOS/6.0.1 model/Watch4,1 hwp/t8006 build/17R605 (6; dt:190)",
       "%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
+      "Подкасты/1520.39 CFNetwork/1206 Darwin/20.1.0",
       "podcast/ CFNetwork/1107 Darwin/19.0.0",
       "%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
       "%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
@@ -241,20 +276,34 @@
       "%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
       "%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/1410.25.1 CFNetwork/1107.1 Darwin/19.0.0",
       "%D8%A7%D9%95%D8%B3%D9%85%D8%B9%D9%84%D9%8A/1.0 CFNetwork/609.1.4 Darwin/13.0.0",
-      "AppleCoreMedia/1.0.0.15L576 (Apple TV; U; CPU OS 11_4 like Mac OS X; en_us)",
-      "AppleCoreMedia/1.0.0.15M73 (Apple TV; U; CPU OS 11_4_1 like Mac OS X; id)",
-      "AppleCoreMedia/1.0.0.16U113 (Apple Watch; U; CPU OS 5_2_1 like Mac OS X; pl_pl)",
-      "AppleCoreMedia/1.0.0.17R5556d (Apple Watch; U; CPU OS 6_0 like Mac OS X; de_at)",
       "(null)/(null) watchOS/5.0.1 model/Watch3,3 hwp/t8004 build/16R381 (6; dt:155)",
       "(null)/(null) watchOS/5.0 model/Watch4,4 hwp/t8006 build/16R339 (6; dt:193)"
     ],
     "referrers": [
-      "https://podcasts.apple.com/us/podcast/xya/id12341"
+      "https://podcasts.apple.com/us/podcast/xya/id12341",
+      "https://embed.podcasts.apple.com/"
     ]
   },
   "atheerfm": {
     "user_agents": [
       "atheerfm/1 CFNetwork/758.3.15 Darwin/15.3.0"
+    ]
+  },
+  "Audacy": {
+    "user_agents": [
+      "Radio.com/12.2.0 (com.cbsradio.cbsradioplayer; build:1; iOS 14.6.0) Alamofire/4.8.1",
+      "Radio.com/8.5.2 (com.cbsradio.cbsradioplayer; build:2; iOS 12.2.0) Alamofire/4.5.0",
+      "Radio.com/12.3.0 (com.cbsradio.cbsradioplayer; build:1; iOS 14.6.0) Alamofire/4.8.1"
+    ]
+  },
+  "Audible": {
+    "user_agents": [
+      "Audible/647 CFNetwork/1197 Darwin/20.0.0",
+      "Audible/647 CFNetwork/1128.0.1 Darwin/19.6.0",
+      "com.audible.playersdk.player/2.63.0 (Linux;Android 11) ExoPlayerLib/2.5.3"
+    ],
+    "referrers": [
+      "https://www.audible.com/"
     ]
   },
   "Audio": {
@@ -352,6 +401,21 @@
   "Bible": {
     "user_agents": [
       "Bible/11 CFNetwork/978.0.7 Darwin/18.6.0"
+    ]
+  },
+  "Bing Preview": {
+    "user_agents": [
+      "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b",
+      "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b Dynamo/1.0",
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 BingPreview/1.0b"
+    ]
+  },
+  "Bitcast": {
+    "user_agents": [
+      "Bitcast.fm/104 CFNetwork/1126 Darwin/19.5.0",
+      "bitcast 4 reel/47 CFNetwork/1121.2.1 Darwin/19.3.0",
+      "bitcastbitcast/45 CFNetwork/1121.2.2 Darwin/19.3.0",
+      "Bitcast/336 CFNetwork/1209 Darwin/20.2.0"
     ]
   },
   "Bitly": {
@@ -465,7 +529,10 @@
   },
   "Castamatic": {
     "user_agents": [
-      "Castamatic/5.1.4 (com.gunpmedia.Castamatic; build:3136; iOS 13.1.3) Alamofire/4.9.0"
+      "Castamatic/5.1.4 (com.gunpmedia.Castamatic; build:3136; iOS 13.1.3) Alamofire/4.9.0",
+      "Castamatic/com.gunpmedia.Castamatic (1374; OS Version 9.3.2 (Build 13F69))",
+      "Castamatic/6.0.2 (com.gunpmedia.Castamatic; build:3247; iOS 13.3.1) Alamofire/4.9.0",
+      "Castamatic/2932 CFNetwork/978.0.7 Darwin/18.6.0"
     ]
   },
   "Castaway": {
@@ -645,6 +712,11 @@
       "GuzzleHttp/6.1.0 curl/7.50.1 PHP/7.0.13-0ubuntu0.16.10.1"
     ]
   },
+  "Czech Podcasts": {
+    "referrers": [
+      "https://ceskepodcasty.cz/"
+    ]
+  },
   "DataDogApp": {
     "user_agents": [
       "DataDogApp/0.8.12 CFNetwork/811.5.4 Darwin/16.6.0"
@@ -671,7 +743,14 @@
       "Deezer/7.15.0.4 CFNetwork/1098.7 Darwin/19.0.0",
       "Deezer/5.4.18.30 (Android; 7.0; Mobile; br) samsung SM-G950F",
       "Deezer/5.4.18.30 (Android; 7.0; Mobile; us) samsung SM-G950F",
-      "Deezer/6.1.8.54 (Android; 8.0.0; Mobile; br) motorola moto g(6)",
+      "Deezer/6.1.8.54 (Android; 8.0.0; Mobile; br) motorola moto g(6)"
+    ],
+    "referrers": [
+      "https://www.deezer.com/"
+    ]
+  },
+  "Deezer Bot": {
+    "user_agents": [
       "Deezer Podcasters/1.0"
     ]
   },
@@ -721,7 +800,9 @@
   },
   "Downcast": {
     "user_agents": [
-      "Downcast/2.9.12 (Mac OS X Version 10.12.6 (Build 16G1036))"
+      "Downcast/2.9.12 (Mac OS X Version 10.12.6 (Build 16G1036))",
+      "Downcast/7684 CFNetwork/1125.2 Darwin/19.4.0",
+      "Downcast/2.9.56 (iPhone; iOS 12.4.9; Scale/2.00)"
     ]
   },
   "Downie": {
@@ -834,11 +915,6 @@
       "EvanApp/1 CFNetwork/897.15 Darwin/17.5.0"
     ]
   },
-  "Evolve Player": {
-    "user_agents": [
-      "com.evolve.podcast/3.1.0 (iPhone; ) (build 832, iOS 13.1.2)"
-    ]
-  },
   "Expo": {
     "user_agents": [
       "Expo/2.11.1.106175 CFNetwork/976 Darwin/18.2.0"
@@ -859,11 +935,15 @@
       "Mozilla/5.0 (iPad; CPU OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPad6,12;FBMD/iPad;FBSN/iOS;FBSV/12.3.1;FBSS/2;FBID/tablet;FBLC/en_GB;FBOP/5;FBCR/EE]",
       "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_1 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A402 [FBAN/FBIOS;FBAV/188.0.0.44.85;FBBV/123253203;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/11.0.1;FBSS/2;FBCR/3DK;FBID/phone;FBLC/da_DK;FBOP/5;FBRV",
       "facebook-mobile/1.0",
-      "Facebook/180461199 CFNetwork/1107.1 Darwin/19.0.0"
+      "Facebook/180461199 CFNetwork/1107.1 Darwin/19.0.0",
+      "[FBAN/FB4A;FBAV/180.0.0.35.82;FBBV/116984898;FBDM/{density=1.5,width=480,height=854};FBLC/en_US;FBRV/0;FBCR/Verizon Wireless;FBMF/ZTE;FBBD/ZTE;FBPN/com.facebook.katana;FBDV/Z899VL;FBSV/7.1.1;FBOP/19;FBCA/armeabi-v7a:armeabi;]",
+      "FB4A/Facebook"
     ],
     "referrers": [
       "http://m.facebook.com/",
-      "https://www.facebook.com/"
+      "https://www.facebook.com/",
+      "https://lm.facebook.com/",
+      "https://l.facebook.com/"
     ]
   },
   "FacebookBot": {
@@ -872,7 +952,9 @@
       "facebookexternalhit/1.1;line-poker/1.0",
       "facebookexternalhit/1.1 (compatible; Blueno/1.0; +http://naver.me/scrap)",
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0",
-      "Facebot"
+      "Facebot",
+      "facebookexternalua",
+      "facebookplatform/1.0 (+http://developers.facebook.com)"
     ]
   },
   "FaithPlay": {
@@ -912,7 +994,8 @@
   },
   "FFMPEG": {
     "user_agents": [
-      "Lavf/57.25.100"
+      "Lavf/57.25.100",
+      "Lavf/58.45.100"
     ]
   },
   "Filebox": {
@@ -982,6 +1065,14 @@
       "FreeMusicPlusFree/2.5 CFNetwork/609.1.4 Darwin/13.0.0"
     ]
   },
+  "Gaana": {
+    "user_agents": [
+      "Gaana/1768 CFNetwork/978.0.7 Darwin/18.7.0",
+      "Gaana/1694 CFNetwork/1125.2 Darwin/19.4.0",
+      "GaanaAndroid-8.13.0/Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/V11.0.2.0.NCFMIXM)",
+      "Gaana-iOS"
+    ]
+  },
   "GBEngine": {
     "user_agents": [
       "GBEngine/1.2 CFNetwork/672.1.14 Darwin/14.0.0"
@@ -1028,7 +1119,11 @@
   },
   "goodpods": {
     "user_agents": [
-      "goodpods/1 CFNetwork/1107.1 Darwin/18.7.0"
+      "goodpods/1 CFNetwork/1107.1 Darwin/18.7.0",
+      "Goodpods.Android / 1.3.12",
+      "Goodpods/3 CFNetwork/1128.0.1 Darwin/19.6.0",
+      "Goodpods/6 CFNetwork/1121.2.2 Darwin/19.3.0",
+      "Goodpods.iOS / 3.2.0"
     ]
   },
   "GoodReader": {
@@ -1036,14 +1131,6 @@
       "GoodReader/3.17.1 CFNetwork/548.1.4 Darwin/11.0.0",
       "GoodReader4/100 CFNetwork/711.3.18 Darwin/14.0.0",
       "GoodReaderIPad/3.20.0 CFNetwork/711.3.18 Darwin/14.0.0"
-    ]
-  },
-  "Google": {
-    "user_agents": [
-      "Google/24.1.151204851 CFNetwork/1107.1 Darwin/19.0.0"
-    ],
-    "referrers": [
-      "https://podcasts.google.com/"
     ]
   },
   "Google Ads Bot": {
@@ -1069,16 +1156,18 @@
       "Google-Speech-Actions"
     ]
   },
+  "Google Podcasts": {
+    "user_agents": [
+      "Podcasts",
+      "Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) GSA/3.2.1.25875 Mobile/11B554a Safari/8536.25",
+      "GooglePodcasts/2.0.2%20iPod_touch/13.4.1%20hw/iPod9_1",
+      "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MTC19T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 GSA/5.13.31.21.arm64"
+    ]
+  },
   "Google Podcasts Bot": {
     "user_agents": [
       "Mozilla/5.0 (compatible; Google-Podcast)",
       "Mozilla/5.0 (compatible; Google-Podcast) Dynamo/1.0"
-    ]
-  },
-  "Google Search Appliance": {
-    "user_agents": [
-      "Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) GSA/3.2.1.25875 Mobile/11B554a Safari/8536.25",
-      "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MTC19T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 GSA/5.13.31.21.arm64"
     ]
   },
   "gPodder": {
@@ -1202,6 +1291,13 @@
       "Hyper/3 CFNetwork/893.14.2 Darwin/17.3.0"
     ]
   },
+  "HyperCatcher": {
+    "user_agents": [
+      "HyperCatcher/2 CFNetwork/1125.2 Darwin/19.4.0",
+      "HyperCatcher/9 CFNetwork/1195.4 Darwin/20.0.0",
+      "HyperCatcher/15 CFNetwork/1128.0.1 Darwin/19.6.0"
+    ]
+  },
   "iBuilder": {
     "user_agents": [
       "iBuilder/1 CFNetwork/548.1.4 Darwin/11.0.0"
@@ -1255,7 +1351,8 @@
       "iHeartRadio/7.3.3 (Android Sdk 21)",
       "iHeartRadio/8.0.0 (Android 7.0; XT1650 Build/NCL25.86-11.5)",
       "iHeartRadio/8.7.0 (iPhone; iOS 11.0.3; iPhone6,1)",
-      "iHeartRadio/8.9.1 (iPad; iOS 11.2.6; iPad6,7)"
+      "iHeartRadio/8.9.1 (iPad; iOS 11.2.6; iPad6,7)",
+      "iHeartPodcasts/1.1.0 (Android 10; SM-A505FN Build/QP1A.190711.020)"
     ],
     "referrers": [
       "https://www.iheart.com/"
@@ -1264,6 +1361,11 @@
   "iHorror": {
     "user_agents": [
       "iHorror/1.2.6 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "Ina": {
+    "user_agents": [
+      "Mozilla/5.0 (compatible; INA dlweb; +https://institut.ina.fr/collecte-du-depot-legal-web)"
     ]
   },
   "InCast": {
@@ -1281,6 +1383,12 @@
       "Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 108.0.0.9.119 (iPhone9,3; iOS 12_3_1; en_IN; en-IN; scale=2.00; 750x1334; 168879348)",
       "Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.132 Mobile Safari/537.36 Instagram 109.0.0.18.124 Android (25/7.1.2; 320dpi; 720x1280; Xiaomi; Redmi 4X; santoni; qcom; cs_CZ",
       "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 100.0.0.11.125 (iPhone9,3; iOS 12_4_1; en_CA; en-CA; scale=2.00; 750x1334; 160950677)"
+    ]
+  },
+  "Internet Archive": {
+    "user_agents": [
+      "Mozilla/5.0 (compatible; special_archiver; Archive-It; +http://archive-it.org/files/site-owners-special.html)",
+      "Mozilla/5.0 (compatible; archive.org_bot; Archive-It; +http://archive-it.org/files/site-owners.html)"
     ]
   },
   "iOnGreenville": {
@@ -1335,10 +1443,36 @@
       "Jimcast/1.0 CFNetwork/672.1.15 Darwin/14.0.0"
     ]
   },
+  "JioSaavn": {
+    "user_agents": [
+      "com.jio.media.jiobeats.jiosaavn/6.10.1 (Linux;Android 7.1.1) ExoPlayerLib/2.10.4",
+      "com.jio.media.jiobeats/7.1 (Linux;Android 8.1) ExoPlayerLib/2.11.4",
+      "com.saavn.android/6.0.6 (Linux;Android 8.0.0) ExoPlayerLib/2.4.0",
+      "Saavn Player",
+      "Saavn/700.35 CFNetwork/1128.0.1 Darwin/19.6.0"
+    ]
+  },
   "Juice Receiver": {
     "user_agents": [
       "Juice/2.2 (Darwin) +http://juicereceiver.sf.net/",
       "Juice/2.2 (Windows) +http://juicereceiver.sf.net/"
+    ]
+  },
+  "just_audio": {
+    "user_agents": [
+      "just_audio/3.6.2 (Linux;Android 9) ExoPlayerLib/2.13.1",
+      "just_audio/0.6.9 (Linux;Android 10) ExoPlayerLib/2.12.2"
+    ]
+  },
+  "Kajabi": {
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 KajabiMobileApp",
+      "Mozilla/5.0 (iPad; CPU OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 KajabiMobileApp",
+      "KajabiPodcast"
+    ],
+    "referrers": [
+      "https://melisa-liberman.mykajabi.com/",
+      "https://creativityfound.mykajabi.com/"
     ]
   },
   "KakaoTalk": {
@@ -1355,6 +1489,12 @@
     "user_agents": [
       "Kids%20Listen/55 CFNetwork/1107.1 Darwin/19.0.0",
       "Kids Listen/55 CFNetwork/1107.1 Darwin/19.0.0"
+    ]
+  },
+  "KKBOX": {
+    "user_agents": [
+      "KKBOX/7.10.70/iOS/14.2",
+      "KKBOX/6.5.70 (Linux;Android 9) ExoPlayerLib/2.11.5"
     ]
   },
   "Kloudie": {
@@ -1428,6 +1568,9 @@
   "LinkedIn": {
     "user_agents": [
       "LinkedIn/9.14.4868 CFNetwork/1107.1 Darwin/19.0.0"
+    ],
+    "referrers": [
+      "https://www.linkedin.com/"
     ]
   },
   "Lisny": {
@@ -1437,7 +1580,8 @@
   },
   "Listen": {
     "user_agents": [
-      "Listen/1 CFNetwork/1107.1 Darwin/19.0.0"
+      "Listen/1 CFNetwork/1107.1 Darwin/19.0.0",
+      "Listen App/84 CFNetwork/1240.0.4 Darwin/20.6.0"
     ]
   },
   "Listen Notes": {
@@ -1520,6 +1664,11 @@
       "Mediatap/342 CFNetwork/672.1.13 Darwin/14.0.0"
     ]
   },
+  "Megaphone": {
+    "user_agents": [
+      "Megaphone.fm"
+    ]
+  },
   "Menucast": {
     "user_agents": [
       "Menucast/1.4 CFNetwork/720.1.1 Darwin/14.0.0 (x86_64)"
@@ -1550,6 +1699,15 @@
       "Messenger/168725151 CFNetwork/1107.1 Darwin/19.0.0"
     ]
   },
+  "Microsoft Xbox": {
+    "user_agents": [
+      "microsoft;xbox_one;1fc2d01aa9074dde950e8d3dc0eb1729;;tpapi;3.167.55",
+      "microsoft;xbox_one_s_de;1fc2d01aa9074dde950e8d3dc0eb1729;;tpapi;3.167.55",
+      "microsoft;xbox_one_x;1fc2d01aa9074dde950e8d3dc0eb1729;;tpapi;3.167.55",
+      "microsoft;xbox_series_x;1fc2d01aa9074dde950e8d3dc0eb1729;;tpapi;3.167.55 Dynamo/1.0",
+      "microsoft;xbox_one;1fc2d01aa9074dde950e8d3dc0eb1729;;tpapi;3.167.55 Dynamo/1.0"
+    ]
+  },
   "Mimir": {
     "user_agents": [
       "Mimir/1 CFNetwork/1098 Darwin/19.0.0 (x86_64)"
@@ -1566,6 +1724,13 @@
   "Mixcloud Podcast Importer": {
     "user_agents": [
       "MixcloudPodcastImporter/2.0"
+    ]
+  },
+  "MixerBox": {
+    "user_agents": [
+      "MixerBox/806.iOS (iPhone; iOS 14.4.1; zh_TW)",
+      "MixerBox/12.34 (Linux;Android 10) ExoPlayerLib/2.11.1",
+      "MixerBox/806.iOS (iPhone; iOS 14.4; zh_TW)"
     ]
   },
   "MobileApp": {
@@ -1632,10 +1797,18 @@
       "OkDownload/1.0.3"
     ]
   },
+  "Outcast": {
+    "user_agents": [
+      "Outcast/1957 CFNetwork/889.7 Darwin/17.2.0",
+      "Outcast 3.1.6",
+      "Outcast 4.1.1"
+    ]
+  },
   "Overcast": {
     "user_agents": [
       "Overcast/792 CFNetwork/1098.7 Darwin/19.0.0",
-      "Overcast/1.0 (+http://overcast.fm/; iOS podcast app)"
+      "Overcast/1.0 (+http://overcast.fm/; iOS podcast app)",
+      "Overcast (+http://overcast.fm/; Apple Watch podcast app)"
     ],
     "referrers": [
       "https://overcast.fm/"
@@ -1645,15 +1818,34 @@
     "user_agents": [
       "Pandora/1908.1 Android/9 ali (ExoPlayerLib1.5.14.1)",
       "Mozilla/5.0 (iPad; CPU OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/1908.1",
-      "Mozilla/5.0 (iPad; CPU OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 Pandora/1908.1"
+      "Mozilla/5.0 (iPad; CPU OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 Pandora/1908.1",
+      "Pandora Audio/1902.1 (Linux;Android 8.1.0) ExoPlayerLib/2.8.2",
+      "Pandora/1811.1 Android/10 crownqltesq (ExoPlayerLib1.5.14.1)"
     ],
     "referrers": [
-      "https://www.pandora.com/"
+      "https://pandora.com/",
+      "https://www.pandora.com/",
+      "https://ce.pandora.com/?model=xbox&vendor=html5&type=GAME_CONSOLE&modelYear=2016&badge=vijjq3knevpj6d22nbljgn3736accrkg7k5e2dxnjju7oeetewqq&emulating=true&platform=xbox",
+      "https://tv.pandora.com/?model=WebOS&vendor=lge&type=HTML5&modelYear=2017&badge=lhb63apclwxs76eo3omyv2pqka5rhhgbb7bxhhziis3yivafnfoq"
     ]
   },
   "Pandora RSS Crawler": {
     "user_agents": [
       "PandoraRSSCrawler/1.0 (podcastpartnerships@pandora.com)"
+    ]
+  },
+  "Parler": {
+    "user_agents": [
+      "Parler Staging/542 CFNetwork/978.0.7 Darwin/18.7.0"
+    ],
+    "referrers": [
+      "https://parler.com/",
+      "https://www.parler.com/"
+    ]
+  },
+  "PeaCast": {
+    "user_agents": [
+      "PeaCast/0.7"
     ]
   },
   "Perl Script": {
@@ -1721,6 +1913,30 @@
       "PodcastAddict/v2 - Mozilla/5.0 (Linux; Android 8.1.0; 5008D_EEA Build/O11019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36",
       "Podcast Addict - Dalvik/2.1.0 (Linux; U; Android 9; SM-G960F Build/PPR1.180610.011)",
       "Podcast Addict - Dalvik/2.1.0 (Linux; U; Android 5.0; RCT6773W22B Build/LRX21M)"
+    ],
+    "referrers": [
+      "https://www.podcastaddict.com/",
+      "https://podcastaddict.com",
+      "https://podcastaddict.com/",
+      "https://podcastaddict.com/podcast/3050361"
+    ]
+  },
+  "Podcast Guru": {
+    "user_agents": [
+      "PodcastGuru"
+    ]
+  },
+  "Podcast Index": {
+    "referrers": [
+      "https://podcastindex.org/"
+    ]
+  },
+  "Podcast Player": {
+    "user_agents": [
+      "Podcast Player/1.0 (phone;android RMX3195_11_A.18)",
+      "Podcast Player/1.0 (phone;android RP1A.200720.011)",
+      "Podcast Player/1.0 (phone;android RMX3201_11_C.11)",
+      "Podcast Player/1.0 (phone;ios 15.5)"
     ]
   },
   "Podcast Republic": {
@@ -1731,8 +1947,28 @@
     ]
   },
   "Podcast.app": {
+    "user_agents": [
+      "com.evolve.podcast/3.1.0 (iPhone; ) (build 832, iOS 13.1.2)"
+    ],
     "referrers": [
       "https://podcast.app/"
+    ]
+  },
+  "Podcastly": {
+    "user_agents": [
+      "Podcastly/1.4.1 (samsung; CPU OS android 11; en_us)",
+      "Podcastly/1.3.0 (Apple; CPU OS ios 14.4.1; en_us)",
+      "Podcastly",
+      "Podcastly/1.4.1 (motorola; CPU OS android 9; en_us)"
+    ]
+  },
+  "Podchaser": {
+    "user_agents": [
+      "Podchaser (https://podchaser.com)",
+      "Podchaser-Parser"
+    ],
+    "referrers": [
+      "https://www.podchaser.com/something"
     ]
   },
   "Podclipper": {
@@ -1744,7 +1980,8 @@
     "user_agents": [
       "MediaAnalyzer podCloud/3.9.0-f575fbd4 (Podcast app like iTunes/12.0; Reason: media-5d65d68fa9b49765a47065a6)",
       "MediaAnalyzer podCloud/3.9.0-d5c42d86 (Podcast app like iTunes/12.0; Reason: media-5b100cdfa9b4972072000002)",
-      "MediaAnalyzer/podCloud 1.1 (like iTunes/10.0)"
+      "MediaAnalyzer/podCloud 1.1 (like iTunes/10.0)",
+      "podCloud/3.10.0-7a3e84b4 (Podcast app like iTunes/12.0; Reason: MediaAnalyzer (5ff00e4c89654e0e8c967f25))"
     ]
   },
   "Podcoin": {
@@ -1755,10 +1992,25 @@
       "Podcoin/168 CFNetwork/978.0.7 Darwin/18.5.0 Dynamo/1.0"
     ]
   },
+  "Podcorn": {
+    "user_agents": [
+      "Podcorn/1.0"
+    ]
+  },
   "PodCruncher": {
     "user_agents": [
       "PodCruncher/3.3.1 CFNetwork/978.0.7 Darwin/18.7.0",
       "PodCruncher/3.7.1 CFNetwork/978.0.7 Darwin/18.7.0 Dynamo/1.0"
+    ]
+  },
+  "PodFriend": {
+    "referrers": [
+      "https://web.podfriend.com/"
+    ]
+  },
+  "Podhero": {
+    "user_agents": [
+      "Podhero/2.4.0 (Linux;Android 10) ExoPlayerLib/2.9.6"
     ]
   },
   "Podimo": {
@@ -1774,10 +2026,51 @@
       "Podkicker/1.1.0 Android/2.3.7"
     ]
   },
+  "PodLP": {
+    "user_agents": [
+      "Mozilla/5.0 (Mobile; LYF/F90M/LYF-F90M-000-03-31-121219; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5 PodLP/1.3.3.0",
+      "Mozilla/5.0 (Mobile; Accent_Nubia50K; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5.1.1 PodLP/1.3.2.0",
+      "Mozilla/5.0 (Mobile; Nokia_2720_Flip; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5.2 PodLP/1.3.2.0"
+    ]
+  },
+  "PodMe": {
+    "user_agents": [
+      "Podme android app/5.1 (Linux;Android 9) ExoPlayerLib/2.11.5",
+      "Podme android app/5.1 (Linux;Android 10) ExoPlayerLib/2.11.5",
+      "PodMe/10289 CFNetwork/1240.0.4 Darwin/20.6.0"
+    ]
+  },
   "PodNL": {
     "user_agents": [
       "PodNL/47 CFNetwork/1107.1 Darwin/19.0.0",
       "PodNL/47 CFNetwork/978.0.7 Darwin/18.7.0"
+    ]
+  },
+  "Podplay": {
+    "user_agents": [
+      "Podplay/21.06.23 (Linux;Android 11) ExoPlayerLib/2.13.3",
+      "Podplay/3.6.9.2 CFNetwork/758.0.2 Darwin/15.0.0",
+      "Podplay/20.5.29 (Linux;Android 10) ExoPlayerLib/2.11.3",
+      "Podplay/57 CFNetwork/1240.0.4 Darwin/20.6.0"
+    ],
+    "referrers": [
+      "https://www.podplay.com/"
+    ]
+  },
+  "PodPuppy": {
+    "user_agents": [
+      "PodPuppy 1.0.0.0 github.com/felixwatts/PodPuppy"
+    ]
+  },
+  "Pods": {
+    "user_agents": [
+      "Pods/1 CFNetwork/1312 Darwin/21.0.0",
+      "Pods/1 CFNetwork/1240.0.4 Darwin/20.5.0"
+    ]
+  },
+  "Podscribe": {
+    "user_agents": [
+      "Adswizz-podscribe/1.0"
     ]
   },
   "Podtail": {
@@ -1788,6 +2081,19 @@
   "Podtrapper": {
     "user_agents": [
       "PodTrapper"
+    ]
+  },
+  "Podverse": {
+    "user_agents": [
+      "Podverse/3 CFNetwork/975.0.3 Darwin/18.2.0",
+      "podverse/393 CFNetwork/1128.0.1 Darwin/19.6.0",
+      "Podverse/iOS Mobile App/Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+      "Podverse/F-Droid Android Mobile App/"
+    ]
+  },
+  "Podyssey": {
+    "user_agents": [
+      "Podyssey"
     ]
   },
   "ProCast": {
@@ -1812,6 +2118,12 @@
       "QuickTime/7.7.5 (qtver=7.7.5;os=Windows NT 6.1Service Pack 1)"
     ]
   },
+  "radio.de": {
+    "user_agents": [
+      "radio.de/4671 CFNetwork/1121.2.2 Darwin/19.2.0",
+      "radio.de/5.1.0.1 (Linux;Android 7.1.1) ExoPlayerLib/2.10.7"
+    ]
+  },
   "Radioline": {
     "user_agents": [
       "VLC/2.2.0-git LibVLC/2.2.0-git (Radioline)",
@@ -1825,11 +2137,25 @@
       "RadioPublicDraper/81b12be Faraday/0.15.2 ruby/2.3.8",
       "RadioPublic iOS 1.9.18",
       "RadioPublic/9 CFNetwork/808.3 Darwin/16.3.0"
+    ],
+    "referrers": [
+      "https://radiopublic.com/"
+    ]
+  },
+  "Repod": {
+    "user_agents": [
+      "Repod/2.9.0.363 CFNetwork/1240.0.4 Darwin/20.6.0 (iPhone/X iOS/14.7.1)",
+      "Repod/2.9.0.221 Mozilla/5.0 (Linux; Android 11; Pixel 3 Build/RQ3A.210905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.85 Mobile Safari/537.36"
     ]
   },
   "Request.js": {
     "user_agents": [
       "request.js"
+    ]
+  },
+  "Roka Stereo": {
+    "user_agents": [
+      "Roka Stereo/2.0.0 (com.goodbarber.rokastereo; build:110; iOS 13.7.0) Alamofire/4.8.2"
     ]
   },
   "Roku": {
@@ -1856,6 +2182,18 @@
       "Ruby"
     ]
   },
+  "SachNoi": {
+    "user_agents": [
+      "SachNoi.app/1 CFNetwork/1197 Darwin/20.0.0",
+      "SachNoiApp/2 CFNetwork/1128.0.1 Darwin/19.6.0",
+      "SachNoiApp/3 CFNetwork/1120 Darwin/19.0.0"
+    ]
+  },
+  "Samsung Free": {
+    "user_agents": [
+      "sp-agent"
+    ]
+  },
   "SEMrush Bot": {
     "user_agents": [
       "Mozilla/5.0 (compatible; SemrushBot/6~bl; +http://www.semrush.com/bot.html)",
@@ -1866,6 +2204,12 @@
     "user_agents": [
       "ServeStream Dynamo/1.0",
       "ServeStream"
+    ]
+  },
+  "SiriusXM": {
+    "user_agents": [
+      "SiriusXM/1608138304 CFNetwork/1206 Darwin/20.1.0",
+      "SiriusXM/1605247515 CFNetwork/1197 Darwin/20.0.0"
     ]
   },
   "Slack": {
@@ -1930,11 +2274,13 @@
       "AlexaMediaPlayer/Stitcher (Linux;Android 8.1.0) ExoPlayerLib/2.2.0 Dynamo/1.0",
       "Stitcher/13874 CFNetwork/485.13.9 Darwin/11.0.0",
       "Stitcher/Android",
-      "Stitcher/iOS"
+      "Stitcher/iOS",
+      "Stitcher Demo/4.8.0 (Linux;Android 9) ExoPlayerLib/2.10.7"
     ],
     "referrers": [
       "https://app.stitcher.com/",
-      "https://www.stitcher.com/podcast/mile-marker-181/e/57173832?autoplay=true"
+      "https://www.stitcher.com/podcast/mile-marker-181/e/57173832?autoplay=true",
+      "https://classic.stitcher.com/"
     ]
   },
   "StitcherBot": {
@@ -1956,6 +2302,11 @@
       "Storiyoh/1 CFNetwork/894 Darwin/17.4.0"
     ]
   },
+  "StoryShots": {
+    "user_agents": [
+      "StoryShots/1.9.72 (Linux;Android 9) ExoPlayerLib/2.11.4"
+    ]
+  },
   "Subcast": {
     "user_agents": [
       "Subcast/1.0 (user=933ffa24-9b4d-4c7d-bb42-843656b56a84)",
@@ -1975,6 +2326,27 @@
       "TED POD-2.0.2",
       "TED/2941 CFNetwork/976 Darwin/18.2.0",
       "TED Android; Version 3.3.3; OPPO R15 9"
+    ]
+  },
+  "The God Minute": {
+    "user_agents": [
+      "The God Minute/8 CFNetwork/1125.2 Darwin/19.4.0",
+      "The God Minute/8 CFNetwork/1209 Darwin/20.2.0"
+    ]
+  },
+  "The Podcast App": {
+    "user_agents": [
+      "ThePodcastApp/3.44.1 (iPhone; iOS 14.2; ) player (build 4007; +https://podcast.app/)",
+      "ThePodcastApp/3.44.1 (iPhone; iOS 14.2; ) stream (build 4007; +https://podcast.app/)",
+      "ThePodcastApp/3.44.1 (iPhone; iOS 14.2; ) listenLater (build 4007; +https://podcast.app/)"
+    ]
+  },
+  "TikTok": {
+    "user_agents": [
+      "Mozilla/5.0 (Linux; Android 10; SM-G960U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.110 Mobile Safari/537.36 trill_2021707410 JsSdk/1.0 NetType/WIFI Channel/googleplay AppName/musical_ly app_version/17.7.41 ByteLocale/en ByteFullLocale/en Region/USA",
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 musical_ly_17.5.0 JsSdk/2.0 NetType/WIFI Channel/App Store ByteLocale/nl Region/NL ByteFullLocale/nl-NL WKWebView/1",
+      "Mozilla/5.0 (Linux; Android 11; Pixel 3 Build/RP1A.200720.009; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.127 Mobile Safari/537.36 trill_2021706030 JsSdk/1.0 NetType/4G Channel/googleplay AppName/musical_ly app_version/17.6.3",
+      "Mozilla/5.0 (Linux; Android 10; SM-G9650 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.75 Mobile Safari/537.36 trill_2021706410 JsSdk/1.0 NetType/WIFI Channel/googleplay AppName/musical_ly app_version/17.6."
     ]
   },
   "Trackable": {
@@ -2029,14 +2401,28 @@
       "UCast/1.0 Podcast Sync (1 subscribers; feed-id=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMDg0OTQucnNzEAEBAD32-0242-42AC-8583-21E9BAD8C544; +http://www.ucastapp.com/)"
     ]
   },
-  "Unknown Android App": {
+  "Unknown Android Apps": {
     "user_agents": [
       "AndroidDownloadManager/4.3 (Linux; U; Android 4.3; SGH-M919 Build/JSS15J)",
       "AndroidDownloadManager/6.0 (Linux; U; Android 6.0; Nexus 5 Build/MRA58K)",
       "Android.LVLDM",
       "Dalvik/2.1.0 (Linux; U; Android 8.0.0; G8341 Build/47.1.A.2.281)",
       "Dalvik (Linux; U; Android 4.1.1;aries/JRO03L)",
-      "Dalvik/1.6.0 (Linux; U; Android 4.3; Galaxy Nexus Build/JWR66Y)"
+      "Dalvik/1.6.0 (Linux; U; Android 4.3; Galaxy Nexus Build/JWR66Y)",
+      "stagefright/1.2 (Linux;Android 4.1.2)",
+      "stagefright/1.2 (Linux;Android 10)",
+      "stagefright/1.2 (Linux;Android 4.4.2)"
+    ]
+  },
+  "Unknown Apple Apps": {
+    "user_agents": [
+      "AppleCoreMedia/1.0.0.17A5821e (iPhone; U; CPU OS 13_1 like Mac OS X; tr_tr)",
+      "AppleCoreMedia/1.0.0.16G102 (iPad; U; CPU OS 12_4_1 like Mac OS X; sk_sk)",
+      "AppleCoreMedia/1.0.0.16G102 (iPod touch; U; CPU OS 12_4_1 like Mac OS X; en_ca)",
+      "AppleCoreMedia/1.0.0.15L576 (Apple TV; U; CPU OS 11_4 like Mac OS X; en_us)",
+      "AppleCoreMedia/1.0.0.15M73 (Apple TV; U; CPU OS 11_4_1 like Mac OS X; id)",
+      "AppleCoreMedia/1.0.0.16U113 (Apple Watch; U; CPU OS 5_2_1 like Mac OS X; pl_pl)",
+      "AppleCoreMedia/1.0.0.17R5556d (Apple Watch; U; CPU OS 6_0 like Mac OS X; de_at)"
     ]
   },
   "uTorrent": {
@@ -2050,6 +2436,11 @@
       "VictorReader Stream 503 au-en Tyler Lucy 4.7.2",
       "VictorReader Stream 503 uk-en Graham Rachel 4.7.2",
       "VictorReader_4-4-2"
+    ]
+  },
+  "Voiz FM": {
+    "user_agents": [
+      "Voiz FM/10.1.0 (Linux;Android 8.1.0) ExoPlayerLib/2.9.3"
     ]
   },
   "weborama-fetcher": {
@@ -2104,12 +2495,30 @@
       "Lavf52.104.0 WMPlayer/10.0.0.364 guid/3300AD50-2C39-46C0-AE0A-AC7B8159E203"
     ]
   },
+  "Wix": {
+    "referrers": [
+      "https://podcasts.wixapps.net/"
+    ]
+  },
   "WordPress": {
     "user_agents": [
       "WordPress/4.4; http://",
       "WordPress/5.2.2; http://",
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) WordPressDesktop/4.2.0 Chrome/58.0.3029.110 Electron/1.7.16 Safari/537.36",
       "WordPress.com; https://phiquyenchinh.org"
+    ]
+  },
+  "Xiao Yu Zhou": {
+    "user_agents": [
+      "Xiaoyuzhou/1.9.5 Android/11",
+      "Xiaoyuzhou/1.2.0"
+    ]
+  },
+  "XING": {
+    "user_agents": [
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) ; iPhone/13.4.1 XING/8.7.0 ttt_webview_iosm",
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) XING-iPhone/8.39.1 (iOS; Dark; de) iPhone/14.7.1 (iOS; Device) ttt_webview_iosm",
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) ; iPhone 8/14.6 XING/8.33.6 ttt_webview_iosm"
     ]
   },
   "Yahoo! Crawler": {
