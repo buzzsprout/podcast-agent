@@ -627,6 +627,10 @@
     "user_agent_match": "^folkebladet.no\\/"
   },
   {
+    "name": "Fountain",
+    "user_agent_match": "fountain.fm"
+  },
+  {
     "name": "FreeMP3MusicDownload",
     "user_agent_match": "^FreeMP3MusicDownload\\/"
   },

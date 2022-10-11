@@ -705,6 +705,12 @@ Flipboard Proxy:
 folkebladet:
   user_agents:
   - folkebladet.no/252 CFNetwork/811.5.4 Darwin/16.7.0
+Fountain:
+  user_agents:
+  - Fountain/0.2.6 iOS https://www.fountain.fm
+  - Fountain/0.3.8 ios https://www.fountain.fm
+  - Fountain/0.2.6 Android https://www.fountain.fm
+  - Fountain/0.3.13 android https://www.fountain.fm
 FreeMP3MusicDownload:
   user_agents:
   - FreeMP3MusicDownload/1.5 CFNetwork/609.1.4 Darwin/13.0.0
