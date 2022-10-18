@@ -263,6 +263,7 @@
       "Podcasts/1.0.0 iPhone/12.4 hw/iPhone11_2",
       "البودكاست/1530.3 CFNetwork/1209 Darwin/20.2.0\t6",
       "พ็อดคาสท์/1440.4 CFNetwork/1126 Darwin/19.5.0",
+      "ポッドキャスト/1709.2.2 CFNetwork/1390 Darwin/22.0.0",
       "פודקאסטים/1420.35 CFNetwork/1120 Darwin/19.0.0",
       "Подкасти/1520.39 CFNetwork/1206 Darwin/20.1.0",
       "Podcasts/1.2.3",
@@ -1132,6 +1133,10 @@
       "Goodpods/3 CFNetwork/1128.0.1 Darwin/19.6.0",
       "Goodpods/6 CFNetwork/1121.2.2 Darwin/19.3.0",
       "Goodpods.iOS / 3.2.0"
+    ],
+    "referrers": [
+      "https://www.goodpods.com",
+      "https://goodpods.com"
     ]
   },
   "GoodReader": {
@@ -1170,6 +1175,9 @@
       "Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) GSA/3.2.1.25875 Mobile/11B554a Safari/8536.25",
       "GooglePodcasts/2.0.2%20iPod_touch/13.4.1%20hw/iPod9_1",
       "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MTC19T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 GSA/5.13.31.21.arm64"
+    ],
+    "referrers": [
+      "https://podcasts.google.com/"
     ]
   },
   "Google Podcasts Bot": {
@@ -1758,7 +1766,8 @@
   },
   "MoonFM": {
     "user_agents": [
-      "MoonFM/128 CFNetwork/978.0.7 Darwin/18.7.0"
+      "MoonFM/128 CFNetwork/978.0.7 Darwin/18.7.0",
+      "Moon FM/4.0.33"
     ]
   },
   "Mozilla Bot": {
@@ -2011,6 +2020,11 @@
       "PodCruncher/3.7.1 CFNetwork/978.0.7 Darwin/18.7.0 Dynamo/1.0"
     ]
   },
+  "Podeo": {
+    "user_agents": [
+      "Podeo/4.2.3 (Linux;Android 12) ExoPlayerLib/2.11.7"
+    ]
+  },
   "PodFriend": {
     "referrers": [
       "https://web.podfriend.com/"
@@ -2024,6 +2038,11 @@
   "Podimo": {
     "user_agents": [
       "Podimo/99 CFNetwork/974.2.1 Darwin/18.0.0"
+    ]
+  },
+  "Podio": {
+    "user_agents": [
+      "Podio/1.0"
     ]
   },
   "Podkicker": {

@@ -9,7 +9,7 @@
   },
   {
     "name": "Acast",
-    "user_agent_match": "^Acast\\/|^acast\\/|^Acast%20%CE%B2|^Acast%20Beta/"
+    "user_agent_match": "\\AAcast\\/|\\Aacast\\/|\\AAcast%20%CE%B2|\\AAcast%20Beta/"
   },
   {
     "name": "Accompany",
@@ -25,35 +25,35 @@
   },
   {
     "name": "Adori",
-    "user_agent_match": "^Adori\\/"
+    "user_agent_match": "\\AAdori\\/"
   },
   {
     "name": "Adori-Listen",
-    "user_agent_match": "^Adori-Listen\\/"
+    "user_agent_match": "\\AAdori-Listen\\/"
   },
   {
     "name": "AdventureChurch",
-    "user_agent_match": "^AdventureChurch\\/"
+    "user_agent_match": "\\AAdventureChurch\\/"
   },
   {
     "name": "Agora",
-    "user_agent_match": "^Agora\\/"
+    "user_agent_match": "\\AAgora\\/"
   },
   {
     "name": "AhaRadio",
-    "user_agent_match": "^AhaRadio2\\/"
+    "user_agent_match": "\\AAhaRadio2\\/"
   },
   {
     "name": "Airr",
-    "user_agent_match": "^Airr"
+    "user_agent_match": "\\AAirr"
   },
   {
     "name": "Alexa Enabled Device",
-    "user_agent_match": "^AlexaMediaPlayer\\/(\\d|v).*ExoPlayerLib|AlexaService|Alexa Mobile Voice/"
+    "user_agent_match": "\\AAlexaMediaPlayer\\/(\\d|v).*ExoPlayerLib|AlexaService|Alexa Mobile Voice/"
   },
   {
     "name": "AlienBlue",
-    "user_agent_match": "^AlienBlue\\/"
+    "user_agent_match": "\\AAlienBlue\\/"
   },
   {
     "name": "All You Can Books",
@@ -65,36 +65,36 @@
   },
   {
     "name": "Aloha",
-    "user_agent_match": "^Aloha\\/"
+    "user_agent_match": "\\AAloha\\/"
   },
   {
     "name": "Amazon Alexa Flash Briefing",
-    "user_agent_match": "^AmazonNewsContentService"
+    "user_agent_match": "\\AAmazonNewsContentService"
   },
   {
     "name": "Amazon Echo",
-    "user_agent_match": "^Echo"
+    "user_agent_match": "\\AEcho"
   },
   {
     "name": "Amazon Fire",
-    "user_agent_match": "^Amazon;AF.*"
+    "user_agent_match": "\\AAmazon;AF.*"
   },
   {
     "name": "Amazon Music",
-    "user_agent_match": "^AmazonMusic",
-    "referrer_match": "^https://music.amazon."
+    "user_agent_match": "\\AAmazonMusic",
+    "referrer_match": "\\Ahttps://music.amazon."
   },
   {
     "name": "AMPApp",
-    "user_agent_match": "^AMPApp\\/"
+    "user_agent_match": "\\AAMPApp\\/"
   },
   {
     "name": "Anchor",
-    "user_agent_match": "^Anchor\\/"
+    "user_agent_match": "\\AAnchor\\/"
   },
   {
     "name": "AnchorFM",
-    "user_agent_match": "^AnchorFM\\/"
+    "user_agent_match": "\\AAnchorFM\\/"
   },
   {
     "name": "Android Browser",
@@ -106,31 +106,31 @@
   },
   {
     "name": "Antenna Pod",
-    "user_agent_match": "^AntennaPod|antennapod|antenna\\/.*CFNetwork"
+    "user_agent_match": "\\AAntennaPod|antennapod|antenna\\/.*CFNetwork"
   },
   {
     "name": "Apollo",
-    "user_agent_match": "^Apollo\\/"
+    "user_agent_match": "\\AApollo\\/"
   },
   {
     "name": "Apple HomePod",
-    "user_agent_match": "^AppleCoreMedia\\/.*HomePod"
+    "user_agent_match": "\\AAppleCoreMedia\\/.*HomePod"
   },
   {
     "name": "Apple iMessages",
-    "user_agent_match": "^MessagesViewService\\/"
+    "user_agent_match": "\\AMessagesViewService\\/"
   },
   {
     "name": "Apple iTunes",
-    "user_agent_match": "^iTunes\\/|^iTunes-|^iTunesU"
+    "user_agent_match": "\\AiTunes\\/|\\AiTunes-|\\AiTunesU"
   },
   {
     "name": "Apple Mail",
-    "user_agent_match": "^Mail\\/"
+    "user_agent_match": "\\AMail\\/"
   },
   {
     "name": "Apple Music",
-    "user_agent_match": "^AppleCoreMedia\\/.*Macintosh"
+    "user_agent_match": "\\AAppleCoreMedia\\/.*Macintosh"
   },
   {
     "name": "Apple News",
@@ -138,89 +138,89 @@
   },
   {
     "name": "Apple Podcasts",
-    "user_agent_match": "\\(null\\)\\/\\(null\\) watchOS\\/|^%D8%A7%D9%95%D8%B3%D9%85%D8%B9%D9%84%D9%8A/|^%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/|^%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/|^Podcastok\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8\\/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B\\/|^podcast\\/|%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA\\/|%E6%92%AD%E5%AE%A2\\/|Podcast\\/|Podcast%E2%80%99ler\\/|Podkaster\\/|팟캐스트\\/|播客\\/|פודקאסטים\\/Подкасты\\/Подкасти\\/|Podcaster\\/|Podcast’ler\\/|البودكاست\\/|พ็อดคาสท์\\/|Подкасты\\/|פודקאסטים\\/|Подкасти\\/|Podcasturi\\/|Podcastit\\/|Podcasty\\/|Podcasti\\/|Balados\\/|atc\\/|^Podcasts\\/|apple;apple_tv",
-    "referrer_match": "^https:\\/\\/(embed\\.)?podcasts\\.apple\\.com"
+    "user_agent_match": "\\(null\\)\\/\\(null\\) watchOS\\/|\\A%D8%A7%D9%95%D8%B3%D9%85%D8%B9%D9%84%D9%8A/|\\A%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/|\\A%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/|\\APodcastok\\/|\\A%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8\\/|\\A%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B\\/|\\Apodcast\\/|%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA\\/|%E6%92%AD%E5%AE%A2\\/|Podcast\\/|Podcast%E2%80%99ler\\/|Podkaster\\/|팟캐스트\\/|播客\\/|פודקאסטים\\/Подкасты\\/Подкасти\\/|Podcaster\\/|Podcast’ler\\/|البودكاست\\/|พ็อดคาสท์\\/|Подкасты\\/|פודקאסטים\\/|Подкасти\\/|Podcasturi\\/|Podcastit\\/|ポッドキャスト\\/|Podcasti\\/|Podcasti\\/|Balados\\/|atc\\/|\\APodcasts\\/|apple;apple_tv",
+    "referrer_match": "\\Ahttps:\\/\\/(embed\\.)?podcasts\\.apple\\.com"
   },
   {
     "name": "atheerfm",
-    "user_agent_match": "^atheerfm\\/"
+    "user_agent_match": "\\Aatheerfm\\/"
   },
   {
     "name": "Audacy",
-    "user_agent_match": "^Radio.com\\/"
+    "user_agent_match": "\\ARadio.com\\/"
   },
   {
     "name": "Audible",
-    "user_agent_match": "^(Audible|com.audible)",
-    "referrer_match": "^https://www.audible.com/"
+    "user_agent_match": "\\A(Audible|com.audible)",
+    "referrer_match": "\\Ahttps://www.audible.com/"
   },
   {
     "name": "Audio",
-    "user_agent_match": "^Audio\\/"
+    "user_agent_match": "\\AAudio\\/"
   },
   {
     "name": "Aural",
-    "user_agent_match": "^Aural\\/"
+    "user_agent_match": "\\AAural\\/"
   },
   {
     "name": "Aurora",
-    "user_agent_match": "^Aurora\\/"
+    "user_agent_match": "\\AAurora\\/"
   },
   {
     "name": "Autopod",
-    "user_agent_match": "^Autopod\\/"
+    "user_agent_match": "\\AAutopod\\/"
   },
   {
     "name": "avassetReader",
-    "user_agent_match": "^avassetReader\\/"
+    "user_agent_match": "\\AavassetReader\\/"
   },
   {
     "name": "avopodo",
-    "user_agent_match": "^avopodo\\/"
+    "user_agent_match": "\\Aavopodo\\/"
   },
   {
     "name": "AVPlay",
-    "user_agent_match": "^AVPlay\\/"
+    "user_agent_match": "\\AAVPlay\\/"
   },
   {
     "name": "Azul",
-    "user_agent_match": "^Azul\\/"
+    "user_agent_match": "\\AAzul\\/"
   },
   {
     "name": "BaladoQuebec",
-    "user_agent_match": "^BaladoQuebec\\/"
+    "user_agent_match": "\\ABaladoQuebec\\/"
   },
   {
     "name": "Banter",
-    "user_agent_match": "^Banter\\/"
+    "user_agent_match": "\\ABanter\\/"
   },
   {
     "name": "banter-beta",
-    "user_agent_match": "^banter-beta\\/"
+    "user_agent_match": "\\Abanter-beta\\/"
   },
   {
     "name": "Barabbas Road Church",
-    "user_agent_match": "^Barabbas Road Church\\/"
+    "user_agent_match": "\\ABarabbas Road Church\\/"
   },
   {
     "name": "BashPodder",
-    "user_agent_match": "^BashPodder"
+    "user_agent_match": "\\ABashPodder"
   },
   {
     "name": "Bear",
-    "user_agent_match": "^Bear\\/"
+    "user_agent_match": "\\ABear\\/"
   },
   {
     "name": "BeyondPod",
-    "user_agent_match": "^Mozilla.*BeyondPod"
+    "user_agent_match": "\\AMozilla.*BeyondPod"
   },
   {
     "name": "bgwnr",
-    "user_agent_match": "^bgwnr\\/"
+    "user_agent_match": "\\Abgwnr\\/"
   },
   {
     "name": "Bible",
-    "user_agent_match": "^Bible\\/"
+    "user_agent_match": "\\ABible\\/"
   },
   {
     "name": "Bing Preview",
@@ -228,43 +228,43 @@
   },
   {
     "name": "Bitcast",
-    "user_agent_match": "^(B|b)itcast"
+    "user_agent_match": "\\A(B|b)itcast"
   },
   {
     "name": "Bitly",
-    "user_agent_match": "^Bitly\\/"
+    "user_agent_match": "\\ABitly\\/"
   },
   {
     "name": "bitlybot",
-    "user_agent_match": "^bitlybot"
+    "user_agent_match": "\\Abitlybot"
   },
   {
     "name": "BizCoachPal",
-    "user_agent_match": "^BizCoachPal\\/"
+    "user_agent_match": "\\ABizCoachPal\\/"
   },
   {
     "name": "BMR",
-    "user_agent_match": "^BMR\\/"
+    "user_agent_match": "\\ABMR\\/"
   },
   {
     "name": "Bolt",
-    "user_agent_match": "^Bolt\\/"
+    "user_agent_match": "\\ABolt\\/"
   },
   {
     "name": "Bookmobile",
-    "user_agent_match": "^Bookmobile\\/"
+    "user_agent_match": "\\ABookmobile\\/"
   },
   {
     "name": "Bookself",
-    "user_agent_match": "^Bookself\\/"
+    "user_agent_match": "\\ABookself\\/"
   },
   {
     "name": "Boom",
-    "user_agent_match": "^Boom\\/"
+    "user_agent_match": "\\ABoom\\/"
   },
   {
     "name": "Bose",
-    "user_agent_match": "^Bose\\/"
+    "user_agent_match": "\\ABose\\/"
   },
   {
     "name": "bPod",
@@ -272,194 +272,194 @@
   },
   {
     "name": "Breaker",
-    "user_agent_match": "^Breaker\\/"
+    "user_agent_match": "\\ABreaker\\/"
   },
   {
     "name": "BrewApp",
-    "user_agent_match": "^BrewApp\\/"
+    "user_agent_match": "\\ABrewApp\\/"
   },
   {
     "name": "Broadcast",
-    "user_agent_match": "^Broadcast\\/"
+    "user_agent_match": "\\ABroadcast\\/"
   },
   {
     "name": "Browser",
-    "user_agent_match": "^Browser\\/"
+    "user_agent_match": "\\ABrowser\\/"
   },
   {
     "name": "browser_ios",
-    "user_agent_match": "^browser_ios\\/"
+    "user_agent_match": "\\Abrowser_ios\\/"
   },
   {
     "name": "BrowserPlus",
-    "user_agent_match": "^BrowserPlus\\/"
+    "user_agent_match": "\\ABrowserPlus\\/"
   },
   {
     "name": "Bullhorn",
-    "user_agent_match": "^Bullhorn"
+    "user_agent_match": "\\ABullhorn"
   },
   {
     "name": "Canvas",
-    "user_agent_match": "^Canvas\\/"
+    "user_agent_match": "\\ACanvas\\/"
   },
   {
     "name": "Capital",
-    "user_agent_match": "^Capital\\/"
+    "user_agent_match": "\\ACapital\\/"
   },
   {
     "name": "capsule.fm",
-    "user_agent_match": "^capsule.fm\\/"
+    "user_agent_match": "\\Acapsule.fm\\/"
   },
   {
     "name": "Cast",
-    "user_agent_match": "^Cast\\/"
+    "user_agent_match": "\\ACast\\/"
   },
   {
     "name": "Castamatic",
-    "user_agent_match": "^Castamatic\\/"
+    "user_agent_match": "\\ACastamatic\\/"
   },
   {
     "name": "Castaway",
-    "user_agent_match": "^Castaway\\/"
+    "user_agent_match": "\\ACastaway\\/"
   },
   {
     "name": "CastBox",
     "user_agent_match": "Cast[B|b]ox",
-    "referrer_match": "^https://castbox.fm/"
+    "referrer_match": "\\Ahttps://castbox.fm/"
   },
   {
     "name": "Casterbate",
-    "user_agent_match": "^Casterbate\\/"
+    "user_agent_match": "\\ACasterbate\\/"
   },
   {
     "name": "Castro",
-    "user_agent_match": "^Castro[\\/|\\s]",
-    "referrer_match": "^https://castro.fm/"
+    "user_agent_match": "\\ACastro[\\/|\\s]",
+    "referrer_match": "\\Ahttps://castro.fm/"
   },
   {
     "name": "Casts",
-    "user_agent_match": "^Casts\\/"
+    "user_agent_match": "\\ACasts\\/"
   },
   {
     "name": "CCGF",
-    "user_agent_match": "^CCGF\\/"
+    "user_agent_match": "\\ACCGF\\/"
   },
   {
     "name": "CEBrowser",
-    "user_agent_match": "^CEBrowser\\/"
+    "user_agent_match": "\\ACEBrowser\\/"
   },
   {
     "name": "CFC",
-    "user_agent_match": "^CFC\\/"
+    "user_agent_match": "\\ACFC\\/"
   },
   {
     "name": "CHCLeaders",
-    "user_agent_match": "^CHCLeaders\\/"
+    "user_agent_match": "\\ACHCLeaders\\/"
   },
   {
     "name": "Childress",
-    "user_agent_match": "^Childress\\/"
+    "user_agent_match": "\\AChildress\\/"
   },
   {
     "name": "chorus",
-    "user_agent_match": "^chorus\\/"
+    "user_agent_match": "\\Achorus\\/"
   },
   {
     "name": "Christian Life Austin",
-    "user_agent_match": "^Christian Life Austin\\/"
+    "user_agent_match": "\\AChristian Life Austin\\/"
   },
   {
     "name": "Chromecast",
-    "user_agent_match": "^Mozilla.*CrKey"
+    "user_agent_match": "\\AMozilla.*CrKey"
   },
   {
     "name": "ChurchLink",
-    "user_agent_match": "^ChurchLink\\/"
+    "user_agent_match": "\\AChurchLink\\/"
   },
   {
     "name": "Clammr",
-    "user_agent_match": "^Clammr\\/"
+    "user_agent_match": "\\AClammr\\/"
   },
   {
     "name": "Classic FM",
-    "user_agent_match": "^Classic FM\\/"
+    "user_agent_match": "\\AClassic FM\\/"
   },
   {
     "name": "Clementine",
-    "user_agent_match": "^Clementine"
+    "user_agent_match": "\\AClementine"
   },
   {
     "name": "Client",
-    "user_agent_match": "^Client\\/"
+    "user_agent_match": "\\AClient\\/"
   },
   {
     "name": "CloudPlayer",
-    "user_agent_match": "^doubleTwist CloudPlayer"
+    "user_agent_match": "\\AdoubleTwist CloudPlayer"
   },
   {
     "name": "Club",
-    "user_agent_match": "^Club\\/"
+    "user_agent_match": "\\AClub\\/"
   },
   {
     "name": "Commotion",
-    "user_agent_match": "^Commotion\\/"
+    "user_agent_match": "\\ACommotion\\/"
   },
   {
     "name": "Copied",
-    "user_agent_match": "^Copied\\/"
+    "user_agent_match": "\\ACopied\\/"
   },
   {
     "name": "CoreDataPlayerSample",
-    "user_agent_match": "^CoreDataPlayerSample\\/"
+    "user_agent_match": "\\ACoreDataPlayerSample\\/"
   },
   {
     "name": "Cosmicast",
-    "user_agent_match": "^Cosmicast\\/"
+    "user_agent_match": "\\ACosmicast\\/"
   },
   {
     "name": "Crosspoint City Church",
-    "user_agent_match": "^Crosspoint City Church\\/"
+    "user_agent_match": "\\ACrosspoint City Church\\/"
   },
   {
     "name": "Crosspointe",
-    "user_agent_match": "^Crosspointe\\/"
+    "user_agent_match": "\\ACrosspointe\\/"
   },
   {
     "name": "CrossPreach",
-    "user_agent_match": "^CrossPreach\\/"
+    "user_agent_match": "\\ACrossPreach\\/"
   },
   {
     "name": "Czech Podcasts",
-    "referrer_match": "^https://ceskepodcasty.cz/"
+    "referrer_match": "\\Ahttps://ceskepodcasty.cz/"
   },
   {
     "name": "DataDogApp",
-    "user_agent_match": "^DataDogApp\\/"
+    "user_agent_match": "\\ADataDogApp\\/"
   },
   {
     "name": "DaumWebtoon",
-    "user_agent_match": "^DaumWebtoon\\/"
+    "user_agent_match": "\\ADaumWebtoon\\/"
   },
   {
     "name": "Deezer",
-    "user_agent_match": "^Deezer\\/",
-    "referrer_match": "^https://www.deezer.com/"
+    "user_agent_match": "\\ADeezer\\/",
+    "referrer_match": "\\Ahttps://www.deezer.com/"
   },
   {
     "name": "Delve",
-    "user_agent_match": "^Delve\\/"
+    "user_agent_match": "\\ADelve\\/"
   },
   {
     "name": "DevEnvironments",
-    "user_agent_match": "^Adori-Dev\\/|^LuminaryPreprod\\/|Jabbercast%20%28Dev%29/|^Jabbercast%20%28Staging%29/^Jabbercast%20Beta/"
+    "user_agent_match": "\\AAdori-Dev\\/|\\ALuminaryPreprod\\/|Jabbercast%20%28Dev%29/|\\AJabbercast%20%28Staging%29/\\AJabbercast%20Beta/"
   },
   {
     "name": "DManager",
-    "user_agent_match": "^DManager\\/"
+    "user_agent_match": "\\ADManager\\/"
   },
   {
     "name": "Documents",
-    "user_agent_match": "^Documents\\/"
+    "user_agent_match": "\\ADocuments\\/"
   },
   {
     "name": "DoggCatcher",
@@ -467,7 +467,7 @@
   },
   {
     "name": "Dolphini",
-    "user_agent_match": "^DolphiniPad\\/|^DolphiniPhone\\/"
+    "user_agent_match": "\\ADolphiniPad\\/|\\ADolphiniPhone\\/"
   },
   {
     "name": "Downcast",
@@ -475,156 +475,156 @@
   },
   {
     "name": "Downie",
-    "user_agent_match": "^Downie\\/"
+    "user_agent_match": "\\ADownie\\/"
   },
   {
     "name": "Download Shuttle",
-    "user_agent_match": "^Download Shuttle\\/"
+    "user_agent_match": "\\ADownload Shuttle\\/"
   },
   {
     "name": "DownloadAll",
-    "user_agent_match": "^DownloadAll\\/"
+    "user_agent_match": "\\ADownloadAll\\/"
   },
   {
     "name": "Downloader",
-    "user_agent_match": "^Downloader\\/"
+    "user_agent_match": "\\ADownloader\\/"
   },
   {
     "name": "DownloaderLite",
-    "user_agent_match": "^DownloaderLite\\/"
+    "user_agent_match": "\\ADownloaderLite\\/"
   },
   {
     "name": "DownloaderSound",
-    "user_agent_match": "^DownloaderSound\\/"
+    "user_agent_match": "\\ADownloaderSound\\/"
   },
   {
     "name": "DownloadPro",
-    "user_agent_match": "^DownloadPro\\/"
+    "user_agent_match": "\\ADownloadPro\\/"
   },
   {
     "name": "Downloads",
-    "user_agent_match": "^Downloads\\/"
+    "user_agent_match": "\\ADownloads\\/"
   },
   {
     "name": "DownMan",
-    "user_agent_match": "^DownMan\\/"
+    "user_agent_match": "\\ADownMan\\/"
   },
   {
     "name": "DowntonAppy",
-    "user_agent_match": "^DowntonAppy\\/"
+    "user_agent_match": "\\ADowntonAppy\\/"
   },
   {
     "name": "DriveCast",
-    "user_agent_match": "^DriveCast\\/"
+    "user_agent_match": "\\ADriveCast\\/"
   },
   {
     "name": "DroolRadio",
-    "user_agent_match": "^DroolRadio\\/"
+    "user_agent_match": "\\ADroolRadio\\/"
   },
   {
     "name": "Earbud",
-    "user_agent_match": "^Earbud\\/"
+    "user_agent_match": "\\AEarbud\\/"
   },
   {
     "name": "EasyGet",
-    "user_agent_match": "^EasyGet\\/"
+    "user_agent_match": "\\AEasyGet\\/"
   },
   {
     "name": "Elevation_Health",
-    "user_agent_match": "^Elevation_Health\\/"
+    "user_agent_match": "\\AElevation_Health\\/"
   },
   {
     "name": "EMAudioPlayer",
-    "user_agent_match": "^EMAudioPlayer "
+    "user_agent_match": "\\AEMAudioPlayer "
   },
   {
     "name": "Encounter",
-    "user_agent_match": "^Encounter\\/"
+    "user_agent_match": "\\AEncounter\\/"
   },
   {
     "name": "EpisodeFever",
-    "user_agent_match": "^EpisodeFever\\/"
+    "user_agent_match": "\\AEpisodeFever\\/"
   },
   {
     "name": "EQu",
-    "user_agent_match": "^EQu\\/"
+    "user_agent_match": "\\AEQu\\/"
   },
   {
     "name": "EvanApp",
-    "user_agent_match": "^EvanApp\\/"
+    "user_agent_match": "\\AEvanApp\\/"
   },
   {
     "name": "Expo",
-    "user_agent_match": "^Expo\\/"
+    "user_agent_match": "\\AExpo\\/"
   },
   {
     "name": "ExtDownloader",
-    "user_agent_match": "^ExtDownloader\\/"
+    "user_agent_match": "\\AExtDownloader\\/"
   },
   {
     "name": "ExtraCloud",
-    "user_agent_match": "^ExtraCloud\\/"
+    "user_agent_match": "\\AExtraCloud\\/"
   },
   {
     "name": "Facebook",
-    "user_agent_match": "\\[FBAN|^facebook-mobile|^Facebook/|\\/Facebook",
-    "referrer_match": "^http(s)?://(lm|m|www|l).facebook.com/"
+    "user_agent_match": "\\[FBAN|\\Afacebook-mobile|\\AFacebook/|\\/Facebook",
+    "referrer_match": "\\Ahttp(s)?://(lm|m|www|l).facebook.com/"
   },
   {
     "name": "FaithPlay",
-    "user_agent_match": "^FaithPlay"
+    "user_agent_match": "\\AFaithPlay"
   },
   {
     "name": "Fallound",
-    "user_agent_match": "^Fallound\\/"
+    "user_agent_match": "\\AFallound\\/"
   },
   {
     "name": "FancyMusic",
-    "user_agent_match": "^FancyMusic\\/"
+    "user_agent_match": "\\AFancyMusic\\/"
   },
   {
     "name": "Feeder",
-    "user_agent_match": "^Feeder\\/"
+    "user_agent_match": "\\AFeeder\\/"
   },
   {
     "name": "feedly",
-    "user_agent_match": "^feedly\\/"
+    "user_agent_match": "\\Afeedly\\/"
   },
   {
     "name": "Fellowship Bible Church Topeka",
-    "user_agent_match": "^Fellowship Bible Church Topeka\\/"
+    "user_agent_match": "\\AFellowship Bible Church Topeka\\/"
   },
   {
     "name": "Filebox",
-    "user_agent_match": "^Filebox\\/"
+    "user_agent_match": "\\AFilebox\\/"
   },
   {
     "name": "FileBrowser",
-    "user_agent_match": "^FileBrowser\\/"
+    "user_agent_match": "\\AFileBrowser\\/"
   },
   {
     "name": "Filer",
-    "user_agent_match": "^Filer\\/"
+    "user_agent_match": "\\AFiler\\/"
   },
   {
     "name": "Files",
-    "user_agent_match": "^Files\\/"
+    "user_agent_match": "\\AFiles\\/"
   },
   {
     "name": "FilesPro",
-    "user_agent_match": "^FilesPro\\/"
+    "user_agent_match": "\\AFilesPro\\/"
   },
   {
     "name": "Fili",
-    "user_agent_match": "^Fili\\/"
+    "user_agent_match": "\\AFili\\/"
   },
   {
     "name": "Fire OS",
-    "user_agent_match": "^Fire OS.+stagefright"
+    "user_agent_match": "\\AFire OS.+stagefright"
   },
   {
     "name": "folkebladet",
-    "user_agent_match": "^folkebladet.no\\/"
+    "user_agent_match": "\\Afolkebladet.no\\/"
   },
   {
     "name": "Fountain",
@@ -632,93 +632,94 @@
   },
   {
     "name": "FreeMP3MusicDownload",
-    "user_agent_match": "^FreeMP3MusicDownload\\/"
+    "user_agent_match": "\\AFreeMP3MusicDownload\\/"
   },
   {
     "name": "freemusic",
-    "user_agent_match": "^freemusic\\/"
+    "user_agent_match": "\\Afreemusic\\/"
   },
   {
     "name": "FreeMusicDownloadPro",
-    "user_agent_match": "^FreeMusicDownloadPro\\/"
+    "user_agent_match": "\\AFreeMusicDownloadPro\\/"
   },
   {
     "name": "FreeMusicPlusFree",
-    "user_agent_match": "^FreeMusicPlusFree\\/"
+    "user_agent_match": "\\AFreeMusicPlusFree\\/"
   },
   {
     "name": "Gaana",
-    "user_agent_match": "^Gaana",
-    "referrer_match": "^https://gaana.com/"
+    "user_agent_match": "\\AGaana",
+    "referrer_match": "\\Ahttps://gaana.com/"
   },
   {
     "name": "GBEngine",
-    "user_agent_match": "^GBEngine\\/"
+    "user_agent_match": "\\AGBEngine\\/"
   },
   {
     "name": "GMB Show",
-    "user_agent_match": "^GMB Show\\/"
+    "user_agent_match": "\\AGMB Show\\/"
   },
   {
     "name": "Godster",
-    "user_agent_match": "^Godster\\/"
+    "user_agent_match": "\\AGodster\\/"
   },
   {
     "name": "Gold",
-    "user_agent_match": "^Gold\\/"
+    "user_agent_match": "\\AGold\\/"
   },
   {
     "name": "GoldenPod",
-    "user_agent_match": "^GoldenPod\\/"
+    "user_agent_match": "\\AGoldenPod\\/"
   },
   {
     "name": "GoLoud",
-    "user_agent_match": "^GoLoud\\/"
+    "user_agent_match": "\\AGoLoud\\/"
   },
   {
     "name": "goodpods",
-    "user_agent_match": "^(g|G)oodpods"
+    "user_agent_match": "\\A(g|G)oodpods",
+    "referrer_match": "\\Ahttps:\\/\\/(www.)?goodpods.com"
   },
   {
     "name": "GoodReader",
-    "user_agent_match": "^GoodReader\\/|^GoodReader4\\/|^GoodReaderIPad\\/"
+    "user_agent_match": "\\AGoodReader\\/|\\AGoodReader4\\/|\\AGoodReaderIPad\\/"
   },
   {
     "name": "Google",
-    "user_agent_match": "^Google\\/"
+    "user_agent_match": "\\AGoogle\\/"
   },
   {
     "name": "Google Home",
-    "user_agent_match": "^Google-Speech-Action|GoogleChirp\\/"
+    "user_agent_match": "\\AGoogle-Speech-Action|GoogleChirp\\/"
   },
   {
     "name": "Google Podcasts",
-    "user_agent_match": "^GooglePodcasts|GSA\\/|Podcasts$",
-    "referrer_match": "^https://podcasts.google.com/"
+    "user_agent_match": "\\AGooglePodcasts|GSA\\/|Podcasts\\z",
+    "referrer_match": "\\Ahttps://podcasts.google.com/"
   },
   {
     "name": "gPodder",
-    "user_agent_match": "^gPodder\\/|gpodder"
+    "user_agent_match": "\\AgPodder\\/|gpodder"
   },
   {
     "name": "GrabRadioWorld",
-    "user_agent_match": "^GrabRadioWorld\\/"
+    "user_agent_match": "\\AGrabRadioWorld\\/"
   },
   {
     "name": "Grace Community Church",
-    "user_agent_match": "^Grace%20Community%20Church%20-%20Texas\\/"
+    "user_agent_match": "\\AGrace%20Community%20Church%20-%20Texas\\/"
   },
   {
     "name": "Grace Evangelical Covenant Church",
-    "user_agent_match": "^Grace%20Evangelical%20Covenant%20Church\\/|^Grace Evangelical Covenant Church\\/"
+    "user_agent_match": "\\AGrace%20Evangelical%20Covenant%20Church\\/|\\AGrace Evangelical Covenant Church\\/"
   },
   {
     "name": "Gretale",
-    "user_agent_match": "^Gretale\\/"
+    "user_agent_match": "\\AGretale\\/"
   },
   {
     "name": "GroupMe",
-    "user_agent_match": "^GroupMe\\/"
+    "user_agent_match": "\\AGroupMe\\/"
   },
   {
     "name": "GStreamer",
@@ -726,43 +727,43 @@
   },
   {
     "name": "Guacamole",
-    "user_agent_match": "^Guacamole\\/"
+    "user_agent_match": "\\AGuacamole\\/"
   },
   {
     "name": "Guardian",
-    "user_agent_match": "^Guardian"
+    "user_agent_match": "\\AGuardian"
   },
   {
     "name": "HalfTunes",
-    "user_agent_match": "^HalfTunes\\/"
+    "user_agent_match": "\\AHalfTunes\\/"
   },
   {
     "name": "Hammel",
-    "user_agent_match": "^Hammel\\/"
+    "user_agent_match": "\\AHammel\\/"
   },
   {
     "name": "HardCast",
-    "user_agent_match": "^HardCast"
+    "user_agent_match": "\\AHardCast"
   },
   {
     "name": "Headliner",
-    "user_agent_match": "^Headliner\\/"
+    "user_agent_match": "\\AHeadliner\\/"
   },
   {
     "name": "Heart",
-    "user_agent_match": "^Heart\\/"
+    "user_agent_match": "\\AHeart\\/"
   },
   {
     "name": "HermesPod",
-    "user_agent_match": "^\\+hermespod\\.com"
+    "user_agent_match": "\\A\\+hermespod\\.com"
   },
   {
     "name": "HiCast",
-    "user_agent_match": "^HiCast\\/"
+    "user_agent_match": "\\AHiCast\\/"
   },
   {
     "name": "Highly",
-    "user_agent_match": "^Highly\\/"
+    "user_agent_match": "\\AHighly\\/"
   },
   {
     "name": "Himalaya",
@@ -770,27 +771,27 @@
   },
   {
     "name": "HopeChurchCleburne",
-    "user_agent_match": "^HopeChurchCleburne\\/"
+    "user_agent_match": "\\AHopeChurchCleburne\\/"
   },
   {
     "name": "Horse Radio Network",
-    "user_agent_match": "^HRN\\/"
+    "user_agent_match": "\\AHRN\\/"
   },
   {
     "name": "Hubhopper",
-    "user_agent_match": "^Hubhopper"
+    "user_agent_match": "\\AHubhopper"
   },
   {
     "name": "Hyper",
-    "user_agent_match": "^Hyper\\/"
+    "user_agent_match": "\\AHyper\\/"
   },
   {
     "name": "HyperCatcher",
-    "user_agent_match": "^HyperCatcher\\/"
+    "user_agent_match": "\\AHyperCatcher\\/"
   },
   {
     "name": "iBuilder",
-    "user_agent_match": "^iBuilder\\/"
+    "user_agent_match": "\\AiBuilder\\/"
   },
   {
     "name": "iCatcher",
@@ -798,40 +799,40 @@
   },
   {
     "name": "iDL",
-    "user_agent_match": "^iDL\\/"
+    "user_agent_match": "\\AiDL\\/"
   },
   {
     "name": "iDownloader",
-    "user_agent_match": "^iDownloader|^IDownloader"
+    "user_agent_match": "\\AiDownloader|\\AIDownloader"
   },
   {
     "name": "iDownloadsAppPlus",
-    "user_agent_match": "^iDownloadsAppPlus\\/"
+    "user_agent_match": "\\AiDownloadsAppPlus\\/"
   },
   {
     "name": "iFeedTouch",
-    "user_agent_match": "^iFeedTouch\\/"
+    "user_agent_match": "\\AiFeedTouch\\/"
   },
   {
     "name": "IFTTT",
-    "user_agent_match": "^IFTTT\\/"
+    "user_agent_match": "\\AIFTTT\\/"
   },
   {
     "name": "iHeartRadio",
-    "user_agent_match": "^iHeart(Radio|Podcasts)\\/",
-    "referrer_match": "^https://www.iheart.com/"
+    "user_agent_match": "\\AiHeart(Radio|Podcasts)\\/",
+    "referrer_match": "\\Ahttps://www.iheart.com/"
   },
   {
     "name": "iHorror",
-    "user_agent_match": "^iHorror\\/"
+    "user_agent_match": "\\AiHorror\\/"
   },
   {
     "name": "InCast",
-    "user_agent_match": "^InCast\\/"
+    "user_agent_match": "\\AInCast\\/"
   },
   {
     "name": "Instacast",
-    "user_agent_match": "^Instacast"
+    "user_agent_match": "\\AInstacast"
   },
   {
     "name": "Instagram",
@@ -839,47 +840,47 @@
   },
   {
     "name": "iOnGreenville",
-    "user_agent_match": "^iOnGreenville\\/"
+    "user_agent_match": "\\AiOnGreenville\\/"
   },
   {
     "name": "IOSAudiobooks",
-    "user_agent_match": "^IOSAudiobooks\\/"
+    "user_agent_match": "\\AIOSAudiobooks\\/"
   },
   {
     "name": "IPF",
-    "user_agent_match": "^IPF\\/"
+    "user_agent_match": "\\AIPF\\/"
   },
   {
     "name": "iPlay",
-    "user_agent_match": "^iPlay\\/"
+    "user_agent_match": "\\AiPlay\\/"
   },
   {
     "name": "isitgood",
-    "user_agent_match": "^isitgood\\/"
+    "user_agent_match": "\\Aisitgood\\/"
   },
   {
     "name": "iVoox",
-    "user_agent_match": "^i[v|V]oox|^Ivoox "
+    "user_agent_match": "\\Ai[v|V]oox|\\AIvoox "
   },
   {
     "name": "iWeb",
-    "user_agent_match": "^iWeb\\/"
+    "user_agent_match": "\\AiWeb\\/"
   },
   {
     "name": "Jabbercast",
-    "user_agent_match": "^Jabbercast\\/"
+    "user_agent_match": "\\AJabbercast\\/"
   },
   {
     "name": "Jimcast",
-    "user_agent_match": "^Jimcast\\/"
+    "user_agent_match": "\\AJimcast\\/"
   },
   {
     "name": "JioSaavn",
-    "user_agent_match": "^com.jio.|^com.saavn.|^Saavn"
+    "user_agent_match": "\\Acom.jio.|\\Acom.saavn.|\\ASaavn"
   },
   {
     "name": "Juice Receiver",
-    "user_agent_match": "^Juice\\/"
+    "user_agent_match": "\\AJuice\\/"
   },
   {
     "name": "just_audio",
@@ -888,100 +889,100 @@
   {
     "name": "Kajabi",
     "user_agent_match": "Kajabi",
-    "referrer_match": "kajabi.com(\\/)?$"
+    "referrer_match": "kajabi.com(\\/)?\\z"
   },
   {
     "name": "KakaoTalk",
-    "user_agent_match": "^KakaoTalk\\/"
+    "user_agent_match": "\\AKakaoTalk\\/"
   },
   {
     "name": "KaoticRadio.com",
-    "user_agent_match": "^KaoticRadio.com\\/"
+    "user_agent_match": "\\AKaoticRadio.com\\/"
   },
   {
     "name": "Kids Listen",
-    "user_agent_match": "^Kids%20Listen\\/|^Kids Listen"
+    "user_agent_match": "\\AKids%20Listen\\/|\\AKids Listen"
   },
   {
     "name": "KKBOX",
-    "user_agent_match": "^KKBOX\\/"
+    "user_agent_match": "\\AKKBOX\\/"
   },
   {
     "name": "Kloudie",
-    "user_agent_match": "^Kloudie\\/"
+    "user_agent_match": "\\AKloudie\\/"
   },
   {
     "name": "Knomad",
-    "user_agent_match": "^Knomad\\/"
+    "user_agent_match": "\\AKnomad\\/"
   },
   {
     "name": "kodi",
-    "user_agent_match": "^Kodi\\/"
+    "user_agent_match": "\\AKodi\\/"
   },
   {
     "name": "KREAFUNK",
-    "user_agent_match": "^KREAFUNK\\/"
+    "user_agent_match": "\\AKREAFUNK\\/"
   },
   {
     "name": "labs",
-    "user_agent_match": "^labs\\/"
+    "user_agent_match": "\\Alabs\\/"
   },
   {
     "name": "Laughable",
-    "user_agent_match": "^Laughable"
+    "user_agent_match": "\\ALaughable"
   },
   {
     "name": "LBC",
-    "user_agent_match": "^LBC\\/"
+    "user_agent_match": "\\ALBC\\/"
   },
   {
     "name": "Leaf",
-    "user_agent_match": "^Leaf\\/"
+    "user_agent_match": "\\ALeaf\\/"
   },
   {
     "name": "LG Player",
-    "user_agent_match": "^(LG-|LM-|Player).+LG Player.+Android.*\\(stagefright alternative\\)($|.Dynamo.*)"
+    "user_agent_match": "\\A(LG-|LM-|Player).+LG Player.+Android.*\\(stagefright alternative\\)(\\z|.Dynamo.*)"
   },
   {
     "name": "Life Essentials",
-    "user_agent_match": "^LifeEssentials\\/|^LifeEssentialsApp\\/|^Life%20Essentials/"
+    "user_agent_match": "\\ALifeEssentials\\/|\\ALifeEssentialsApp\\/|\\ALife%20Essentials/"
   },
   {
     "name": "lifegateburleson",
-    "user_agent_match": "^lifegateburleson\\/"
+    "user_agent_match": "\\Alifegateburleson\\/"
   },
   {
     "name": "LinkedIn",
-    "user_agent_match": "^LinkedIn\\/",
-    "referrer_match": "^https://www.linkedin.com/"
+    "user_agent_match": "\\ALinkedIn\\/",
+    "referrer_match": "\\Ahttps://www.linkedin.com/"
   },
   {
     "name": "Lisny",
-    "user_agent_match": "^Lisny\\/"
+    "user_agent_match": "\\ALisny\\/"
   },
   {
     "name": "Listen",
-    "user_agent_match": "^Listen( App)?\\/"
+    "user_agent_match": "\\AListen( App)?\\/"
   },
   {
     "name": "Listen Notes",
-    "referrer_match": "^https://www.listennotes.com/"
+    "referrer_match": "\\Ahttps://www.listennotes.com/"
   },
   {
     "name": "Listen5",
-    "user_agent_match": "^Listen5"
+    "user_agent_match": "\\AListen5"
   },
   {
     "name": "Livio Radio",
-    "user_agent_match": "^Livio Radio\\/"
+    "user_agent_match": "\\ALivio Radio\\/"
   },
   {
     "name": "Luminary",
-    "user_agent_match": "^Luminary\\/|^luminary.next"
+    "user_agent_match": "\\ALuminary\\/|\\Aluminary.next"
   },
   {
     "name": "MacJournal",
-    "user_agent_match": "^MacJournal\\/"
+    "user_agent_match": "\\AMacJournal\\/"
   },
   {
     "name": "Majelan",
@@ -989,155 +990,155 @@
   },
   {
     "name": "MaxTubePro",
-    "user_agent_match": "^MaxTubePro\\/"
+    "user_agent_match": "\\AMaxTubePro\\/"
   },
   {
     "name": "Meadowbrook Church",
-    "user_agent_match": "^Meadowbrook Church\\/"
+    "user_agent_match": "\\AMeadowbrook Church\\/"
   },
   {
     "name": "MediaMonkey",
-    "user_agent_match": "^MediaMonkey"
+    "user_agent_match": "\\AMediaMonkey"
   },
   {
     "name": "Mediatap",
-    "user_agent_match": "^Mediatap\\/"
+    "user_agent_match": "\\AMediatap\\/"
   },
   {
     "name": "Megaphone",
-    "user_agent_match": "^Megaphone\\.fm"
+    "user_agent_match": "\\AMegaphone\\.fm"
   },
   {
     "name": "Menucast",
-    "user_agent_match": "^Menucast\\/"
+    "user_agent_match": "\\AMenucast\\/"
   },
   {
     "name": "Message+",
-    "user_agent_match": "^Message\\+\\/"
+    "user_agent_match": "\\AMessage\\+\\/"
   },
   {
     "name": "Messages",
-    "user_agent_match": "^Messages\\/"
+    "user_agent_match": "\\AMessages\\/"
   },
   {
     "name": "Messages Share Extension",
-    "user_agent_match": "^Messages Share Extension\\/|^Messages%20Share%20Extension/"
+    "user_agent_match": "\\AMessages Share Extension\\/|\\AMessages%20Share%20Extension/"
   },
   {
     "name": "MessagesNotificationExtension",
-    "user_agent_match": "^MessagesNotificationExtension\\/"
+    "user_agent_match": "\\AMessagesNotificationExtension\\/"
   },
   {
     "name": "Messenger",
-    "user_agent_match": "^Messenger\\/"
+    "user_agent_match": "\\AMessenger\\/"
   },
   {
     "name": "Microsoft Xbox",
-    "user_agent_match": "^microsoft\\;xbox"
+    "user_agent_match": "\\Amicrosoft\\;xbox"
   },
   {
     "name": "Mimir",
-    "user_agent_match": "^Mimir\\/"
+    "user_agent_match": "\\AMimir\\/"
   },
   {
     "name": "Mixcloud",
-    "user_agent_match": "^Mixcloud\\/",
-    "referrer_match": "^https://www.mixcloud.com/"
+    "user_agent_match": "\\AMixcloud\\/",
+    "referrer_match": "\\Ahttps://www.mixcloud.com/"
   },
   {
     "name": "MixerBox",
-    "user_agent_match": "^MixerBox\\/"
+    "user_agent_match": "\\AMixerBox\\/"
   },
   {
     "name": "MobileApp",
-    "user_agent_match": "^MobileApp\\/"
+    "user_agent_match": "\\AMobileApp\\/"
   },
   {
     "name": "MobileSafari",
-    "user_agent_match": "^MobileSafari\\/"
+    "user_agent_match": "\\AMobileSafari\\/"
   },
   {
     "name": "MobileSMS",
-    "user_agent_match": "^MobileSMS\\/"
+    "user_agent_match": "\\AMobileSMS\\/"
   },
   {
     "name": "MoonFM",
-    "user_agent_match": "^MoonFM\\/"
+    "user_agent_match": "\\AMoon ?FM\\/"
   },
   {
     "name": "Music Download App",
-    "user_agent_match": "^Music%20Download\\/|^Music Download\\/"
+    "user_agent_match": "\\AMusic%20Download\\/|\\AMusic Download\\/"
   },
   {
     "name": "MusicBee",
-    "user_agent_match": "^MusicBee"
+    "user_agent_match": "\\AMusicBee"
   },
   {
     "name": "MyTuner",
-    "user_agent_match": "^[M|m]y[T|t]uner"
+    "user_agent_match": "\\A[M|m]y[T|t]uner"
   },
   {
     "name": "Outcast",
-    "user_agent_match": "^Outcast( |/)"
+    "user_agent_match": "\\AOutcast( |/)"
   },
   {
     "name": "Overcast",
-    "user_agent_match": "(^(?!Overcast/1.0 Podcast Sync))(^Overcast( |/))",
-    "referrer_match": "^https://overcast.fm/"
+    "user_agent_match": "(\\A(?!Overcast/1.0 Podcast Sync))(\\AOvercast( |/))",
+    "referrer_match": "\\Ahttps://overcast.fm/"
   },
   {
     "name": "Pandora",
     "user_agent_match": "Pandora\\/|Pandora\\ Audio",
-    "referrer_match": "^https://(\\w*\\.)?pandora.com/"
+    "referrer_match": "\\Ahttps://(\\w*\\.)?pandora.com/"
   },
   {
     "name": "Parler",
-    "user_agent_match": "^Parler",
-    "referrer_match": "^https://(www\\.)?parler.com"
+    "user_agent_match": "\\AParler",
+    "referrer_match": "\\Ahttps://(www\\.)?parler.com"
   },
   {
     "name": "PeaCast",
-    "user_agent_match": "^PeaCast\\/"
+    "user_agent_match": "\\APeaCast\\/"
   },
   {
     "name": "Playapod",
-    "user_agent_match": "^Playapod\\/"
+    "user_agent_match": "\\APlayapod\\/"
   },
   {
     "name": "Player FM",
-    "user_agent_match": "^PlayerFM/|^Player%20FM\\/|^Player FM|Player FM$|Alpha%20PlayerFM",
-    "referrer_match": "^https://(\\w*\\.)?player.fm/"
+    "user_agent_match": "\\APlayerFM/|\\APlayer%20FM\\/|\\APlayer FM|Player FM\\z|Alpha%20PlayerFM",
+    "referrer_match": "\\Ahttps://(\\w*\\.)?player.fm/"
   },
   {
     "name": "Pocket Casts",
     "user_agent_match": "Pocket Casts|PocketCasts",
-    "referrer_match": "^https://play.pocketcasts.com/"
+    "referrer_match": "\\Ahttps://play.pocketcasts.com/"
   },
   {
     "name": "Podbay",
-    "referrer_match": "^https://podbay.fm/"
+    "referrer_match": "\\Ahttps://podbay.fm/"
   },
   {
     "name": "Podbean",
-    "user_agent_match": "^Podbean/",
-    "referrer_match": "^https://www.podbean.com/"
+    "user_agent_match": "\\APodbean/",
+    "referrer_match": "\\Ahttps://www.podbean.com/"
   },
   {
     "name": "Podcast Addict",
     "user_agent_match": "Podcast Addict|PodcastAddict",
-    "referrer_match": "^https://(www.)?podcastaddict.com"
+    "referrer_match": "\\Ahttps://(www.)?podcastaddict.com"
   },
   {
     "name": "Podcast Guru",
-    "user_agent_match": "^PodcastGuru"
+    "user_agent_match": "\\APodcastGuru"
   },
   {
     "name": "Podcast Index",
-    "referrer_match": "^https://podcastindex.org"
+    "referrer_match": "\\Ahttps://podcastindex.org"
   },
   {
     "name": "Podcast Player",
-    "user_agent_match": "^Podcast Player"
+    "user_agent_match": "\\APodcast Player"
   },
   {
     "name": "Podcast Republic",
@@ -1145,45 +1146,53 @@
   },
   {
     "name": "Podcast.app",
-    "user_agent_match": "^com.evolve.podcast",
-    "referrer_match": "^https://podcast.app/"
+    "user_agent_match": "\\Acom.evolve.podcast",
+    "referrer_match": "\\Ahttps://podcast.app/"
   },
   {
     "name": "Podcastly",
-    "user_agent_match": "^Podcastly"
+    "user_agent_match": "\\APodcastly"
   },
   {
     "name": "Podchaser",
-    "user_agent_match": "^Podchaser",
+    "user_agent_match": "\\APodchaser",
     "referrer_match": "https://www.podchaser.com/"
   },
   {
     "name": "Podclipper",
-    "user_agent_match": "^Podclipper\\/"
+    "user_agent_match": "\\APodclipper\\/"
   },
   {
     "name": "Podcoin",
-    "user_agent_match": "^Podcoin"
+    "user_agent_match": "\\APodcoin"
   },
   {
     "name": "PodCruncher",
     "user_agent_match": "PodCruncher"
   },
   {
+    "name": "Podeo",
+    "user_agent_match": "\\APodeo\\/"
+  },
+  {
     "name": "PodFriend",
-    "referrer_match": "^https://web.podfriend.com/"
+    "referrer_match": "\\Ahttps://web.podfriend.com/"
   },
   {
     "name": "Podhero",
-    "user_agent_match": "^Podhero\\/"
+    "user_agent_match": "\\APodhero\\/"
   },
   {
     "name": "Podimo",
-    "user_agent_match": "^Podimo\\/"
+    "user_agent_match": "\\APodimo\\/"
+  },
+  {
+    "name": "Podio",
+    "user_agent_match": "\\APodio\\/"
   },
   {
     "name": "Podkicker",
-    "user_agent_match": "^Podkicker( Pro)?\\/"
+    "user_agent_match": "\\APodkicker( Pro)?\\/"
   },
   {
     "name": "PodLP",
@@ -1191,11 +1200,11 @@
   },
   {
     "name": "PodMe",
-    "user_agent_match": "^Pod(m|M)e"
+    "user_agent_match": "\\APod(m|M)e"
   },
   {
     "name": "PodNL",
-    "user_agent_match": "^PodNL\\/"
+    "user_agent_match": "\\APodNL\\/"
   },
   {
     "name": "podnods",
@@ -1203,45 +1212,45 @@
   },
   {
     "name": "Podplay",
-    "user_agent_match": "^Podplay\\/",
+    "user_agent_match": "\\APodplay\\/",
     "referrer_match": "podplay\\.com"
   },
   {
     "name": "PodPuppy",
-    "user_agent_match": "^PodPuppy"
+    "user_agent_match": "\\APodPuppy"
   },
   {
     "name": "Pods",
-    "user_agent_match": "^Pods\\/"
+    "user_agent_match": "\\APods\\/"
   },
   {
     "name": "Podtail",
-    "referrer_match": "^https://podtail.com/"
+    "referrer_match": "\\Ahttps://podtail.com/"
   },
   {
     "name": "Podtrapper",
-    "user_agent_match": "^PodTrapper"
+    "user_agent_match": "\\APodTrapper"
   },
   {
     "name": "Podverse",
-    "user_agent_match": "^(p|P)odverse\\/"
+    "user_agent_match": "\\A(p|P)odverse\\/"
   },
   {
     "name": "Podyssey",
-    "user_agent_match": "^Podyssey",
-    "referrer_match": "^https://podyssey.fm/"
+    "user_agent_match": "\\APodyssey",
+    "referrer_match": "\\Ahttps://podyssey.fm/"
   },
   {
     "name": "ProCast",
-    "user_agent_match": "^Pro[C|c]ast"
+    "user_agent_match": "\\APro[C|c]ast"
   },
   {
     "name": "QuickTime",
-    "user_agent_match": "^QuickTime"
+    "user_agent_match": "\\AQuickTime"
   },
   {
     "name": "radio.de",
-    "user_agent_match": "^radio.de\\/"
+    "user_agent_match": "\\Aradio.de\\/"
   },
   {
     "name": "Radioline",
@@ -1249,12 +1258,12 @@
   },
   {
     "name": "RadioPublic",
-    "user_agent_match": "^RadioPublic(Draper)?",
-    "referrer_match": "^https://radiopublic.com/"
+    "user_agent_match": "\\ARadioPublic(Draper)?",
+    "referrer_match": "\\Ahttps://radiopublic.com/"
   },
   {
     "name": "Repod",
-    "user_agent_match": "^Repod"
+    "user_agent_match": "\\ARepod"
   },
   {
     "name": "Request.js",
@@ -1266,31 +1275,31 @@
   },
   {
     "name": "Roku",
-    "user_agent_match": "^Roku\\/DVP"
+    "user_agent_match": "\\ARoku\\/DVP"
   },
   {
     "name": "RSSRadio",
-    "user_agent_match": "^RSSRadio"
+    "user_agent_match": "\\ARSSRadio"
   },
   {
     "name": "SachNoi",
-    "user_agent_match": "^SachNoi"
+    "user_agent_match": "\\ASachNoi"
   },
   {
     "name": "Samsung Free",
-    "user_agent_match": "^sp-agent"
+    "user_agent_match": "\\Asp-agent"
   },
   {
     "name": "ServeStream",
-    "user_agent_match": "^ServeStream"
+    "user_agent_match": "\\AServeStream"
   },
   {
     "name": "SiriusXM",
-    "user_agent_match": "^SiriusXM\\/"
+    "user_agent_match": "\\ASiriusXM\\/"
   },
   {
     "name": "Slack",
-    "user_agent_match": "^Slack\\/"
+    "user_agent_match": "\\ASlack\\/"
   },
   {
     "name": "Snapchat",
@@ -1298,37 +1307,37 @@
   },
   {
     "name": "Sodes",
-    "user_agent_match": "^Sodes"
+    "user_agent_match": "\\ASodes"
   },
   {
     "name": "Sonos",
-    "user_agent_match": "^Sonos|Linux.*Sonos\\/"
+    "user_agent_match": "\\ASonos|Linux.*Sonos\\/"
   },
   {
     "name": "Spotify",
-    "user_agent_match": "^Spotify\\/(?!1.0)|^spotify_",
+    "user_agent_match": "\\ASpotify\\/(?!1.0)|\\Aspotify_",
     "referrer_match": "https://(open|api-partner).spotify.com"
   },
   {
     "name": "Spotify-Lite",
-    "user_agent_match": "^Spotify-Lite\\/"
+    "user_agent_match": "\\ASpotify-Lite\\/"
   },
   {
     "name": "Spreaker",
-    "user_agent_match": "^Spreaker|Spreaker\\/\\d*.\\d*$"
+    "user_agent_match": "\\ASpreaker|Spreaker\\/\\d*.\\d*\\z"
   },
   {
     "name": "Stitcher",
-    "user_agent_match": "^Stitcher\\/|\\/Stitcher|^Stitcher Demo\\/",
-    "referrer_match": "^https://(www|app|classic).stitcher.com/"
+    "user_agent_match": "\\AStitcher\\/|\\/Stitcher|\\AStitcher Demo\\/",
+    "referrer_match": "\\Ahttps://(www|app|classic).stitcher.com/"
   },
   {
     "name": "Stoler Report",
-    "user_agent_match": "^Stoler Report|^Stoler%20Report"
+    "user_agent_match": "\\AStoler Report|\\AStoler%20Report"
   },
   {
     "name": "Storiyoh",
-    "user_agent_match": "^Storiyoh\\/"
+    "user_agent_match": "\\AStoriyoh\\/"
   },
   {
     "name": "StoryShots",
@@ -1336,23 +1345,23 @@
   },
   {
     "name": "Subcast",
-    "user_agent_match": "^Subcast"
+    "user_agent_match": "\\ASubcast"
   },
   {
     "name": "Swoot",
-    "user_agent_match": "^Swoot(\\/| A)"
+    "user_agent_match": "\\ASwoot(\\/| A)"
   },
   {
     "name": "TED",
-    "user_agent_match": "^TED"
+    "user_agent_match": "\\ATED"
   },
   {
     "name": "The God Minute",
-    "user_agent_match": "^The God Minute\\/"
+    "user_agent_match": "\\AThe God Minute\\/"
   },
   {
     "name": "The Podcast App",
-    "user_agent_match": "^ThePodcastApp\\/"
+    "user_agent_match": "\\AThePodcastApp\\/"
   },
   {
     "name": "TikTok",
@@ -1360,12 +1369,12 @@
   },
   {
     "name": "Treble",
-    "user_agent_match": "^TREBLE"
+    "user_agent_match": "\\ATREBLE"
   },
   {
     "name": "TuneIn Radio",
-    "user_agent_match": "^TuneIn|TuneIn\\/\\d",
-    "referrer_match": "^https://tunein.com/"
+    "user_agent_match": "\\ATuneIn|TuneIn\\/\\d",
+    "referrer_match": "\\Ahttps://tunein.com/"
   },
   {
     "name": "Twitter",
@@ -1377,27 +1386,27 @@
   },
   {
     "name": "Unknown Android Apps",
-    "user_agent_match": "(^AndroidDownloadManager/|^Android.LVLDM|^Dalvik|^stagefright).*(?<!Player FM)$"
+    "user_agent_match": "(\\AAndroidDownloadManager/|\\AAndroid.LVLDM|\\ADalvik|\\Astagefright).*(?<!Player FM)\\z"
   },
   {
     "name": "Unknown Apple Apps",
-    "user_agent_match": "^AppleCoreMedia\\/.*(Apple Watch|Apple TV|iPad|iPhone|iPod|watchOS)"
+    "user_agent_match": "\\AAppleCoreMedia\\/.*(Apple Watch|Apple TV|iPad|iPhone|iPod|watchOS)"
   },
   {
     "name": "uTorrent",
-    "user_agent_match": "^uTorrent|BTWebClient"
+    "user_agent_match": "\\AuTorrent|BTWebClient"
   },
   {
     "name": "Victor Reader Stream",
-    "user_agent_match": "^VictorReader"
+    "user_agent_match": "\\AVictorReader"
   },
   {
     "name": "Voiz FM",
-    "user_agent_match": "^Voiz FM\\/"
+    "user_agent_match": "\\AVoiz FM\\/"
   },
   {
     "name": "WeCast",
-    "user_agent_match": "^WeCast"
+    "user_agent_match": "\\AWeCast"
   },
   {
     "name": "WeChat",
@@ -1405,19 +1414,19 @@
   },
   {
     "name": "WhatsApp",
-    "user_agent_match": "^WhatsApp\\/"
+    "user_agent_match": "\\AWhatsApp\\/"
   },
   {
     "name": "Windows Media Player",
-    "user_agent_match": "WMPlayer|^(Windows\\-Media\\-Player\\/|NSPlayer|WMPlayer)"
+    "user_agent_match": "WMPlayer|\\A(Windows\\-Media\\-Player\\/|NSPlayer|WMPlayer)"
   },
   {
     "name": "Wix",
-    "referrer_match": "^https://podcasts.wixapps.net"
+    "referrer_match": "\\Ahttps://podcasts.wixapps.net"
   },
   {
     "name": "Xiao Yu Zhou",
-    "user_agent_match": "^Xiaoyuzhou\\/"
+    "user_agent_match": "\\AXiaoyuzhou\\/"
   },
   {
     "name": "XING",
@@ -1425,15 +1434,15 @@
   },
   {
     "name": "Yandex",
-    "user_agent_match": "^Yandex.Music"
+    "user_agent_match": "\\AYandex.Music"
   },
   {
     "name": "Yapa",
-    "user_agent_match": "^yapa\\/"
+    "user_agent_match": "\\Ayapa\\/"
   },
   {
     "name": "Zune",
-    "user_agent_match": "^Zune"
+    "user_agent_match": "\\AZune"
   },
   {
     "name": "Ahrefs",
@@ -1442,52 +1451,52 @@
   },
   {
     "name": "AlignaBot",
-    "user_agent_match": "^Alignabot",
+    "user_agent_match": "\\AAlignabot",
     "bot": true
   },
   {
     "name": "Amazon Music Bot",
-    "user_agent_match": "^Amazon Music Podcast",
+    "user_agent_match": "\\AAmazon Music Podcast",
     "bot": true
   },
   {
     "name": "AnchorImport",
-    "user_agent_match": "^AnchorImport\\/",
+    "user_agent_match": "\\AAnchorImport\\/",
     "bot": true
   },
   {
     "name": "Apache HTTP Client",
-    "user_agent_match": "^Apache-HttpClient\\/",
+    "user_agent_match": "\\AApache-HttpClient\\/",
     "bot": true
   },
   {
     "name": "APK downloader",
-    "user_agent_match": "^APKXDL",
+    "user_agent_match": "\\AAPKXDL",
     "bot": true
   },
   {
     "name": "Apple iTMS",
-    "user_agent_match": "^iTMS",
+    "user_agent_match": "\\AiTMS",
     "bot": true
   },
   {
     "name": "Apple iTunes Store",
-    "user_agent_match": "^itunesstored",
+    "user_agent_match": "\\Aitunesstored",
     "bot": true
   },
   {
     "name": "AwarioSmartBot",
-    "user_agent_match": "^AwarioSmartBot\\/",
+    "user_agent_match": "\\AAwarioSmartBot\\/",
     "bot": true
   },
   {
     "name": "bbot",
-    "user_agent_match": "^bbot\\/",
+    "user_agent_match": "\\Abbot\\/",
     "bot": true
   },
   {
     "name": "CastFeedValidator",
-    "user_agent_match": "^CastFeedValidator\\/",
+    "user_agent_match": "\\ACastFeedValidator\\/",
     "bot": true
   },
   {
@@ -1517,7 +1526,7 @@
   },
   {
     "name": "Digg",
-    "user_agent_match": "^Digg",
+    "user_agent_match": "\\ADigg",
     "bot": true
   },
   {
@@ -1532,7 +1541,7 @@
   },
   {
     "name": "Dynamo",
-    "user_agent_match": "^Dynamo\\/",
+    "user_agent_match": "\\ADynamo\\/",
     "bot": true
   },
   {
@@ -1542,12 +1551,12 @@
   },
   {
     "name": "Feedly",
-    "user_agent_match": "^Feedly\\/",
+    "user_agent_match": "\\AFeedly\\/",
     "bot": true
   },
   {
     "name": "FFMPEG",
-    "user_agent_match": "^Lavf\\/",
+    "user_agent_match": "\\ALavf\\/",
     "bot": true
   },
   {
@@ -1557,17 +1566,17 @@
   },
   {
     "name": "FreshpingBot",
-    "user_agent_match": "^FreshpingBot\\/",
+    "user_agent_match": "\\AFreshpingBot\\/",
     "bot": true
   },
   {
     "name": "GNOME",
-    "user_agent_match": "^gvfs",
+    "user_agent_match": "\\Agvfs",
     "bot": true
   },
   {
     "name": "Go",
-    "user_agent_match": "^Go-http-client",
+    "user_agent_match": "\\AGo-http-client",
     "bot": true
   },
   {
@@ -1587,7 +1596,7 @@
   },
   {
     "name": "Iframely",
-    "user_agent_match": "^Iframely\\/",
+    "user_agent_match": "\\AIframely\\/",
     "bot": true
   },
   {
@@ -1602,12 +1611,12 @@
   },
   {
     "name": "Jaunt",
-    "user_agent_match": "^Jaunt\\/",
+    "user_agent_match": "\\AJaunt\\/",
     "bot": true
   },
   {
     "name": "Libsyn",
-    "user_agent_match": "^Libsyn4",
+    "user_agent_match": "\\ALibsyn4",
     "bot": true
   },
   {
@@ -1627,17 +1636,17 @@
   },
   {
     "name": "Mixcloud Podcast Importer",
-    "user_agent_match": "^MixcloudPodcastImporter\\/",
+    "user_agent_match": "\\AMixcloudPodcastImporter\\/",
     "bot": true
   },
   {
     "name": "Mozilla Bot",
-    "user_agent_match": "$\\\"\\(Mozilla/5.0\\)\"$|^\\(Mozilla/5.0\\)$|^'Mozilla/5.0$|^Mozilla$|^Mozilla/5.0$|^Mozilla/5.0...$",
+    "user_agent_match": "\\A\\\"\\(Mozilla/5.0\\)\"\\z|\\A\\(Mozilla/5.0\\)\\z|\\A'Mozilla/5.0\\z|\\AMozilla\\z|\\AMozilla/5.0\\z|\\AMozilla/5.0...\\z",
     "bot": true
   },
   {
     "name": "node-fetch",
-    "user_agent_match": "^node-fetch",
+    "user_agent_match": "\\Anode-fetch",
     "bot": true
   },
   {
@@ -1652,7 +1661,7 @@
   },
   {
     "name": "Overcast Bot",
-    "user_agent_match": "^Overcast/1.0 Podcast Sync",
+    "user_agent_match": "\\AOvercast/1.0 Podcast Sync",
     "bot": true
   },
   {
@@ -1677,7 +1686,7 @@
   },
   {
     "name": "Podcorn",
-    "user_agent_match": "^Podcorn\\/",
+    "user_agent_match": "\\APodcorn\\/",
     "bot": true
   },
   {
@@ -1687,7 +1696,7 @@
   },
   {
     "name": "Python Requests",
-    "user_agent_match": "^python-requests",
+    "user_agent_match": "\\Apython-requests",
     "bot": true
   },
   {
@@ -1697,7 +1706,7 @@
   },
   {
     "name": "Ruby",
-    "user_agent_match": "^Ruby",
+    "user_agent_match": "\\ARuby",
     "bot": true
   },
   {
@@ -1712,27 +1721,27 @@
   },
   {
     "name": "Spotify Bot",
-    "user_agent_match": "^Spotify/1.0",
+    "user_agent_match": "\\ASpotify/1.0",
     "bot": true
   },
   {
     "name": "StitcherBot",
-    "user_agent_match": "^StitcherBot",
+    "user_agent_match": "\\AStitcherBot",
     "bot": true
   },
   {
     "name": "Trackable",
-    "user_agent_match": "^Trackable\\/",
+    "user_agent_match": "\\ATrackable\\/",
     "bot": true
   },
   {
     "name": "Twitter Bot",
-    "user_agent_match": "^Twitterbot",
+    "user_agent_match": "\\ATwitterbot",
     "bot": true
   },
   {
     "name": "Typhoeus",
-    "user_agent_match": "^Typhoeus",
+    "user_agent_match": "\\ATyphoeus",
     "bot": true
   },
   {
@@ -1742,12 +1751,12 @@
   },
   {
     "name": "weborama-fetcher",
-    "user_agent_match": "^weborama-fetcher",
+    "user_agent_match": "\\Aweborama-fetcher",
     "bot": true
   },
   {
     "name": "Wget",
-    "user_agent_match": "^Wget",
+    "user_agent_match": "\\AWget",
     "bot": true
   },
   {
@@ -1757,7 +1766,7 @@
   },
   {
     "name": "Windows Crawler",
-    "user_agent_match": "^ZDM\\/",
+    "user_agent_match": "\\AZDM\\/",
     "bot": true
   },
   {
